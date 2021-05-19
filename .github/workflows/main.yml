@@ -1,0 +1,24 @@
+name: helios security test
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 11
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+    - name: Cloning repo
+      run: git clone https://github.com/ulyanovskk/helios-security.git
+    - name: Build with Maven
+      run: mvn -B package --file helios-security/pom.xml
