@@ -1,0 +1,58 @@
+{
+  "1" : {
+    "id" : 7,
+    "name" : "proga",
+    "coordinates" : {
+      "x" : 1.0,
+      "y" : 2.0
+    },
+    "creationDate" : {
+      "year" : 2021,
+      "month" : "MARCH",
+      "monthValue" : 3,
+      "dayOfMonth" : 15,
+      "chronology" : {
+        "id" : "ISO",
+        "calendarType" : "iso8601"
+      },
+      "dayOfWeek" : "MONDAY",
+      "leapYear" : false,
+      "dayOfYear" : 74,
+      "era" : "CE"
+    },
+    "minimalPoint" : 2,
+    "difficulty" : "EASY",
+    "discipline" : {
+      "name" : "java",
+      "selfStudyHours" : 10
+    }
+  },
+  "2" : {
+    "id" : 15,
+    "name" : "proga",
+    "coordinates" : {
+      "x" : 1.0,
+      "y" : 2.0
+    },
+    "creationDate" : {
+      "year" : 2021,
+      "month" : "MARCH",
+      "monthValue" : 3,
+      "dayOfMonth" : 15,
+      "chronology" : {
+        "id" : "ISO",
+        "calendarType" : "iso8601"
+      },
+      "dayOfWeek" : "MONDAY",
+      "leapYear" : false,
+      "dayOfYear" : 74,
+      "era" : "CE"
+    },
+    "minimalPoint" : 10,
+    "difficulty" : "IMPOSSIBLE",
+    "discipline" : {
+      "name" : "java",
+      "selfStudyHours" : 10
+    }
+  }
+}
