@@ -1,16 +1,18 @@
 package logic;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import commands.Command;
 import henchmen.CommandHistory;
 import henchmen.FabricForCommands;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
 
 import java.util.*;
 
 public class CMDManager {
     private CommandHistory commandHistory = new CommandHistory();
-    private final Logger logger = LogManager.getLogger(CMDManager.class);
+    private static final Logger logger
+            = LoggerFactory.getLogger(CMDManager.class);
     private final ArrayList<Command> commands = new ArrayList<>();
     private Editor editor;
     public CMDManager() {
@@ -40,15 +42,15 @@ public class CMDManager {
         if (inputData.getCommandArg() != null)
             commandHistory.add(justCommand + " " + inputData.getCommandArg());
         else commandHistory.add(justCommand);
-        logger.info("Executing command...");
+        logger.warn("Executing command...");
         if (justCommand.equals("history")) {
-            logger.info("Recognized history.");
+            logger.warn("Recognized history.");
             return new OutputData("Success", getHistory(7));
         }
         OutputData result;
         try {
             result = command.exec(editor, inputData);
-            logger.info("Executed command.");
+            logger.warn("Executed command.");
         } catch (NullPointerException e) {
             logger.error("Command was not found.");
             result = new OutputData("Error", "Command was not found. Try again.");

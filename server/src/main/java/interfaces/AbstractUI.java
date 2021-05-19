@@ -1,11 +1,12 @@
 package interfaces;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import henchmen.Validator;
 import logic.CMDManager;
 import logic.Editor;
 import logic.InputData;
 import logic.OutputData;
-import org.apache.logging.log4j.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -52,7 +53,7 @@ public abstract class AbstractUI implements UI, Runnable{
         editor = new Editor();
         cachedFilenames = new ArrayList<>();
         validator = new Validator();
-        logger = LogManager.getLogger(UI.class);
+        logger = LoggerFactory.getLogger(UI.class);
         createUI();
     }
 
@@ -68,8 +69,8 @@ public abstract class AbstractUI implements UI, Runnable{
             }
             else {
                 OutputData result = new OutputData("Info", "It is server, but you typed: " + pureCommand);
-                logger.info("This is result status: " + result.getStatusMessage());
-                logger.info("This is result:\n" + result.getResultMessage());
+                logger.warn("This is result status: " + result.getStatusMessage());
+                logger.warn("This is result:\n" + result.getResultMessage());
                 display(result.getStatusMessage(), result.getResultMessage());
             }
 
@@ -83,10 +84,10 @@ public abstract class AbstractUI implements UI, Runnable{
     protected final String askForCommand() {
         String input = getCommand();
         if (isValidCommand(input)) {
-            logger.info("Got a valid command: " + input);
+            logger.warn("Got a valid command: " + input);
             return input;
         } else {
-            logger.warn("Got an invalid command.");
+            logger.error("Got an invalid command.");
             return "";
         }
     }
