@@ -24,7 +24,6 @@ public class CLI extends AbstractUI{
      */
     public CLI(String filename) {
         cmdManager = new CMDManager();
-        editor = new Editor(filename);
         cachedFilenames = new ArrayList<>();
         validator = new Validator();
         createUI();
@@ -55,7 +54,7 @@ public class CLI extends AbstractUI{
 
     @Override
     public void display(String status, String message) {
-        System.out.printf("-------------------\nStatus: %s\nMessage: %s\n------------------\n", status, message);
+        System.out.printf("-------------------\nStatus: %s\nMessage: %s\n------------------\n", status, message.trim());
     }
 
     /**

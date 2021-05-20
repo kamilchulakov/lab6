@@ -10,6 +10,7 @@ import henchmen.FabricForCommands;
 import java.util.*;
 
 public class CMDManager {
+    private static CMDManager cmdManager;
     private CommandHistory commandHistory = new CommandHistory();
     private static final Logger logger
             = LoggerFactory.getLogger(CMDManager.class);
@@ -22,6 +23,7 @@ public class CMDManager {
     public CMDManager(String path) {
         this();
         editor = new Editor(path);
+        cmdManager = this;
     }
     private String getHistory(int number) {
         return commandHistory.getPureHistory(number);
@@ -65,6 +67,10 @@ public class CMDManager {
             }
         }
         return null;
+    }
+
+    public static CMDManager getInstance() {
+        return cmdManager;
     }
 
     public Editor getCollection() {

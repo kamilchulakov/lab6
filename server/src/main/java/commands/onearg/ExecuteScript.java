@@ -5,6 +5,8 @@ import logic.Editor;
 import logic.InputData;
 import logic.OutputData;
 
+import java.util.Arrays;
+
 public class ExecuteScript extends AbstractOneArgCommand {
     @Override
     public String getName() {
@@ -18,6 +20,8 @@ public class ExecuteScript extends AbstractOneArgCommand {
 
     @Override
     public OutputData exec(Editor editor, InputData inputData) {
-        return new OutputData("Error", "It should not be here.");
+        Poop poop = new Poop();
+        poop.run(editor, inputData);
+        return new OutputData("ExecuteScript result:", poop.cachedResults.toString());
     }
 }

@@ -27,10 +27,6 @@ public abstract class AbstractUI implements UI, Runnable{
      */
     CMDManager cmdManager;
     /**
-     * Editor isn't used. CMDManager gets it.
-     */
-    Editor editor;
-    /**
      * Validator is used in all methods which check something.
      */
     Validator validator;
@@ -49,8 +45,7 @@ public abstract class AbstractUI implements UI, Runnable{
      * Class constructor which isn't modified in children.
      */
     public AbstractUI() {
-        cmdManager = new CMDManager();
-        editor = new Editor();
+        cmdManager = CMDManager.getInstance();
         cachedFilenames = new ArrayList<>();
         validator = new Validator();
         logger = LoggerFactory.getLogger(UI.class);
