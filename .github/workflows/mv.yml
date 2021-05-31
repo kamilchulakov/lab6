@@ -20,5 +20,7 @@ jobs:
       run: mv out/*/*/*.jar .
     - run: git config --global user.email "k.chulakov97@gmail.com"
     - run: git config --global user.name "ulyanovskk"
+    - run: git add server.jar
+    - run: git add client.jar
     - run: git commit -m 'Moved jars'
     - run: git push -U origin master
