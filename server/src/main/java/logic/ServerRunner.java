@@ -38,7 +38,7 @@ public class ServerRunner {
                 answerHandler = new CMDManager(path);
                 new Thread(new CLI()).start();
                 datagramChannel.register(selector, SelectionKey.OP_READ, new ClientData());
-                System.out.println("Сервер слушает " + PORT + " порт");
+                System.out.println("Listening " + PORT + " port");
                 SelectorManager.run();
             } catch (SocketException e) {
                 System.err.println("Ошибка сокета!");
