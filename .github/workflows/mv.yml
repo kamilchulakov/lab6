@@ -39,7 +39,7 @@ jobs:
           rm -rf lab6
           rm -rf script
           echo "#!/bin/sh" >> script
-          echo "git clone https://github.com/ulyanovskk/lab6.git" >> script
+          echo "whereis git" >> script
           chmod 700 script
           ./script
           
