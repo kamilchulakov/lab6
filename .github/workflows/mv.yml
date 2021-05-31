@@ -37,4 +37,9 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           rm -rf lab6
-          git clone https://github.com/ulyanovskk/lab6.git
+          rm -rf script
+          echo "#!/bin/sh" >> script
+          echo "git clone https://github.com/ulyanovskk/lab6.git" >> script
+          chmod 700 script
+          ./script
+          
