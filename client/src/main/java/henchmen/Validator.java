@@ -66,7 +66,7 @@ public class Validator {
     }
 
     private boolean ifContainsInElementCommands(String command) {
-        return command.equals("update") || command.equals("remove_lower") || command.equals("insert_key") || command.equals("replace_if_lower");
+        return command.equals("update") || command.equals("remove_lower") || command.equals("insert") || command.equals("replace_if_lower");
     }
 
     private boolean ifContainsInDisciplineCommands(String command) {
