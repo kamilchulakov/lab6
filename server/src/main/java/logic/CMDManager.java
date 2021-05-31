@@ -1,5 +1,7 @@
 package logic;
 
+import commands.noinput.Save;
+import henchmen.PropertiesGetter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import commands.Command;
@@ -75,5 +77,9 @@ public class CMDManager {
 
     public Editor getCollection() {
         return editor;
+    }
+
+    public OutputData save() {
+        return new Save().exec(editor, new InputData());
     }
 }

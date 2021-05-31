@@ -67,6 +67,10 @@ public abstract class AbstractUI implements UI, Runnable{
                 logger.warn("This is result status: " + result.getStatusMessage());
                 logger.warn("This is result:\n" + result.getResultMessage());
                 display(result.getStatusMessage(), result.getResultMessage());
+                if (pureCommand.equals("save")) {
+                    result = cmdManager.save();
+                    display(result.getStatusMessage(), result.getResultMessage());
+                }
             }
 
         }
