@@ -31,7 +31,7 @@ public class ResponseHandler extends Thread{
                     ByteArrayInputStream in = new ByteArrayInputStream(incomingData);
                     ObjectInputStream is = new ObjectInputStream(in);
                     OutputData answer = (OutputData) is.readObject();
-                    if(answer.getResultMessage().equals("connected")) {
+                    if (answer.getResultMessage().equals("connected")) {
                         requestHandler.setConnected(true);
                         System.out.println("Соединение с сервером установлено!");
                         if(requestHandler.getLastCommand()!= null) {
