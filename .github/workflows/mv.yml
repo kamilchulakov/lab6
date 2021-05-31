@@ -18,7 +18,7 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - run: git pull
     - name: Make shit commit
-      run: echo "\nThis was created AUTOMATICALLY." >> README.md
+      run: echo "This was created AUTOMATICALLY." >> README.md
     - name: Move jars
       run: cp out/*/*/*.jar .
     - run: git config --global user.email "k.chulakov97@gmail.com"
