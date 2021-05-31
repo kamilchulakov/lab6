@@ -36,6 +36,5 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd lab6
-          ls
-          git pull
+          rm -rf lab6
+          git clone https://github.com/ulyanovskk/lab6.git
