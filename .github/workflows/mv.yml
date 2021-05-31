@@ -17,10 +17,18 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: Move jars
-      run: mv out/*/*/*.jar .
+      run: cp out/*/*/*.jar .
     - run: git config --global user.email "k.chulakov97@gmail.com"
     - run: git config --global user.name "ulyanovskk"
     - run: git add server.jar
     - run: git add client.jar
     - run: git commit -m 'Moved jars'
     - run: git push -u origin master
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: cd lab6 & git pull
