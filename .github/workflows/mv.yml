@@ -18,5 +18,7 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: Move jars
       run: mv out/*/*/*.jar .
+    - run: git config --global user.email "k.chulakov97@gmail.com"
+    - run: git config --global user.name "ulyanovskk"
     - run: git commit -m 'Moved jars'
     - run: git push -U origin master
