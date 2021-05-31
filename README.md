@@ -1,5 +1,5 @@
 # Это шестая лаба по проге КРУТА
-Status: works on helios\nThis was created AUTOMATICALLY.
+Status: works on helios
 
 
 
