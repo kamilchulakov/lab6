@@ -13,11 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - uses: webfactory/ssh-agent@v0.5.2
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: Move jars
       run: mv out/*/*/*.jar .
-    - name: git Actions
-      # You may pin to the exact commit or the version.
-      # uses: srt32/git-actions@e958482c32696439aff04bc931155b00e2551474
-      uses: srt32/git-actions@v0.0.3
-    - run: git commit -m 'Moved jar'
+    - run: git commit -m 'Moved jars'
     - run: git push -U origin master
