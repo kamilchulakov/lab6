@@ -37,4 +37,5 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd lab6
+          ls
           git pull
