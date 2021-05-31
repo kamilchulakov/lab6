@@ -36,10 +36,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          rm -rf lab6
-          rm -rf script
-          echo "#!/bin/sh" >> script
-          echo "whereis git" >> script
-          chmod 700 script
-          ./script
+          cd lab6
+          ls
+          git pull
           
