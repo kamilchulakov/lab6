@@ -23,4 +23,4 @@ jobs:
     - run: git add server.jar
     - run: git add client.jar
     - run: git commit -m 'Moved jars'
-    - run: git push -U origin master
+    - run: git push -u origin master
