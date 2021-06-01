@@ -67,15 +67,8 @@ public abstract class AbstractUI implements UI{
                 String input = askForCommand();
                 String pureCommand = input.split(" ")[0];
                 if (pureCommand.equals("exit")) System.exit(0);
-                try {
-                    InputData inputData = getInputData(input, pureCommand);
-                    requestHandler.execute(inputData);
-                    //OutputData result = requestHandler.execute(inputData);
-                    //logger.info("This is result status: " + result.getStatusMessage());
-                    //logger.info("This is result:\n" + result.getResultMessage());
-                    //display(result.getStatusMessage(), result.getResultMessage());
-                } catch (CancelException ignored) {
-                }
+                InputData inputData = getInputData(input, pureCommand);
+                requestHandler.execute(inputData);
             }
             else {
                 requestHandler.connect();

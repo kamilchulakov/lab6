@@ -58,14 +58,19 @@ public abstract class AbstractUI implements UI, Runnable{
             String input = askForCommand();
             String pureCommand = input.split(" ")[0];
             if (pureCommand.equals("clear")) {
-                //Runtime.getRuntime().exec("clear");
                 System.out.print("\033[H\033[2J");
                 System.out.flush();
-            }
-            else {
+//            } else if (pureCommand.equals("\u001B[A") || pureCommand.equals("^[[A") || pureCommand.equals("\001B[A")) {
+//                System.out.println("Тут мог быть переход вверх, но вы его не увидите!");
+//                System.out.println("Посмотрите историю и сохраните в файлик, чтобы быстрее вводить команды!");
+//            } else if (pureCommand.equals("\u001B[B") || pureCommand.equals("^[[B") || pureCommand.equals("\001B[B")){
+//                System.out.println("Тут мог быть переход вниз, но вы его не увидите!");
+//                System.out.println("Посмотрите историю и сохраните в файлик, чтобы быстрее вводить команды!");
+//          SCANNER не может в юникоды :( :'_
+            } else {
                 OutputData result = new OutputData("Info", "It is server, but you typed: " + pureCommand);
-                logger.warn("This is result status: " + result.getStatusMessage());
-                logger.warn("This is result:\n" + result.getResultMessage());
+                //logger.warn("This is result status: " + result.getStatusMessage());
+                //logger.warn("This is result:\n" + result.getResultMessage());
                 display(result.getStatusMessage(), result.getResultMessage());
                 if (pureCommand.equals("save")) {
                     result = cmdManager.save();

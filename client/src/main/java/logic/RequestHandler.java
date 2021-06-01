@@ -16,6 +16,7 @@ public class RequestHandler {
     private InputData lastCommand;
     private SocketAddress serverAddress;
     private boolean connected;
+    private boolean sentLast;
     private boolean runnable;
 
     public RequestHandler(int port) {
@@ -62,6 +63,7 @@ public class RequestHandler {
             ByteBuffer buffer = ByteBuffer.wrap(outputStream.toByteArray());
             channel.send(buffer, serverAddress);
         } catch (IOException e) {
+            sentLast = false;
             System.err.println("Произошла ошибка при отправке запроса!");
             runnable = false;
         }

@@ -15,6 +15,9 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.NoSuchElementException;
+import java.util.Optional;
+import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 public class Editor {
     HashMap<String, LabWork> collection;
@@ -102,12 +105,13 @@ public class Editor {
     }
 
     public String removeByDiscipline(Discipline discipline) {
-        for (String key: collection.keySet()) {
-            if (collection.get(key).getDiscipline().equals(discipline)) {
-                collection.remove(key);
-                return "Successfully removed element.";
-            }
-        }
+        Stream<String> stream = collection.keySet().stream().filter(
+                s -> collection.get(s).getDiscipline().equals(discipline));
+        Optional<String> optional = stream.findFirst();
+        if (optional.isPresent()) {
+            collection.remove(optional.get());
+            return "Successfully removed element.";
+        };
         return "No matches.";
     }
 
