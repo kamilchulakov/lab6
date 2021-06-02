@@ -236,3 +236,11 @@
 2021-06-02 22:58:37,142 WARN interfaces.UI [main] Getting input data.
 2021-06-02 22:58:37,142 WARN interfaces.UI [main] No input data was provided.
 2021-06-02 22:58:37,142 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 23:46:09,428 INFO interfaces.UI [main] Got a valid command: show
+2021-06-02 23:46:09,430 WARN interfaces.UI [main] Getting input data.
+2021-06-02 23:46:09,431 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 23:46:09,431 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 23:59:25,473 INFO interfaces.UI [main] Got a valid command: history
+2021-06-02 23:59:25,475 WARN interfaces.UI [main] Getting input data.
+2021-06-02 23:59:25,475 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 23:59:25,476 INFO logic.RequestHandler [main] Sending input to server...

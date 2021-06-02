@@ -12,6 +12,7 @@ import java.util.Arrays;
 public class ClientData {
     private SocketAddress clientAddress;
     private byte[] incomingData = new byte[65515];
+    private CommandHistory commandHistory = null;
     private ByteBuffer buffer = ByteBuffer.wrap(incomingData);
     //private CommandHistory commandHistory = new CommandHistory();
     private boolean isConnected = false;
@@ -24,6 +25,7 @@ public class ClientData {
             if(inputData.getCommandName().equals("connect")) {
                 isConnected = true;
             }
+            if (commandHistory != null) commandHistory.add(inputData.getCommandName());
             return inputData;
         } catch (ClassNotFoundException e) {
             throw new IOException();
@@ -54,7 +56,11 @@ public class ClientData {
         this.clientAddress = clientAddress;
     }
 
-//    public String getCommandHistory() {
-//        return commandHistory.getHistory(10);
-//    }
+    public void setCommandHistory(CommandHistory commandHistory) {
+        this.commandHistory = commandHistory;
+    }
+
+    public String getCommandHistory() {
+        return commandHistory.getHistory(10);
+    }
 }

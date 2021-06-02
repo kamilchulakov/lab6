@@ -17,8 +17,8 @@ public class WriteHandler {
         ClientData client = (ClientData) key.attachment();
         client.getBuffer().flip();
         InputData inputData = client.getInputData();
-        //client.addToHistory(inputData);
         OutputData answer = ServerRunner.getAnswerHandler().execute(inputData);
+        if (inputData.getCommandName().equals("history")) answer = new OutputData("Success", client.getCommandHistory());
         if(answer != null) {
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ObjectOutputStream os = new ObjectOutputStream(outputStream);
