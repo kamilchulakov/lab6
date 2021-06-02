@@ -138,4 +138,20 @@ public class InputData implements Serializable {
     public int hashCode() {
         return Objects.hash(commandArg, labName, coordinateX, coordinateY, minimalPoint, difficulty, disciplineName, selfStudyHours);
     }
+
+    @Override
+    public String toString() {
+        return "InputData{" +
+                "flagOfCLI=" + flagOfCLI +
+                ", commandName='" + commandName + '\'' +
+                ", commandArg='" + commandArg + '\'' +
+                ", labName='" + labName + '\'' +
+                ", coordinateX=" + coordinateX +
+                ", coordinateY=" + coordinateY +
+                ", minimalPoint=" + minimalPoint +
+                ", difficulty='" + difficulty + '\'' +
+                ", disciplineName='" + disciplineName + '\'' +
+                ", selfStudyHours=" + selfStudyHours +
+                '}';
+    }
 }
