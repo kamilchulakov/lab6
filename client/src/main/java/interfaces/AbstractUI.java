@@ -86,7 +86,7 @@ public abstract class AbstractUI implements UI{
     protected final String askForCommand() {
         String input = getCommand();
         if (isValidCommand(input)) {
-            logger.warn("Got a valid command: " + input);
+            logger.info("Got a valid command: " + input);
             return input;
         } else {
             logger.warn("Got an invalid command.");

@@ -10,3 +10,97 @@
 2021-06-02 21:17:39,692 WARN interfaces.UI [main] Getting input data.
 2021-06-02 21:17:39,693 WARN interfaces.UI [main] No input data was provided.
 2021-06-02 21:17:39,693 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:17,568 WARN interfaces.UI [main] Got a valid command: execute_script test
+2021-06-02 21:42:17,572 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:17,572 WARN interfaces.UI [main] Got command arg.
+2021-06-02 21:42:17,572 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:47,472 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:47,472 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:47,472 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:47,472 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:48,374 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:48,374 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:48,374 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:48,374 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:49,175 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:49,176 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:49,176 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:49,176 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:51,178 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:51,179 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:51,179 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:51,180 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:51,478 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:51,479 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:51,479 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:51,479 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:51,779 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:51,780 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:51,780 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:51,780 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:51,879 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:51,880 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:51,880 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:51,880 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:52,080 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:52,080 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:52,080 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:52,080 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:52,280 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:52,281 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:52,281 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:52,281 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:52,480 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:52,481 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:52,481 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:52,481 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:52,681 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:52,681 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:52,681 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:52,682 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:52,881 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:52,882 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:52,882 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:52,882 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:42:53,082 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:42:53,082 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:42:53,082 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:42:53,082 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:37,936 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:44:37,942 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:44:37,942 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:44:37,943 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:38,334 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:44:38,334 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:44:38,335 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:44:38,335 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:38,535 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:44:38,535 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:44:38,536 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:44:38,536 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:38,537 ERROR logic.RequestHandler [main] ERROR DURING SENDING A REQUEST!
+2021-06-02 21:44:38,936 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:44:38,937 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:44:38,937 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:44:38,937 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:38,938 ERROR logic.RequestHandler [main] ERROR DURING SENDING A REQUEST!
+2021-06-02 21:44:39,136 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:44:39,137 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:44:39,137 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:44:39,137 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:39,138 ERROR logic.RequestHandler [main] ERROR DURING SENDING A REQUEST!
+2021-06-02 21:44:39,237 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:44:39,237 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:44:39,238 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:44:39,238 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:39,239 ERROR logic.RequestHandler [main] ERROR DURING SENDING A REQUEST!
+2021-06-02 21:44:39,437 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:44:39,438 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:44:39,438 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:44:39,438 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:39,439 ERROR logic.RequestHandler [main] ERROR DURING SENDING A REQUEST!
+2021-06-02 21:44:39,638 WARN interfaces.UI [main] Got an invalid command.
+2021-06-02 21:44:39,638 WARN interfaces.UI [main] Getting input data.
+2021-06-02 21:44:39,638 WARN interfaces.UI [main] No input data was provided.
+2021-06-02 21:44:39,639 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-02 21:44:39,640 ERROR logic.RequestHandler [main] ERROR DURING SENDING A REQUEST!

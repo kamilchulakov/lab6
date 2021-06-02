@@ -69,7 +69,7 @@ public class RequestHandler {
             channel.send(buffer, serverAddress);
         } catch (IOException e) {
             sentLast = false;
-            System.err.println("Произошла ошибка при отправке запроса!");
+            logger.error("ERROR DURING SENDING A REQUEST!");
             runnable = false;
         }
     }
