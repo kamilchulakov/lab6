@@ -19,7 +19,6 @@ public class ServerRunner {
     private static String path;
     private static DatagramSocket socket;
     private static final RequestHandler requestHandler = new RequestHandler();
-    private static final ResponseHandler responseHandler = new ResponseHandler();
     private static CMDManager answerHandler;
     private static final Logger logger = LoggerFactory.getLogger(ServerRunner.class);
     private static Selector selector;
@@ -77,10 +76,6 @@ public class ServerRunner {
 
     public static RequestHandler getRequestHandler() {
         return requestHandler;
-    }
-
-    public static ResponseHandler getResponseHandler() {
-        return responseHandler;
     }
 
     public static CMDManager getAnswerHandler() {

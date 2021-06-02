@@ -25,8 +25,7 @@ public class ReadHandler {
         Buffer buffer = client.getBuffer();
         buffer.clear();
         SocketAddress socketAddress = channel.receive(client.getBuffer());
-        if (stomach.contains(socketAddress)) System.out.println("ТЫ ДУРАК?");
-        else {
+        if (!stomach.contains(socketAddress)) {
             stomach.add(socketAddress);
             commandHistoryHashMap.put(socketAddress, new CommandHistory());
         }

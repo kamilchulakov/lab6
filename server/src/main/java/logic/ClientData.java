@@ -25,7 +25,7 @@ public class ClientData {
             if(inputData.getCommandName().equals("connect")) {
                 isConnected = true;
             }
-            if (commandHistory != null) commandHistory.add(inputData.getCommandName());
+            if (commandHistory != null && !inputData.getCommandName().equals("connect")) commandHistory.add(inputData.getCommandName());
             return inputData;
         } catch (ClassNotFoundException e) {
             throw new IOException();
