@@ -17,6 +17,7 @@ import java.util.HashMap;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Editor {
@@ -78,29 +79,30 @@ public class Editor {
     }
 
     public void removeAllLowerByLabwork(LabWork labWork) {
-        ArrayList<String> toDeleteKeys = new ArrayList<>();
-        for (String key: collection.keySet()) {
-            if (collection.get(key).compareTo(labWork) < 0) toDeleteKeys.add(key);
-        }
-        for (String key3: toDeleteKeys) collection.remove(key3);
+//        ArrayList<String> toDeleteKeys = new ArrayList<>();
+//        for (String key: collection.keySet()) {
+//            if (collection.get(key).compareTo(labWork) < 0) toDeleteKeys.add(key);
+//        }
+//        for (String key3: toDeleteKeys) collection.remove(key3);
+        //collection.keySet().stream().filter(key->collection.get(key).compareTo(labWork) < 0).forEach(key->collection.remove(key));
+        collection.keySet().stream().filter(key->collection.get(key).compareTo(labWork) < 0).collect(Collectors.toList()).forEach(key->collection.remove(key));
     }
 
     public String getAverageMinimalPoint() {
         long result = 0;
         if (collection.size() == 0) return String.valueOf(result);
-        for (LabWork labWork: collection.values()) result += labWork.getMinimalPoint();
+        result = collection.values().stream().mapToLong(LabWork::getMinimalPoint).sum();
         return String.valueOf(result / collection.size());
     }
 
     public String getDescendingDifficulty() {
-        ArrayList<Difficulty> difficulties = new ArrayList<>();
-        for (LabWork labwork: collection.values()
-             ) {
-            difficulties.add(labwork.getDifficulty());
-        }
-        difficulties.sort(new DifficultyComparator());
+        //collection.values().stream().collect(Collectors.toList());
+        //ArrayList<Difficulty> difficulties = new ArrayList<>();
+        //collection.values().forEach(s -> difficulties.add(s.getDifficulty()));
+        //difficulties.sort(new DifficultyComparator());
         StringBuilder result = new StringBuilder();
-        for (Difficulty difficulty: difficulties) result.append(difficulty.toString()).append(" ");
+        collection.values().stream().map(LabWork::getDifficulty).sorted(new DifficultyComparator()).forEach(s->result.append(s.toString()).append(" "));
+        //difficulties.forEach(difficulty -> result.append(difficulty.toString()).append(" "));
         return result.toString();
     }
 
@@ -116,15 +118,18 @@ public class Editor {
     }
 
     public void update(int id, LabWork labWork) {
-        boolean notFound = true;
-        for (String key: collection.keySet()) {
-            LabWork labWork1 = collection.get(key);
-            if (labWork1.getId() == id) {
-                labWork1.copyFromLabwork(labWork);
-                notFound = false;
-            }
-        }
-        if (notFound) throw new NoSuchElementException();
+//        boolean notFound = true;
+//        for (String key: collection.keySet()) {
+//            LabWork labWork1 = collection.get(key);
+//            if (labWork1.getId() == id) {
+//                labWork1.copyFromLabwork(labWork);
+//                notFound = false;
+//            }
+//        }
+//        if (notFound) throw new NoSuchElementException();
+       Optional<String> optional = collection.keySet().stream().filter(s->collection.get(s).getId() == id).findFirst();
+       if (!optional.isPresent()) throw new NoSuchElementException();
+       collection.replace(optional.get(), labWork);
 
     }
 
