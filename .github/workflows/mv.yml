@@ -16,7 +16,7 @@ jobs:
     - uses: webfactory/ssh-agent@v0.5.2
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-    - run: git pull
+    - run: git pull origin master
     - name: Make shit commit
       run: echo "This was created AUTOMATICALLY." >> README.md
     - name: Move jars
