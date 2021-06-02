@@ -1,5 +1,7 @@
 package logic;
 import interfaces.CLI;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.net.DatagramSocket;
@@ -9,26 +11,28 @@ import java.nio.channels.ClosedChannelException;
 import java.nio.channels.DatagramChannel;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
+import java.util.Arrays;
 
 public class ServerRunner {
     private static int PORT = 26262;
     private static boolean running;
     private static String path;
     private static DatagramSocket socket;
-    private static RequestHandler requestHandler = new RequestHandler();
-    private static ResponseHandler responseHandler = new ResponseHandler();
+    private static final RequestHandler requestHandler = new RequestHandler();
+    private static final ResponseHandler responseHandler = new ResponseHandler();
     private static CMDManager answerHandler;
-    //static final Logger userLogger = LogManager.getLogger(UDPSocketServer.class);
+    private static final Logger logger = LoggerFactory.getLogger(ServerRunner.class);
     private static Selector selector;
     public ServerRunner(String path) {
         this.path = path;
     }
 
     public void start() {
-        if(running) {
-            //userLogger.error("Сервер уже запущен!");
+        if (running) {
+            logger.error("ServerRunner has already started!!");
         } else {
             try {
+                logger.info("ServerRunner just started initialization.");
                 running = true;
                 DatagramChannel datagramChannel = DatagramChannel.open();
                 datagramChannel.configureBlocking(false);
@@ -39,24 +43,31 @@ public class ServerRunner {
                 new Thread(new CLI()).start();
                 datagramChannel.register(selector, SelectionKey.OP_READ, new ClientData());
                 System.out.println("Listening " + PORT + " port");
+                logger.info("Everything went fine.");
                 SelectorManager.run();
             } catch (SocketException e) {
-                System.err.println("Ошибка сокета!");
+                logger.error("Check my SOCKET!");
+                System.err.println("Check my SOCKET!");
             } catch (ClosedChannelException e) {
-                System.err.println("Канал закрыт!");
+                logger.error("Check my CHANNEL! It is closed...");
+                System.err.println("Check my CHANNEL! It is closed...");
             } catch (IOException e) {
-                System.err.println("Произошла ошибка при запуске сервера!");
+                logger.error("Server didn't start..."+ Arrays.toString(e.getStackTrace()));
+                System.err.println("Server didn't start!");
             }
         }
     }
 
     public static void stop() {
         try {
+            logger.info("Trying to save into file...");
             answerHandler.getCollection().save(path);
         } catch (IOException e) {
-            System.out.println("Произошла ошибка при сохранении файла!");
+            logger.error("Didn't save into file..."+Arrays.toString(e.getStackTrace()));
+            System.out.println("Didn't save into file due to IOException!");
         }
-        System.out.println("Программа завершена по требованию пользователя!");
+        logger.error("Program was stopped by a user!");
+        System.out.println("Program was stopped by a user!");
         running = false;
     }
 

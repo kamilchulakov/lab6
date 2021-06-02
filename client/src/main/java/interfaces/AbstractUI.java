@@ -65,9 +65,11 @@ public abstract class AbstractUI implements UI{
         while (true) {
             if (requestHandler.isRunnable()) {
                 String input = askForCommand();
+                logger.debug(String.format("Got a command: %s",input));
                 String pureCommand = input.split(" ")[0];
                 if (pureCommand.equals("exit")) System.exit(0);
                 InputData inputData = getInputData(input, pureCommand);
+                logger.debug(String.format("Got an InputData: %s",inputData));
                 requestHandler.execute(inputData);
             }
             else {

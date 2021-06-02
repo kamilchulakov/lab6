@@ -1,5 +1,8 @@
 package logic;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -15,6 +18,7 @@ public class RequestHandler {
     private InetAddress IPAddress;
     private InputData lastCommand;
     private SocketAddress serverAddress;
+    private Logger logger = LoggerFactory.getLogger(RequestHandler.class);
     private boolean connected;
     private boolean sentLast;
     private boolean runnable;
@@ -48,6 +52,7 @@ public class RequestHandler {
     }
 
     public OutputData execute(InputData inputData) {
+        logger.info("Sending input to server...");
         send(inputData);
         return new OutputData("Success", "Запрос на сервер отправлен!!");
     };

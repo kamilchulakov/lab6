@@ -46,7 +46,7 @@ public class CMDManager {
         if (inputData.getCommandArg() != null)
             commandHistory.add(justCommand + " " + inputData.getCommandArg());
         else commandHistory.add(justCommand);
-        logger.warn("Executing command...");
+        logger.warn(String.format("Executing command: %s with InputData: %s", justCommand, inputData));
         if (justCommand.equals("history")) {
             logger.warn("Recognized history.");
             return new OutputData("Success", getHistory(7));
