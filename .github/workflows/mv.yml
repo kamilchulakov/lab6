@@ -16,13 +16,13 @@ jobs:
     - uses: webfactory/ssh-agent@v0.5.2
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-    - run: git pull
+    - run: git config --global user.email ${{ secrets.EMAIL }}
+    - run: git config --global user.name ${{ secrets.NAME }}
+    - run: git pull origin master
     - name: Make shit commit
       run: echo "This was created AUTOMATICALLY." >> README.md
     - name: Move jars
       run: cp out/*/*/*.jar .
-    - run: git config --global user.email ${{ secrets.EMAIL }}
-    - run: git config --global user.name ${{ secrets.NAME }}
     - run: git add README.md
     - run: git add server.jar
     - run: git add client.jar
