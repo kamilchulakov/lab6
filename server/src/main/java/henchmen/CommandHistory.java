@@ -5,6 +5,7 @@ import commands.Command;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.stream.Collectors;
 
 public class CommandHistory {
     private Queue<String> commandsStringQueue = new LinkedList<>();
@@ -28,7 +29,12 @@ public class CommandHistory {
     public String getHistory(int number) {
         StringBuilder stringBuilder = new StringBuilder();
         Iterator<String> itr = commandsStringQueue.iterator();
-        int i = 0;
+        int i = commandsStringQueue.size() - number;
+        while (i > 0) {
+            itr.next();
+            i--;
+        }
+
         while (itr.hasNext() & i < number) {
             stringBuilder.append(itr.next()).append("\n");
             System.out.print("");

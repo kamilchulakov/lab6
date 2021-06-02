@@ -1,15 +1,19 @@
 package logic;
 
+import henchmen.CommandHistory;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.SocketAddress;
 import java.nio.ByteBuffer;
+import java.util.Arrays;
 
 public class ClientData {
     private SocketAddress clientAddress;
     private byte[] incomingData = new byte[65515];
     private ByteBuffer buffer = ByteBuffer.wrap(incomingData);
+    //private CommandHistory commandHistory = new CommandHistory();
     private boolean isConnected = false;
 
     public InputData getInputData() throws IOException {
@@ -30,6 +34,10 @@ public class ClientData {
         return isConnected;
     }
 
+//    public void addToHistory(InputData inputData) {
+//        commandHistory.add(inputData.getCommandName());
+//    }
+
     public ByteBuffer getBuffer() {
         return buffer;
     }
@@ -45,4 +53,8 @@ public class ClientData {
     public void setClientAddress(SocketAddress clientAddress) {
         this.clientAddress = clientAddress;
     }
+
+//    public String getCommandHistory() {
+//        return commandHistory.getHistory(10);
+//    }
 }
