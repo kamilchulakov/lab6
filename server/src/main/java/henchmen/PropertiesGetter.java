@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class PropertiesGetter {
-    public String getInputFileName(){
+    public static String getInputFileName(){
         return "collection.json";
     }
     public static String getOutputFilename(){

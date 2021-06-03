@@ -45,6 +45,7 @@ public class Editor {
             System.exit(0);
         } catch (Exception ex) {
             System.out.println("...");
+            System.out.println(PropertiesGetter.getInputFileName());
             readCollectionFromConfig();
         }
     }
