@@ -1,6 +1,8 @@
 package logic;
 
 import interfaces.UI;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -13,6 +15,7 @@ public class ResponseHandler extends Thread{
 
     RequestHandler requestHandler;
     UI ui;
+    private Logger logger = LoggerFactory.getLogger(ResponseHandler.class);
 
     public ResponseHandler(RequestHandler requestHandler, UI ui2) {
         this.requestHandler = requestHandler;
@@ -31,11 +34,14 @@ public class ResponseHandler extends Thread{
                     ByteArrayInputStream in = new ByteArrayInputStream(incomingData);
                     ObjectInputStream is = new ObjectInputStream(in);
                     OutputData answer = (OutputData) is.readObject();
+                    logger.info("OutputData has been received.");
+                    logger.warn(answer.getResultMessage());
                     if (answer.getResultMessage().equals("connected")) {
                         requestHandler.setConnected(true);
-                        System.out.println("Соединение с сервером установлено!");
+                        System.out.println("Connection with server has been established!");
+                        logger.info("Connection with server has been established!");
                         if(requestHandler.getLastCommand()!= null) {
-                            System.out.println("Клиент переотправил команду!");
+                            //System.out.println("Client resent command!");
                             requestHandler.send(requestHandler.getLastCommand());
                         }
                     } else {

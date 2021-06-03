@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class SelectorManager{
-    private static Selector selector = ServerRunner.getSelector();
+    private static final Selector selector = ServerRunner.getSelector();
 
     public static void run() {
         while(ServerRunner.isRunning()){

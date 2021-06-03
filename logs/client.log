@@ -265,3 +265,25 @@
 2021-06-03 02:57:39,892 WARN interfaces.UI [main] No input data was provided.
 2021-06-03 02:57:39,892 INFO logic.RequestHandler [main] Sending input to server...
 2021-06-03 03:10:19,620 INFO interfaces.UI [main] Got a valid command: exit
+2021-06-03 08:35:24,293 INFO interfaces.UI [main] Got a valid command: help
+2021-06-03 08:35:24,322 WARN interfaces.UI [main] Getting input data.
+2021-06-03 08:35:24,323 WARN interfaces.UI [main] No input data was provided.
+2021-06-03 08:35:24,323 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-03 08:35:26,293 INFO interfaces.UI [main] Got a valid command: show
+2021-06-03 08:35:26,294 WARN interfaces.UI [main] Getting input data.
+2021-06-03 08:35:26,294 WARN interfaces.UI [main] No input data was provided.
+2021-06-03 08:35:26,294 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-03 08:43:14,524 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-03 08:43:14,525 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-03 08:43:24,226 WARN interfaces.UI [main] Got an invalid command.
+2021-06-03 08:43:24,227 WARN interfaces.UI [main] Getting input data.
+2021-06-03 08:43:24,227 WARN interfaces.UI [main] No input data was provided.
+2021-06-03 08:43:24,227 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-03 08:43:24,229 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-03 08:43:24,229 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-03 08:43:28,731 INFO interfaces.UI [main] Got a valid command: show
+2021-06-03 08:43:28,731 WARN interfaces.UI [main] Getting input data.
+2021-06-03 08:43:28,731 WARN interfaces.UI [main] No input data was provided.
+2021-06-03 08:43:28,731 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-03 08:43:28,735 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-03 08:43:28,735 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=3, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=154, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=3, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=154, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}}}

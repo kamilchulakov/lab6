@@ -17,7 +17,6 @@ import java.util.HashMap;
 public class ReadHandler {
     private static ArrayList<SocketAddress> stomach =new ArrayList<>();
     private static HashMap<SocketAddress, CommandHistory> commandHistoryHashMap = new HashMap<>();
-    private static boolean flag=true;
     public static void handleRead(SelectionKey key) throws IOException {
         DatagramChannel channel = (DatagramChannel) key.channel();
         channel.configureBlocking(false);

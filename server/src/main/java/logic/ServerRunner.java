@@ -18,12 +18,11 @@ public class ServerRunner {
     private static boolean running;
     private static String path;
     private static DatagramSocket socket;
-    private static final RequestHandler requestHandler = new RequestHandler();
     private static CMDManager answerHandler;
     private static final Logger logger = LoggerFactory.getLogger(ServerRunner.class);
     private static Selector selector;
     public ServerRunner(String path) {
-        this.path = path;
+        ServerRunner.path = path;
     }
 
     public void start() {
@@ -72,10 +71,6 @@ public class ServerRunner {
 
     public static DatagramSocket getSocket() {
         return socket;
-    }
-
-    public static RequestHandler getRequestHandler() {
-        return requestHandler;
     }
 
     public static CMDManager getAnswerHandler() {

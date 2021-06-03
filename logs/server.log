@@ -53,3 +53,39 @@
 2021-06-03 03:10:15,844 WARN logic.CMDManager [main] Executed command.
 2021-06-03 03:10:15,850 INFO logic.WriteHandler [main] Sent answer 150 bytes
 2021-06-03 03:10:25,086 WARN interfaces.UI [Thread-0] Got a valid command: exit
+2021-06-03 08:33:35,937 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 08:33:36,077 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-03 08:34:43,336 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 08:34:43,491 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-03 08:35:03,348 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 08:35:03,477 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-03 08:35:18,474 WARN logic.CMDManager [main] Executing command: connect with InputData: InputData{flagOfCLI=true, commandName='connect', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:35:18,474 WARN logic.CMDManager [main] Executed command.
+2021-06-03 08:35:18,477 INFO logic.WriteHandler [main] Sent answer 150 bytes
+2021-06-03 08:35:24,324 WARN logic.CMDManager [main] Executing command: help with InputData: InputData{flagOfCLI=true, commandName='help', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:35:24,324 WARN logic.CMDManager [main] Executed command.
+2021-06-03 08:35:24,324 INFO logic.WriteHandler [main] Sent answer 1224 bytes
+2021-06-03 08:35:26,295 WARN logic.CMDManager [main] Executing command: show with InputData: InputData{flagOfCLI=true, commandName='show', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:35:26,297 WARN logic.CMDManager [main] Executed command.
+2021-06-03 08:35:26,297 INFO logic.WriteHandler [main] Sent answer 712 bytes
+2021-06-03 08:35:35,300 WARN logic.CMDManager [main] Executing command: connect with InputData: InputData{flagOfCLI=true, commandName='connect', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:35:35,300 WARN logic.CMDManager [main] Executed command.
+2021-06-03 08:35:35,300 INFO logic.WriteHandler [main] Sent answer 150 bytes
+2021-06-03 08:35:39,161 WARN logic.CMDManager [main] Executing command: history with InputData: InputData{flagOfCLI=true, commandName='history', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:35:39,161 WARN logic.CMDManager [main] Recognized history.
+2021-06-03 08:35:39,162 INFO logic.WriteHandler [main] Sent answer 116 bytes
+2021-06-03 08:35:40,664 WARN logic.CMDManager [main] Executing command: help with InputData: InputData{flagOfCLI=true, commandName='help', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:35:40,665 WARN logic.CMDManager [main] Executed command.
+2021-06-03 08:35:40,665 INFO logic.WriteHandler [main] Sent answer 1224 bytes
+2021-06-03 08:43:14,114 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 08:43:14,314 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-03 08:43:14,494 WARN logic.CMDManager [main] Executing command: connect with InputData: InputData{flagOfCLI=true, commandName='connect', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:43:14,495 WARN logic.CMDManager [main] Executed command.
+2021-06-03 08:43:14,497 INFO logic.WriteHandler [main] Sent answer 150 bytes
+2021-06-03 08:43:17,957 WARN interfaces.UI [Thread-0] Got a valid command: help
+2021-06-03 08:43:24,228 WARN logic.CMDManager [main] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:43:24,228 ERROR logic.CMDManager [main] Command was not found.
+2021-06-03 08:43:24,228 INFO logic.WriteHandler [main] Sent answer 139 bytes
+2021-06-03 08:43:28,732 WARN logic.CMDManager [main] Executing command: show with InputData: InputData{flagOfCLI=true, commandName='show', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 08:43:28,734 WARN logic.CMDManager [main] Executed command.
+2021-06-03 08:43:28,734 INFO logic.WriteHandler [main] Sent answer 712 bytes
