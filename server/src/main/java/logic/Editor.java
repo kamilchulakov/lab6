@@ -44,7 +44,7 @@ public class Editor {
             System.out.println("Invalid json.");
             System.exit(0);
         } catch (Exception ex) {
-            ex.printStackTrace();
+            readCollectionFromFile("collection.json");
         }
     }
 
