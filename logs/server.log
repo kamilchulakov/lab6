@@ -53,6 +53,13 @@
 2021-06-03 03:10:15,844 WARN logic.CMDManager [main] Executed command.
 2021-06-03 03:10:15,850 INFO logic.WriteHandler [main] Sent answer 150 bytes
 2021-06-03 03:10:25,086 WARN interfaces.UI [Thread-0] Got a valid command: exit
+2021-06-03 09:21:01,925 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 03:10:04,334 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 03:10:04,791 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-03 03:10:15,844 WARN logic.CMDManager [main] Executing command: connect with InputData: InputData{flagOfCLI=true, commandName='connect', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-03 03:10:15,844 WARN logic.CMDManager [main] Executed command.
+2021-06-03 03:10:15,850 INFO logic.WriteHandler [main] Sent answer 150 bytes
+2021-06-03 03:10:25,086 WARN interfaces.UI [Thread-0] Got a valid command: exit
 2021-06-03 08:33:35,937 INFO logic.ServerRunner [main] ServerRunner just started initialization.
 2021-06-03 08:33:36,077 INFO logic.ServerRunner [main] Everything went fine.
 2021-06-03 08:34:43,336 INFO logic.ServerRunner [main] ServerRunner just started initialization.

@@ -44,15 +44,13 @@ public class Editor {
             System.out.println("Invalid json.");
             System.exit(0);
         } catch (Exception ex) {
-            readCollectionFromFile("collection.json");
+            readCollectionFromConfig();
         }
     }
 
     private void readCollectionFromConfig() {
         PropertiesGetter propertiesGetter = new PropertiesGetter();
         readCollectionFromFile(propertiesGetter.getInputFileName());
-//        FabricLabWorks labWorks = new FabricLabWorks();
-//        collection = labWorks.getTestingMaterial();
     }
 
     public HashMap<String, LabWork> getCollection() {

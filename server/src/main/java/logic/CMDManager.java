@@ -21,6 +21,8 @@ public class CMDManager {
     public CMDManager() {
         FabricForCommands fabricForCommands = new FabricForCommands();
         commands.addAll(fabricForCommands.getAllCommandsArrayList());
+        editor = new Editor("collection.json");
+        cmdManager = this;
     }
     public CMDManager(String path) {
         this();
