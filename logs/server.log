@@ -111,3 +111,14 @@
 2021-06-03 09:05:19,359 INFO logic.WriteHandler [main] Sent answer 150 bytes
 2021-06-03 09:06:02,536 INFO logic.ServerRunner [main] ServerRunner just started initialization.
 2021-06-03 09:06:36,769 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 09:27:04,857 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 09:27:04,867 ERROR logic.ServerRunner [main] Check my SOCKET!
+2021-06-03 09:27:35,254 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 09:30:08,313 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 09:31:07,299 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 09:31:07,527 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-03 09:31:10,430 WARN interfaces.UI [Thread-0] Got a valid command: save
+2021-06-03 09:32:19,718 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 09:32:19,973 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-03 09:32:49,349 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-03 09:32:49,580 INFO logic.ServerRunner [main] Everything went fine.

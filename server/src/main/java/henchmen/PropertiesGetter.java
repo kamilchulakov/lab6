@@ -9,7 +9,7 @@ public class PropertiesGetter {
     public String getInputFileName(){
         return "collection.json";
     }
-    public String getOutputFilename(){
+    public static String getOutputFilename(){
         return "collection.json2";
     }
 }
