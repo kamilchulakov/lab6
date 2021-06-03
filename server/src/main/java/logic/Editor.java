@@ -44,8 +44,8 @@ public class Editor {
             System.out.println("Invalid json.");
             System.exit(0);
         } catch (Exception ex) {
-            System.out.println("...");
-            System.out.println(PropertiesGetter.getInputFileName());
+            //System.out.println("...");
+            //System.out.println(PropertiesGetter.getInputFileName());
             readCollectionFromConfig();
         }
     }
