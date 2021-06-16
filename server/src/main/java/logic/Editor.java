@@ -24,30 +24,7 @@ public class Editor {
     HashMap<String, LabWork> collection;
 
     public Editor() {
-        readCollectionFromFile("collection.json");
-    }
-    public Editor(String filename) {
-        readCollectionFromFile(filename);
-    }
-
-    private void readCollectionFromFile(String filename) {
-        try {
-            ObjectMapper mapper = new ObjectMapper();
-            File file = Paths.get(filename).toFile();
-            file.setReadable(true);
-            collection = mapper.readValue(file, collection.getClass());
-
-        } catch (FileNotFoundException e) {
-            System.out.println("Invalid filename.");
-            System.exit(0);
-        } catch (MismatchedInputException e) {
-            System.out.println("Invalid json.");
-            System.exit(0);
-        } catch (Exception ex) {
-            //System.out.println("...");
-            //System.out.println(PropertiesGetter.getInputFileName());
-            readCollectionFromConfig();
-        }
+        readCollectionFromConfig();
     }
 
     private void readCollectionFromConfig() {

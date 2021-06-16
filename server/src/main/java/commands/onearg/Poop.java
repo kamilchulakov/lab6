@@ -6,7 +6,7 @@ import input_exceptions.CancelException;
 import input_exceptions.ExecuteCommandException;
 import input_exceptions.LessThanException;
 import input_exceptions.MoreThanException;
-import logic.CMDManager;
+import thread.CMDManager;
 import logic.Editor;
 import logic.InputData;
 import logic.OutputData;
@@ -26,7 +26,7 @@ public class Poop {
     ArrayList<String> cachedResults;
 
     public void run(Editor editor, InputData inputData) {
-        cmdManager = CMDManager.getInstance();
+        cmdManager = new CMDManager();
         cachedFilenames = new ArrayList<>();
         cachedResults = new ArrayList<>();
         this.editor = editor;

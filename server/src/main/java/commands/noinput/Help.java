@@ -22,6 +22,11 @@ public class Help extends AbstractNoInputCommand {
     @Override
     public OutputData exec(Editor editor, InputData inputData) {
         FabricForCommands fabric = new FabricForCommands();
+        try {
+            Thread.sleep(15000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         StringBuilder stringBuilder = new StringBuilder();
         for (Command command: fabric.getAllCommandsArrayList())
             stringBuilder.append(command.getDescription()).append("\n");

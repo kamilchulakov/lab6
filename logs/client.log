@@ -291,3 +291,35 @@
 2021-06-03 09:05:19,390 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
 2021-06-03 09:26:47,700 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
 2021-06-03 09:26:47,702 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-16 23:33:12,873 INFO interfaces.UI [main] Got a valid command: show
+2021-06-16 23:33:12,875 WARN interfaces.UI [main] Getting input data.
+2021-06-16 23:33:12,876 WARN interfaces.UI [main] No input data was provided.
+2021-06-16 23:33:12,876 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-16 23:34:06,381 INFO interfaces.UI [main] Got a valid command: show
+2021-06-16 23:34:06,381 WARN interfaces.UI [main] Getting input data.
+2021-06-16 23:34:06,382 WARN interfaces.UI [main] No input data was provided.
+2021-06-16 23:34:06,382 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-16 23:34:27,224 INFO interfaces.UI [main] Got a valid command: show
+2021-06-16 23:34:27,226 WARN interfaces.UI [main] Getting input data.
+2021-06-16 23:34:27,226 WARN interfaces.UI [main] No input data was provided.
+2021-06-16 23:34:27,226 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-16 23:35:12,677 INFO interfaces.UI [main] Got a valid command: show
+2021-06-16 23:35:12,705 WARN interfaces.UI [main] Getting input data.
+2021-06-16 23:35:12,705 WARN interfaces.UI [main] No input data was provided.
+2021-06-16 23:35:12,705 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-16 23:35:22,290 INFO interfaces.UI [main] Got a valid command: show
+2021-06-16 23:35:22,291 WARN interfaces.UI [main] Getting input data.
+2021-06-16 23:35:22,291 WARN interfaces.UI [main] No input data was provided.
+2021-06-16 23:35:22,291 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-16 23:35:22,296 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-16 23:35:22,296 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-16 23:35:27,796 INFO interfaces.UI [main] Got a valid command: show
+2021-06-16 23:35:27,796 WARN interfaces.UI [main] Getting input data.
+2021-06-16 23:35:27,797 WARN interfaces.UI [main] No input data was provided.
+2021-06-16 23:35:27,797 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-16 23:35:27,798 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-16 23:35:27,798 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}}}
+2021-06-16 23:35:54,825 INFO interfaces.UI [main] Got a valid command: show
+2021-06-16 23:35:54,853 WARN interfaces.UI [main] Getting input data.
+2021-06-16 23:35:54,853 WARN interfaces.UI [main] No input data was provided.
+2021-06-16 23:35:54,853 INFO logic.RequestHandler [main] Sending input to server...
