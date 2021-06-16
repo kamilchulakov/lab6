@@ -738,3 +738,139 @@
 2021-06-17 02:20:09,514 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 139 bytes
 2021-06-17 02:20:09,514 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
 2021-06-17 02:20:09,515 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:22:22,604 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-17 02:22:22,897 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-17 02:22:51,509 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect with InputData: InputData{flagOfCLI=true, commandName='connect', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:22:51,510 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command.
+2021-06-17 02:22:55,115 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=true, commandName='show', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:22:55,117 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command.
+2021-06-17 02:22:55,119 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 150 bytes
+2021-06-17 02:22:57,363 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:22:57,363 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 1373 bytes
+2021-06-17 02:22:57,363 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:22:59,922 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:22:59,922 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 139 bytes
+2021-06-17 02:22:59,923 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:23:01,050 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 139 bytes
+2021-06-17 02:23:01,050 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:01,050 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:23:08,558 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 139 bytes
+2021-06-17 02:23:08,558 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=true, commandName='show', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:08,558 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command.
+2021-06-17 02:23:12,157 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: help with InputData: InputData{flagOfCLI=true, commandName='help', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:12,157 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 1373 bytes
+2021-06-17 02:23:17,598 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:17,598 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:18,682 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:18,682 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 139 bytes
+2021-06-17 02:23:18,682 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:19,334 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 139 bytes
+2021-06-17 02:23:19,334 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:19,334 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:19,554 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 139 bytes
+2021-06-17 02:23:19,554 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:19,554 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:20,946 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 139 bytes
+2021-06-17 02:23:20,946 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show with InputData: InputData{flagOfCLI=true, commandName='show', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:20,947 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command.
+2021-06-17 02:23:21,889 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:21,889 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 1373 bytes
+2021-06-17 02:23:21,889 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:22,891 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 139 bytes
+2021-06-17 02:23:22,891 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:22,891 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:23,519 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 139 bytes
+2021-06-17 02:23:23,520 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:23,520 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:23,983 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 139 bytes
+2021-06-17 02:23:23,983 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:23,984 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:24,322 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:24,322 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 139 bytes
+2021-06-17 02:23:24,322 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:24,601 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 139 bytes
+2021-06-17 02:23:24,601 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:24,601 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:24,816 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 139 bytes
+2021-06-17 02:23:24,816 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:24,817 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:25,035 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 139 bytes
+2021-06-17 02:23:25,035 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:25,035 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:25,256 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 139 bytes
+2021-06-17 02:23:25,256 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:25,257 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:25,462 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 139 bytes
+2021-06-17 02:23:25,462 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:25,463 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:25,648 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 139 bytes
+2021-06-17 02:23:25,648 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:25,649 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:25,809 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 139 bytes
+2021-06-17 02:23:25,809 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:25,809 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:25,995 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 139 bytes
+2021-06-17 02:23:25,995 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:25,995 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:26,217 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 139 bytes
+2021-06-17 02:23:26,217 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:26,217 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:26,367 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 139 bytes
+2021-06-17 02:23:26,367 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:26,367 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:26,636 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 139 bytes
+2021-06-17 02:23:26,636 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:26,636 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:26,737 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 139 bytes
+2021-06-17 02:23:26,737 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:26,737 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:26,967 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 139 bytes
+2021-06-17 02:23:26,967 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:26,967 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:27,144 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 139 bytes
+2021-06-17 02:23:27,144 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:27,144 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-17 02:23:27,158 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command.
+2021-06-17 02:23:27,343 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 1143 bytes
+2021-06-17 02:23:27,343 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 1143 bytes
+2021-06-17 02:23:27,343 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:27,344 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:23:27,458 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 139 bytes
+2021-06-17 02:23:27,458 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:27,458 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:23:27,669 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 139 bytes
+2021-06-17 02:23:27,670 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:23:27,670 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:24:40,713 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-17 02:24:40,885 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-17 02:24:42,677 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect with InputData: InputData{flagOfCLI=true, commandName='connect', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:24:42,678 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command.
+2021-06-17 02:24:44,679 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=true, commandName='show', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:24:44,680 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command.
+2021-06-17 02:24:44,683 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 150 bytes
+2021-06-17 02:24:49,999 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:24:49,999 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 1373 bytes
+2021-06-17 02:24:49,999 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:24:52,470 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:24:52,470 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 139 bytes
+2021-06-17 02:24:52,470 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:24:56,089 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 139 bytes
+2021-06-17 02:24:56,089 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=true, commandName='show', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:24:56,089 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command.
+2021-06-17 02:24:57,341 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:24:57,341 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 1373 bytes
+2021-06-17 02:24:57,342 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:25:02,659 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 139 bytes
+2021-06-17 02:25:02,659 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:25:02,659 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:25:03,299 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:25:03,299 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 139 bytes
+2021-06-17 02:25:03,299 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:25:03,461 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:25:03,461 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 139 bytes
+2021-06-17 02:25:03,462 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:25:04,467 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 139 bytes
+2021-06-17 02:25:04,467 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-17 02:25:04,467 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 02:26:51,582 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-17 02:26:51,877 INFO logic.ServerRunner [main] Everything went fine.
