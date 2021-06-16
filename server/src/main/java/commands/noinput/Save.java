@@ -21,12 +21,7 @@ public class Save extends AbstractNoInputCommand {
 
     @Override
     public OutputData exec(Editor editor, InputData inputData) {
-        try {
-            editor.save(PropertiesGetter.getOutputFilename());
-            return new OutputData("Success", String.format("Saved into %s!", PropertiesGetter.getOutputFilename()));
-        } catch (IOException e) {
-            e.printStackTrace();
-            return new OutputData("Failure", "It is not cool: IOException.");
-        }
+        editor.save();
+        return new OutputData("Success", "Saved into db!");
     }
 }

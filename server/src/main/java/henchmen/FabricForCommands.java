@@ -7,7 +7,6 @@ import commands.noinput.*;
 import commands.onearg.ExecuteScript;
 import commands.onearg.RemoveByKey;
 import commands.oneargelement.InsertKey;
-import commands.oneargelement.ReplaceIfLower;
 import commands.oneargelement.Update;
 
 import java.util.ArrayList;
@@ -44,7 +43,6 @@ public class FabricForCommands {
         list.add(new RemoveAnyByDiscipline());
         list.add(new InsertKey());
         list.add(new Update());
-        list.add(new ReplaceIfLower());
         list.add(new Save());
         list.add(new Connect());
     }

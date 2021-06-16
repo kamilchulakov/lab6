@@ -3,16 +3,11 @@ package interfaces;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import henchmen.Validator;
-import logic.CMDManager;
-import logic.Editor;
-import logic.InputData;
+import thread.CMDManager;
 import logic.OutputData;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
  * AbstractUI is the base of each UI realisation.
@@ -45,7 +40,7 @@ public abstract class AbstractUI implements UI, Runnable{
      * Class constructor which isn't modified in children.
      */
     public AbstractUI() {
-        cmdManager = CMDManager.getInstance();
+        cmdManager = new CMDManager();
         cachedFilenames = new ArrayList<>();
         validator = new Validator();
         logger = LoggerFactory.getLogger(UI.class);
