@@ -323,3 +323,83 @@
 2021-06-16 23:35:54,853 WARN interfaces.UI [main] Getting input data.
 2021-06-16 23:35:54,853 WARN interfaces.UI [main] No input data was provided.
 2021-06-16 23:35:54,853 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 01:33:36,635 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 01:33:36,637 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}}}
+2021-06-17 01:33:43,648 INFO interfaces.UI [main] Got a valid command: help
+2021-06-17 01:33:43,649 WARN interfaces.UI [main] Getting input data.
+2021-06-17 01:33:43,676 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 01:33:43,676 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 01:33:43,762 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 01:33:43,762 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 01:33:59,166 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 01:33:59,167 WARN interfaces.UI [main] Getting input data.
+2021-06-17 01:33:59,167 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 01:33:59,167 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 01:33:59,243 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 01:33:59,243 WARN logic.ResponseHandler [Thread-0] help - a command which gives an information about
+every single command which is supported in this app.
+history - a command to show history of commands usage!
+exit - a command to exit everything.
+show - a command which shows the collection items
+info - a command to get info about the collection:
+ type, time, etc
+remove_key <key> - a command which removes an element by key.
+clear - a command to clear the collection.
+remove_lower <key> - a command which removes the elements
+which are lower than <key> one.
+execute_script <filename> - a command which executes a script.
+average_of_minimal_point - a command which show an average
+ minimal point field value of collection items.
+print_field_descending_difficulty - a command which prints descending difficulty.
+remove_any_by_discipline <discipline> - a command to remove by disc.
+insert <key> - a command which asks to give element info and inserts it by key.
+update <id> - a command which updates element values by id.
+replace_if_lower <key> - a command which removes element if lower than provided.
+save - a command which saves the collection into collection.json
+
+
+2021-06-17 01:33:59,244 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 01:33:59,244 WARN logic.ResponseHandler [Thread-0] help - a command which gives an information about
+every single command which is supported in this app.
+history - a command to show history of commands usage!
+exit - a command to exit everything.
+show - a command which shows the collection items
+info - a command to get info about the collection:
+ type, time, etc
+remove_key <key> - a command which removes an element by key.
+clear - a command to clear the collection.
+remove_lower <key> - a command which removes the elements
+which are lower than <key> one.
+execute_script <filename> - a command which executes a script.
+average_of_minimal_point - a command which show an average
+ minimal point field value of collection items.
+print_field_descending_difficulty - a command which prints descending difficulty.
+remove_any_by_discipline <discipline> - a command to remove by disc.
+insert <key> - a command which asks to give element info and inserts it by key.
+update <id> - a command which updates element values by id.
+replace_if_lower <key> - a command which removes element if lower than provided.
+save - a command which saves the collection into collection.json
+
+
+2021-06-17 01:35:08,456 INFO interfaces.UI [main] Got a valid command: help
+2021-06-17 01:35:08,456 WARN interfaces.UI [main] Getting input data.
+2021-06-17 01:35:08,456 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 01:35:08,456 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 01:35:08,517 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 01:35:08,517 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 01:35:09,457 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 01:35:09,457 WARN interfaces.UI [main] Getting input data.
+2021-06-17 01:35:09,457 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 01:35:09,457 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 01:35:21,672 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 01:35:21,672 WARN interfaces.UI [main] Getting input data.
+2021-06-17 01:35:21,672 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 01:35:21,672 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 01:35:21,775 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 01:35:21,775 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 01:35:22,172 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 01:35:22,173 WARN interfaces.UI [main] Getting input data.
+2021-06-17 01:35:22,173 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 01:35:22,173 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 01:35:22,261 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 01:35:22,262 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
