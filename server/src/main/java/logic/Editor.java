@@ -26,14 +26,12 @@ public class Editor {
     }
 
     private void readCollectionFromDatabase() {
-        synchronized (DatabaseService.getInstance()) {
             try {
                 databaseService = DatabaseService.getInstance();
                 collection = DatabaseService.getInstance().getCollection();
             } catch (SQLException exception) {
                 exception.printStackTrace();
             }
-        }
     }
 
     public HashMap<String, LabWork> getCollection() {

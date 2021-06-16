@@ -100,7 +100,7 @@ public class DatabaseService {
     }
 
 
-    public static DatabaseService getInstance() {
+    public synchronized static DatabaseService getInstance() {
         return ds;
     }
 }
