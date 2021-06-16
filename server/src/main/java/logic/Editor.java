@@ -3,20 +3,15 @@ package logic;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.exc.MismatchedInputException;
-import henchmen.PropertiesGetter;
 import objects.*;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.NoSuchElementException;
 import java.util.Optional;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -24,14 +19,11 @@ public class Editor {
     HashMap<String, LabWork> collection;
 
     public Editor() {
-        readCollectionFromConfig();
+        readCollectionFromDatabase();
     }
 
-    private void readCollectionFromConfig() {
-//        PropertiesGetter propertiesGetter = new PropertiesGetter();
-//        readCollectionFromFile(propertiesGetter.getInputFileName());
-        FabricLabWorks fabricLabWorks = new FabricLabWorks();
-        collection = fabricLabWorks.getTestingMaterial();
+    private void readCollectionFromDatabase() {
+
     }
 
     public HashMap<String, LabWork> getCollection() {

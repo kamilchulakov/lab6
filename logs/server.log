@@ -301,3 +301,5 @@
 2021-06-16 23:38:36,817 WARN logic.CMDManager [ForkJoinPool-1-worker-1] Executing command:  with InputData: InputData{flagOfCLI=true, commandName='', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
 2021-06-16 23:38:36,817 INFO logic.WriteHandler [pool-2-thread-2] Sent answer 139 bytes
 2021-06-16 23:38:36,818 ERROR logic.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-17 01:20:11,628 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-17 01:20:11,647 INFO logic.ServerRunner [main] Everything went fine.
