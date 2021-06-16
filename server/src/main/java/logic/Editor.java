@@ -25,10 +25,12 @@ public class Editor {
     }
 
     private void readCollectionFromDatabase() {
-        try {
-            collection = DatabaseService.getCollection();
-        } catch (SQLException exception) {
-            exception.printStackTrace();
+        synchronized (DatabaseService.getInstance()) {
+            try {
+                collection = DatabaseService.getInstance().getCollection();
+            } catch (SQLException exception) {
+                exception.printStackTrace();
+            }
         }
     }
 

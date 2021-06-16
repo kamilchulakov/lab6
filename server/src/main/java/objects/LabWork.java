@@ -14,6 +14,7 @@ public class LabWork implements Comparable<LabWork>{
     private Long minimalPoint; //Поле не может быть null, Значение поля должно быть больше 0
     private Difficulty difficulty; //Поле не может быть null
     private Discipline discipline; //Поле может быть null
+    private String author;
 
     public LabWork(String name2, Coordinates coordinates2, Long minimalPoint2,
                    Difficulty difficulty2, Discipline discipline2) {
@@ -25,6 +26,18 @@ public class LabWork implements Comparable<LabWork>{
         if (name2 != null) id = (int) (name2.length() + minimalPoint);
         else id = Math.toIntExact(minimalPoint);
         creationDate = LocalDate.now();
+        author = "default";
+    }
+    public LabWork(String name2, Coordinates coordinates2, Long minimalPoint2,
+                   Difficulty difficulty2, Discipline discipline2, String time, String author) {
+        name = name2;
+        coordinates = coordinates2;
+        minimalPoint = minimalPoint2;
+        difficulty = difficulty2;
+        discipline = discipline2;
+        if (name2 != null) id = (int) (name2.length() + minimalPoint);
+        else id = Math.toIntExact(minimalPoint);
+        creationDate = LocalDate.parse(time);
     }
 
     public int getId() {
@@ -102,7 +115,7 @@ public class LabWork implements Comparable<LabWork>{
                 ", minimalPoint=" + minimalPoint +
                 ", difficulty=" + difficulty +
                 ", discipline=" + discipline +
-                '}';
+                ", author=" + author + '}';
     }
     private String getStringForCreationDate() {
         return "{" +
