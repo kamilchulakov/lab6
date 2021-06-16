@@ -3,12 +3,14 @@ package logic;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import database.DatabaseService;
 import objects.*;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.NoSuchElementException;
 import java.util.Optional;
@@ -23,7 +25,11 @@ public class Editor {
     }
 
     private void readCollectionFromDatabase() {
-
+        try {
+            collection = DatabaseService.getCollection();
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
     }
 
     public HashMap<String, LabWork> getCollection() {

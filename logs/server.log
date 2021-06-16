@@ -303,3 +303,7 @@
 2021-06-16 23:38:36,818 ERROR logic.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
 2021-06-17 01:20:11,628 INFO logic.ServerRunner [main] ServerRunner just started initialization.
 2021-06-17 01:20:11,647 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-17 01:31:38,818 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-17 01:31:39,053 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-17 01:32:15,813 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-17 01:32:16,024 INFO logic.ServerRunner [main] Everything went fine.
