@@ -23,12 +23,14 @@ public class Poop {
     CMDManager cmdManager;
     Logger logger = LoggerFactory.getLogger(Poop.class);
     Editor editor;
+    String author;
     ArrayList<String> cachedResults;
 
     public void run(Editor editor, InputData inputData) {
         cmdManager = new CMDManager();
         cachedFilenames = new ArrayList<>();
         cachedResults = new ArrayList<>();
+        author = inputData.getAuth();
         this.editor = editor;
         executeScript(inputData.getCommandArg());
     }
@@ -101,6 +103,7 @@ public class Poop {
                 try {
                     askForInputCheckForCommand(flags, inputData, input, scanner);
                     if (inputData.equals(new InputData())) logger.info("No input data was provided.");
+                    inputData.setAuth(author);
                     OutputData result = cmdManager.execute(editor, pureCommand, inputData);
                     cachedResults.add(result.getResultMessage());
                     logger.info("This is result status: " + result.getStatusMessage());

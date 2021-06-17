@@ -20,6 +20,7 @@ public class FabricLabWorks {
         Coordinates coordinates = new Coordinates(inputData.getCoordinateX(), inputData.getCoordinateY());
         LabWork labwork = new LabWork(inputData.getLabName(), coordinates, inputData.getMinimalPoint(),
                 inputData.getDifficulty(),discipline);
+        labwork.setAuthor(inputData.getAuth());
         return labwork;
     }
 }

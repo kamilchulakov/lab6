@@ -56,7 +56,7 @@ public class CMDManager implements Runnable{
             commandHistory.add(justCommand + " " + inputData.getCommandArg());
         else commandHistory.add(justCommand);
         if (!justCommand.equals("login") && inputData.getAuth() == null)
-            if (!justCommand.equals("connect")) return new OutputData("Please login", "Use login or register before " + inputData.getCommandName());
+            if (!justCommand.equals("connect") && !justCommand.equals("register")) return new OutputData("Please login", "Use login or register before " + inputData.getCommandName());
         logger.warn(String.format("Executing command: %s with InputData: %s", justCommand, inputData));
         if (justCommand.equals("history")) {
             logger.warn("Recognized history.");

@@ -1766,3 +1766,1769 @@ register <user> <pass> - can register new user
 2021-06-17 11:32:33,210 INFO logic.RequestHandler [main] Sending input to server...
 2021-06-17 11:32:33,247 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
 2021-06-17 11:32:33,248 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=null}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=null}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=null}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=null}}
+2021-06-17 11:38:21,519 INFO interfaces.UI [main] Got a valid command: login admin admin
+2021-06-17 11:38:21,522 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:38:21,522 INFO interfaces.UI [main] FOUND login or register
+2021-06-17 11:38:21,522 WARN interfaces.UI [main] Got command arg.
+2021-06-17 11:38:21,522 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:38:22,120 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:38:22,120 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 11:38:25,928 INFO interfaces.UI [main] Got a valid command: insert 5
+2021-06-17 11:38:25,928 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:38:25,928 WARN interfaces.UI [main] Got command arg.
+2021-06-17 11:38:28,857 WARN interfaces.UI [main] Invalid labwork name.
+2021-06-17 11:38:29,233 WARN interfaces.UI [main] Invalid labwork name.
+2021-06-17 11:38:29,509 WARN interfaces.UI [main] Invalid labwork name.
+2021-06-17 11:38:35,432 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:38:35,433 WARN logic.ResponseHandler [Thread-0] admin
+2021-06-17 11:38:36,664 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:38:36,665 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:38:36,665 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:38:36,665 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:38:36,709 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:38:36,709 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 11:38:37,469 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:38:37,469 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:38:37,470 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:38:37,470 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:38:37,508 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:38:37,508 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:38:38,259 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:38:38,260 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:38:38,260 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:38:38,260 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:38:38,328 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:38:38,328 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:38:57,844 INFO interfaces.UI [main] Got a valid command: insert 28
+2021-06-17 11:38:57,844 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:38:57,845 WARN interfaces.UI [main] Got command arg.
+2021-06-17 11:39:08,497 WARN interfaces.UI [main] Got labwork name.
+2021-06-17 11:39:10,638 WARN interfaces.UI [main] More than exception for X.
+2021-06-17 11:39:13,312 WARN interfaces.UI [main] Got coordinate X.
+2021-06-17 11:39:14,624 WARN interfaces.UI [main] Got coordinate Y.
+2021-06-17 11:39:16,571 WARN interfaces.UI [main] Got minimal point.
+2021-06-17 11:39:19,873 WARN interfaces.UI [main] Got difficulty.
+2021-06-17 11:39:23,790 WARN interfaces.UI [main] Got discipline name.
+2021-06-17 11:39:26,420 WARN interfaces.UI [main] Got discipline hours.
+2021-06-17 11:39:26,421 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:39:26,469 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:39:26,469 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:42:53,246 INFO interfaces.UI [main] Got a valid command: insert 26
+2021-06-17 11:42:53,248 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:42:53,249 WARN interfaces.UI [main] Got command arg.
+2021-06-17 11:42:55,325 WARN interfaces.UI [main] Got labwork name.
+2021-06-17 11:42:57,209 WARN interfaces.UI [main] More than exception for X.
+2021-06-17 11:42:59,041 WARN interfaces.UI [main] Got coordinate X.
+2021-06-17 11:43:00,680 WARN interfaces.UI [main] Got coordinate Y.
+2021-06-17 11:43:01,592 WARN interfaces.UI [main] Got minimal point.
+2021-06-17 11:43:04,756 ERROR interfaces.UI [main] IllegalArgument exception: null
+2021-06-17 11:43:07,426 WARN interfaces.UI [main] Got difficulty.
+2021-06-17 11:43:09,807 WARN interfaces.UI [main] Got discipline name.
+2021-06-17 11:43:10,739 WARN interfaces.UI [main] Got discipline hours.
+2021-06-17 11:43:10,740 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:43:13,950 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 11:43:13,950 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:43:13,950 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:43:13,950 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:43:14,001 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:43:14,001 WARN logic.ResponseHandler [Thread-0] Inserted.
+2021-06-17 11:43:15,956 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:43:15,957 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:43:15,957 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:43:15,957 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:43:16,003 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:43:16,003 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=null}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=null}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=null}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=null}, 26={id=15, name='wait', coordinates={x=71.0, y=224.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=11, difficulty=TERRIBLE, discipline={name='proga', selfStudyHours=111}, author=null}}
+2021-06-17 11:44:58,393 INFO interfaces.UI [main] Got a valid command: login admin admin
+2021-06-17 11:44:58,398 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:44:58,398 INFO interfaces.UI [main] FOUND login or register
+2021-06-17 11:44:58,399 WARN interfaces.UI [main] Got command arg.
+2021-06-17 11:44:58,399 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:44:58,451 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:44:58,451 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 11:45:03,047 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:45:03,047 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:45:03,047 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:45:03,047 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:45:03,098 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:45:03,099 WARN logic.ResponseHandler [Thread-0] admin
+2021-06-17 11:45:04,550 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:45:04,551 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:45:04,551 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:45:04,551 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:45:04,601 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:45:04,601 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 11:45:07,270 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:45:07,270 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:45:07,298 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:45:07,298 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:45:07,339 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:45:07,339 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:45:09,309 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 11:45:09,309 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:45:09,309 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:45:09,309 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:45:09,350 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:45:09,351 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:45:11,440 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:45:11,440 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:45:11,440 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:45:11,440 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:45:11,499 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:45:11,499 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=1}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=1}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=17}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=1}, 26={id=15, name='wait', coordinates={x=71.0, y=224.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=11, difficulty=TERRIBLE, discipline={name='proga', selfStudyHours=111}, author=15}}
+2021-06-17 11:47:42,303 INFO interfaces.UI [main] Got a valid command: login admin admin
+2021-06-17 11:47:42,306 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:47:42,306 INFO interfaces.UI [main] FOUND login or register
+2021-06-17 11:47:42,306 WARN interfaces.UI [main] Got command arg.
+2021-06-17 11:47:42,307 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:47:42,355 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:47:42,355 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 11:47:43,759 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:47:43,759 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:47:43,760 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:47:43,760 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:47:43,838 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:47:43,838 WARN logic.ResponseHandler [Thread-0] admin
+2021-06-17 11:47:45,201 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 11:47:45,201 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:47:45,201 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:47:45,201 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:47:45,480 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:47:45,481 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 11:47:46,214 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:47:46,214 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:47:46,214 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:47:46,214 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:47:46,268 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:47:46,268 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=null}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=null}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=null}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=null}, 26={id=15, name='wait', coordinates={x=71.0, y=224.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=11, difficulty=TERRIBLE, discipline={name='proga', selfStudyHours=111}, author=null}}
+2021-06-17 11:47:57,342 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:47:57,343 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:48:01,180 INFO interfaces.UI [main] Got a valid command: login admin admin
+2021-06-17 11:48:01,181 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:48:01,181 INFO interfaces.UI [main] FOUND login or register
+2021-06-17 11:48:01,181 WARN interfaces.UI [main] Got command arg.
+2021-06-17 11:48:01,181 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:48:01,224 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:48:01,225 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 11:48:02,960 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:48:02,961 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:48:02,961 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:48:02,961 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:48:03,040 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:48:03,040 WARN logic.ResponseHandler [Thread-0] admin
+2021-06-17 11:49:59,158 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 11:49:59,159 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:49:59,159 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:49:59,160 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:50:01,344 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:50:01,344 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:50:01,345 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:50:01,345 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:50:01,391 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:50:01,391 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:50:01,392 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:50:01,392 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:50:03,044 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:50:03,045 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:50:03,045 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:50:03,045 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:50:03,706 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:50:03,706 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:50:03,706 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:50:03,706 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:50:03,759 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:50:03,759 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:50:03,963 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:50:03,963 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:50:03,964 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:50:03,964 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:50:04,015 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:50:04,016 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:50:06,293 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 11:50:06,293 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:50:06,293 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:50:06,293 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:50:06,368 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:50:06,368 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:50:06,954 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:50:06,955 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:50:06,955 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:50:06,955 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:50:07,112 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:50:07,112 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}, 26={id=15, name='wait', coordinates={x=71.0, y=224.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=11, difficulty=TERRIBLE, discipline={name='proga', selfStudyHours=111}, author=admin}}
+2021-06-17 11:59:28,001 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 11:59:28,010 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:28,010 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:28,010 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:29,032 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:29,032 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:29,032 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:29,060 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:29,113 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:29,113 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:29,113 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:29,113 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:30,059 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:30,059 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:30,059 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:30,059 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:30,560 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:30,561 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:30,561 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:30,561 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:30,624 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:30,624 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:31,058 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:31,058 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:31,058 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:31,058 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:31,101 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:31,102 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:31,438 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:31,438 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:31,438 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:31,438 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:31,487 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:31,487 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:34,510 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 11:59:34,510 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:34,511 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:34,511 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:34,572 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:34,572 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:35,269 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:35,269 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:35,269 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:35,269 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:35,433 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:35,433 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}, 26={id=15, name='wait', coordinates={x=71.0, y=224.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=11, difficulty=TERRIBLE, discipline={name='proga', selfStudyHours=111}, author=admin}}
+2021-06-17 11:59:36,166 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:36,167 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:36,167 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:36,167 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:36,209 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:36,209 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:37,859 INFO interfaces.UI [main] Got a valid command: help
+2021-06-17 11:59:37,859 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:37,859 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:37,859 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:37,909 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:37,909 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:38,601 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:38,601 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:38,601 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:38,601 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:39,493 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:39,493 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:39,493 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:39,493 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:39,541 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:39,541 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:39,707 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:39,707 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:39,707 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:39,707 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:39,751 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:39,752 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:39,904 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:39,904 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:39,904 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:39,904 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:39,953 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:39,953 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:41,728 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 11:59:41,729 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:41,729 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:41,729 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:41,770 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:41,770 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:42,176 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:42,176 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:42,177 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:42,177 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:42,234 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:42,234 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}, 26={id=15, name='wait', coordinates={x=71.0, y=224.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=11, difficulty=TERRIBLE, discipline={name='proga', selfStudyHours=111}, author=admin}}
+2021-06-17 11:59:43,610 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:43,610 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:43,611 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:43,611 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:43,660 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:43,660 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:44,075 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:44,075 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:44,076 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:44,076 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:44,127 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:44,128 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:44,396 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:44,397 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:44,397 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:44,397 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:44,457 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:44,457 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:44,595 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:44,595 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:44,595 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:44,595 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:44,653 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:44,653 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:44,782 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:44,782 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:44,782 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:44,782 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:44,848 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:44,848 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:44,991 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:44,991 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:44,991 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:44,991 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:45,051 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:45,052 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:45,176 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:45,176 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:45,176 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:45,177 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:45,221 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:45,221 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:45,676 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:45,676 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:45,676 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:45,677 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:45,720 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:45,720 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:45,726 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:45,726 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:45,726 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:45,726 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:45,770 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:45,770 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:45,776 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:45,777 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:45,777 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:45,777 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:45,819 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:45,820 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:45,827 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:45,827 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:45,827 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:45,827 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:45,877 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:45,878 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:45,878 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:45,878 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:45,880 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:45,880 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:45,929 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:45,929 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:45,929 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:45,929 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:45,932 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:45,932 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:45,969 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:45,969 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:45,979 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:45,979 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:45,979 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:45,980 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,029 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,029 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,030 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,030 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,040 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,040 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,079 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,079 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,079 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,079 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,092 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,092 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,129 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,130 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,130 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,130 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,138 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,138 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,178 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,178 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,181 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,182 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,182 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,182 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,232 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,232 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,232 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,232 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,253 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,280 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,282 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,282 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,282 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,282 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,298 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,298 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,332 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,332 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,332 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,332 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,337 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,337 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,378 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,378 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,382 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,382 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,382 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,382 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,431 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,431 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,432 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,432 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,432 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,432 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,479 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,479 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,482 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,482 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,482 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,482 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,527 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,527 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,532 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,532 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,532 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,532 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,579 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,579 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,582 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,582 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,582 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,582 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,627 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,627 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,632 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,632 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,632 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,632 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,682 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,682 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,682 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,682 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,682 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,682 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,730 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,730 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,732 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,732 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,732 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,732 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,779 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,779 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,783 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,784 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,784 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,784 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,832 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,832 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,834 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,834 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,834 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,834 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,877 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,877 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,884 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,884 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,884 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,884 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,928 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,928 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,935 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,935 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,935 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,935 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:46,977 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:46,977 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:46,984 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:46,984 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:46,984 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:46,984 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,027 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,028 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,035 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,035 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,036 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,036 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,080 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,080 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,084 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,085 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,085 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,085 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,131 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,131 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,135 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,136 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,136 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,136 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,178 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,178 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,185 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,185 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,185 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,185 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,235 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,235 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,236 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,236 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,241 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,241 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,285 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,285 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,285 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,285 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,294 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,294 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,335 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,335 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,335 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,335 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,339 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,339 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,377 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,377 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,385 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,385 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,385 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,385 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,435 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,435 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,435 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,435 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,438 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,438 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,480 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,480 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,485 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,485 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,485 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,485 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,530 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,530 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,535 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,535 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,535 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,535 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,568 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,568 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,585 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,585 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,585 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,585 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,635 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,635 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,635 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,635 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,636 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,636 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,677 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,677 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,685 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,686 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,686 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,686 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,729 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,729 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,736 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,736 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,736 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,736 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,778 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,778 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,787 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,787 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,787 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,787 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,829 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,829 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,836 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,836 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,836 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,836 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,886 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,886 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,886 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,886 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,888 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,888 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,931 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,932 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,937 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,937 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,937 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,937 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:47,980 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:47,980 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:47,986 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:47,986 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:47,986 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:47,986 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,032 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,032 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,036 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,036 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,036 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,036 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,080 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,080 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,086 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,086 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,086 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,086 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,130 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,130 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,136 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,136 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,136 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,136 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,180 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,180 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,186 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,186 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,186 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,186 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,227 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,228 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,236 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,236 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,236 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,236 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,280 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,281 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,286 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,286 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,286 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,286 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,336 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,336 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,336 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,336 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,337 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,337 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,377 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,377 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,386 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,386 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,386 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,386 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,436 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,436 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,436 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,436 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,436 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,436 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,479 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,479 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,486 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,486 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,486 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,486 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,530 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,530 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,536 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,537 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,537 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,537 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,578 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,578 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,586 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,586 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,586 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,586 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,628 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,629 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,636 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,636 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,636 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,636 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,681 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,681 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,686 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,686 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,686 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,686 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,730 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,730 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,736 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,736 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,736 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,736 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,780 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,780 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,786 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,787 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,787 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,787 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,836 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,836 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,836 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,836 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,841 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,841 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,887 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,887 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,887 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,887 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,890 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,890 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,930 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,930 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,937 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,938 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,938 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,938 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:48,977 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:48,977 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:48,987 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:48,987 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:48,987 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:48,987 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,027 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,027 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,038 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,038 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,038 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,038 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,088 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,088 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,088 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,088 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,089 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,090 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,135 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,136 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,138 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,138 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,138 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,138 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,179 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,179 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,188 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,188 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,188 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,188 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,237 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,238 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,238 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,238 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,243 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,243 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,289 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,289 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,289 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,289 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,290 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,290 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,339 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,339 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,339 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,339 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,340 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,340 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,379 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,380 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,389 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,389 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,389 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,389 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,433 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,433 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,439 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,440 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,440 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,440 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,479 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,479 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,490 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,490 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,490 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,490 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,532 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,532 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,540 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,541 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,541 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,541 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,580 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,580 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,590 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,590 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,590 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,590 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,634 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,635 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,641 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,641 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,641 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,641 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,690 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,690 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,691 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,691 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,691 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,691 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,738 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,738 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,741 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,741 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,741 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,741 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,791 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,792 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,792 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,792 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,801 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,801 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,843 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,843 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,843 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,843 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,852 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,852 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,893 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,894 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,894 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,894 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,898 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,898 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,938 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,938 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:49,942 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,943 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,943 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,943 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,993 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:49,993 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:49,993 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:49,993 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:49,994 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:49,994 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,041 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,041 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,043 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,043 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,043 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,043 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,092 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,092 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,093 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,093 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,093 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,093 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,139 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,139 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,143 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,143 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,143 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,143 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,180 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,180 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,193 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,193 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,193 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,193 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,238 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,265 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,243 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,268 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,268 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,268 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,293 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,294 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,294 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,294 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,310 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,310 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,344 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,344 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,344 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,344 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,385 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,385 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,394 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,394 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,394 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,395 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,440 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,440 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,444 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,444 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,445 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,445 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,478 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,478 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,495 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,495 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,495 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,495 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,521 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,522 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,545 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,545 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,545 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,545 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,572 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,572 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,595 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,595 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,595 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,595 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,618 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,618 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,645 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,645 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,645 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,645 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,658 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,658 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,695 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,695 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,695 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,695 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,698 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,698 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,738 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,738 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,745 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,745 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,745 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,745 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,796 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,796 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,796 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,796 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,836 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:50,836 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:50,846 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,846 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,846 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,846 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,896 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,897 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,897 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,897 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,948 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,948 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,948 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,948 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:50,998 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:50,999 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:50,999 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:50,999 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,049 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,049 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,049 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,049 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,099 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,099 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,099 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,099 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,149 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,149 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,149 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,149 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,199 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,199 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,199 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,199 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,248 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,249 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,249 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,249 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,299 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,299 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,299 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,299 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,349 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,349 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,349 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,349 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,400 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,400 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,400 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,400 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,406 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,406 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,450 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,450 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,450 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,450 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,463 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,463 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,500 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,500 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,500 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,500 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,501 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,501 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,550 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,550 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,550 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,550 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,553 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,553 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,599 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,599 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,601 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,601 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,601 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,601 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,644 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,644 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,651 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,651 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,651 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,651 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,690 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,690 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,702 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,705 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,705 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,705 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,727 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,727 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,752 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,752 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,752 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,752 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,772 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,772 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,802 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,802 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,802 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,802 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,818 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,818 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,852 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,852 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,852 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,852 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,861 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,862 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,900 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,900 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,902 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,902 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,902 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,902 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,951 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,951 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:51,952 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:51,952 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:51,952 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:51,952 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:51,997 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:51,997 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,003 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,003 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,003 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,003 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:52,040 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,040 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,053 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,053 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,053 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,053 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:52,078 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,078 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,103 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,103 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,103 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,103 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:52,122 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,122 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,153 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,153 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,153 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,153 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:52,170 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,170 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,203 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,203 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,203 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,203 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:52,211 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,211 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,259 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,259 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,297 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,297 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,337 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,337 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,374 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,374 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,374 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,374 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:52,378 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,378 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,418 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,418 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,458 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,458 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,496 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,497 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,539 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,539 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,578 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,578 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,618 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,618 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,659 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,659 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,874 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,874 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,874 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,874 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:52,920 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,920 WARN logic.ResponseHandler [Thread-0] help - a command which gives an information about
+every single command which is supported in this app.
+history - a command to show history of commands usage!
+exit - a command to exit everything.
+show - a command which shows the collection items
+info - a command to get info about the collection:
+ type, time, etc
+remove_key <key> - a command which removes an element by key.
+clear - a command to clear the collection.
+remove_lower <key> - a command which removes the elements
+which are lower than <key> one.
+execute_script <filename> - a command which executes a script.
+average_of_minimal_point - a command which show an average
+ minimal point field value of collection items.
+print_field_descending_difficulty - a command which prints descending difficulty.
+remove_any_by_discipline <discipline> - a command to remove by disc.
+insert <key> - a command which asks to give element info and inserts it by key.
+update <id> - a command which updates element values by id.
+save - a command which saves the collection into collection.json
+
+login <user> <pass>
+register <user> <pass> - can register new user
+
+2021-06-17 11:59:52,920 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,920 WARN logic.ResponseHandler [Thread-0] help - a command which gives an information about
+every single command which is supported in this app.
+history - a command to show history of commands usage!
+exit - a command to exit everything.
+show - a command which shows the collection items
+info - a command to get info about the collection:
+ type, time, etc
+remove_key <key> - a command which removes an element by key.
+clear - a command to clear the collection.
+remove_lower <key> - a command which removes the elements
+which are lower than <key> one.
+execute_script <filename> - a command which executes a script.
+average_of_minimal_point - a command which show an average
+ minimal point field value of collection items.
+print_field_descending_difficulty - a command which prints descending difficulty.
+remove_any_by_discipline <discipline> - a command to remove by disc.
+insert <key> - a command which asks to give element info and inserts it by key.
+update <id> - a command which updates element values by id.
+save - a command which saves the collection into collection.json
+
+login <user> <pass>
+register <user> <pass> - can register new user
+
+2021-06-17 11:59:52,924 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,924 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,924 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,924 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:52,959 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:52,959 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:52,975 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:52,975 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:52,975 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:52,975 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:53,018 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:53,018 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:53,025 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:53,025 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:53,025 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:53,025 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:53,075 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:53,076 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:53,076 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:53,076 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:53,088 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:53,088 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:53,126 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:53,126 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:53,126 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:53,126 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:53,130 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:53,130 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:53,168 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:53,168 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:53,176 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:53,176 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:53,176 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:53,176 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:53,210 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:53,210 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:53,226 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:53,226 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:53,226 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:53,226 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:53,268 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:53,268 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 11:59:53,276 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 11:59:53,276 WARN interfaces.UI [main] Getting input data.
+2021-06-17 11:59:53,276 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 11:59:53,276 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 11:59:53,322 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 11:59:53,322 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:00:10,542 INFO interfaces.UI [main] Got a valid command: remove_any_by_discipline
+2021-06-17 12:00:10,542 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:00:13,109 WARN interfaces.UI [main] Got discipline name.
+2021-06-17 12:00:14,937 WARN interfaces.UI [main] Got discipline hours.
+2021-06-17 12:00:14,937 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:00:15,035 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:00:15,036 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:00:42,165 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:00:42,165 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:00:42,165 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:00:42,165 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:00:42,208 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:00:42,208 WARN logic.ResponseHandler [Thread-0] REMOVED
+2021-06-17 12:00:44,822 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:00:44,823 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:00:44,823 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:00:44,823 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:00:44,868 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:00:44,868 WARN logic.ResponseHandler [Thread-0] {1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}}
+2021-06-17 12:00:46,567 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:00:46,567 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:00:46,567 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:00:46,567 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:00:46,600 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:00:46,600 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:00:47,160 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:00:47,161 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:00:47,161 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:00:47,161 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:00:47,210 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:00:47,210 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:00:53,528 INFO interfaces.UI [main] Got a valid command: insert 22
+2021-06-17 12:00:53,528 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:00:53,528 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:00:58,825 WARN interfaces.UI [main] Got labwork name.
+2021-06-17 12:00:59,965 WARN interfaces.UI [main] Got coordinate X.
+2021-06-17 12:01:00,992 WARN interfaces.UI [main] Got coordinate Y.
+2021-06-17 12:01:03,405 WARN interfaces.UI [main] Got minimal point.
+2021-06-17 12:01:07,151 WARN interfaces.UI [main] Got difficulty.
+2021-06-17 12:01:08,546 WARN interfaces.UI [main] Got discipline name.
+2021-06-17 12:01:10,150 WARN interfaces.UI [main] Got discipline hours.
+2021-06-17 12:01:10,151 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:10,200 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:10,201 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:13,193 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:13,193 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:13,193 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:13,193 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:13,240 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:13,240 WARN logic.ResponseHandler [Thread-0] Inserted.
+2021-06-17 12:01:21,140 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:21,141 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:21,141 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:21,141 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:21,180 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:21,180 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:21,562 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:21,562 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:21,562 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:21,563 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:21,611 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:21,611 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:21,807 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:21,807 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:21,807 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:21,807 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:21,859 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:21,859 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:22,046 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:22,046 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:22,046 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:22,046 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:22,106 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:22,106 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:22,219 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:22,219 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:22,219 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:22,219 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:22,274 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:22,274 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:22,414 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:22,414 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:22,414 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:22,415 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:22,450 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:22,450 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:22,625 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:22,626 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:22,626 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:22,626 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:22,683 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:22,683 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:22,806 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:22,806 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:22,806 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:22,807 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:22,860 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:22,860 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:22,991 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:22,991 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:22,991 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:22,991 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:23,032 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:23,032 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:23,160 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:23,161 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:23,161 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:23,161 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:23,213 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:23,213 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:23,366 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:23,366 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:23,366 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:23,366 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:23,417 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:23,417 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:23,545 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:23,545 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:23,545 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:23,545 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:23,581 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:23,581 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:42,023 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:42,025 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:01:46,683 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:01:46,683 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:46,684 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:46,684 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:46,731 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:46,731 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 12:01:51,764 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:51,792 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:51,792 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:51,792 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:51,839 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:51,839 WARN logic.ResponseHandler [Thread-0] Use login or register before show
+2021-06-17 12:01:52,375 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:01:52,376 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:01:52,376 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:01:52,376 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:01:52,411 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:01:52,411 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:00,807 INFO interfaces.UI [main] Got a valid command: register user 
+2021-06-17 12:02:00,807 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:00,807 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:02:00,807 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:00,855 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:00,855 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:05,750 INFO interfaces.UI [main] Got a valid command: register user  
+2021-06-17 12:02:05,751 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:05,751 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:02:05,751 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:05,802 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:05,802 WARN logic.ResponseHandler [Thread-0] Use login or register before register
+2021-06-17 12:02:13,619 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:13,619 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:13,619 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:13,619 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:13,699 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:13,700 WARN logic.ResponseHandler [Thread-0] Use login or register before register
+2021-06-17 12:02:13,965 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:13,965 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:13,965 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:13,965 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:14,031 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:14,031 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:14,230 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:14,230 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:14,230 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:14,230 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:14,274 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:14,275 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:18,512 INFO interfaces.UI [main] Got a valid command: register user pass
+2021-06-17 12:02:18,512 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:18,512 INFO interfaces.UI [main] FOUND login or register
+2021-06-17 12:02:18,512 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:02:18,512 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:18,592 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:18,592 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:19,257 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:19,258 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:19,258 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:19,258 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:19,328 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:19,329 WARN logic.ResponseHandler [Thread-0] Use login or register before register
+2021-06-17 12:02:19,841 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:19,841 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:19,841 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:19,841 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:19,882 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:19,882 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:22,286 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:22,287 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:22,287 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:22,287 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:22,375 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:22,376 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:22,688 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:22,688 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:22,688 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:22,688 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:22,734 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:22,735 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:22,899 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:22,899 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:22,899 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:22,899 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:22,959 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:22,960 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:23,086 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:23,087 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:23,087 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:23,087 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:23,133 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:23,134 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:23,297 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:23,297 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:23,297 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:23,297 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:23,337 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:23,337 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:02:23,497 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:02:23,498 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:02:23,498 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:02:23,498 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:02:23,560 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:02:23,560 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:11,290 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:03:11,290 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:11,290 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:11,291 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:12,395 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:12,395 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:12,395 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:12,395 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:12,731 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:12,731 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:12,731 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:12,731 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:12,731 ERROR logic.RequestHandler [main] ERROR DURING SENDING A REQUEST!
+2021-06-17 12:03:12,923 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:12,923 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:12,923 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:12,923 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:12,923 ERROR logic.RequestHandler [main] ERROR DURING SENDING A REQUEST!
+2021-06-17 12:03:17,148 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:03:17,148 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:17,148 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:17,148 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:17,233 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:17,233 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 12:03:17,824 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:17,825 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:17,825 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:17,825 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:18,221 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:18,221 WARN logic.ResponseHandler [Thread-0] {22={id=18, name='thread', coordinates={x=1.0, y=23.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='23', selfStudyHours=11}, author=admin}, 1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}}
+2021-06-17 12:03:18,326 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:18,327 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:18,327 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:18,327 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:18,370 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:18,370 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:03:23,417 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:23,419 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:03:25,094 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:03:25,094 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:25,095 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:25,095 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:25,153 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:25,154 WARN logic.ResponseHandler [Thread-0] Успешно законнектился!
+2021-06-17 12:03:26,053 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:26,053 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:26,054 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:26,054 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:26,348 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:26,349 WARN logic.ResponseHandler [Thread-0] Use login or register before show
+2021-06-17 12:03:31,768 INFO interfaces.UI [main] Got a valid command: register user  
+2021-06-17 12:03:31,768 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:31,768 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:03:31,768 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:31,838 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:31,838 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:32,941 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:32,942 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:32,942 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:32,942 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:34,781 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:34,781 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:34,781 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:34,781 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:34,849 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:34,849 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:36,409 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:36,410 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:36,410 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:36,410 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:36,466 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:36,467 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:36,948 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:36,948 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:36,948 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:36,948 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:37,199 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:37,200 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:42,975 INFO interfaces.UI [main] Got a valid command: login user  
+2021-06-17 12:03:42,976 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:42,976 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:03:42,976 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:43,057 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:43,057 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:43,879 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:43,880 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:43,880 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:43,880 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:44,499 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:44,500 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:44,500 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:44,500 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:44,777 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:44,777 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:44,912 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:44,912 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:44,912 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:44,912 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:44,951 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:44,951 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:45,928 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:45,928 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:45,928 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:45,928 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:45,972 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:45,972 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:54,200 INFO interfaces.UI [main] Got a valid command: register test test
+2021-06-17 12:03:54,201 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:54,201 INFO interfaces.UI [main] FOUND login or register
+2021-06-17 12:03:54,202 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:03:54,202 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:54,253 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:54,253 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:03:57,808 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:03:57,809 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:03:57,809 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:03:57,809 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:03:57,986 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:03:57,986 WARN logic.ResponseHandler [Thread-0] All good: user add
+2021-06-17 12:04:01,818 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:01,818 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:01,818 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:01,819 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:01,889 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:01,889 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:04:03,077 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:03,078 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:03,078 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:03,078 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:03,142 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:03,142 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:04:07,177 INFO interfaces.UI [main] Got a valid command: login test test
+2021-06-17 12:04:07,177 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:07,177 INFO interfaces.UI [main] FOUND login or register
+2021-06-17 12:04:07,177 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:04:07,178 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:07,228 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:07,228 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:04:08,097 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:08,098 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:08,098 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:08,098 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:08,141 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:08,141 WARN logic.ResponseHandler [Thread-0] test
+2021-06-17 12:04:09,461 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:09,461 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:09,461 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:09,489 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:09,534 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:09,535 WARN logic.ResponseHandler [Thread-0] Use login or register before 
+2021-06-17 12:04:10,718 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:10,719 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:10,719 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:10,719 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:10,770 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:10,770 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:04:15,762 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:15,762 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:15,762 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:15,762 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:15,809 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:15,809 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:04:16,376 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:16,376 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:16,376 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:16,376 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:16,421 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:16,422 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:04:16,712 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:16,712 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:16,712 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:16,712 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:16,768 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:16,768 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:04:28,412 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:28,412 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:28,412 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:28,412 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:28,459 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:28,459 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:04:34,966 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:04:34,966 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:34,966 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:34,966 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:35,026 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:35,027 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:04:36,925 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:04:36,925 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:04:36,925 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:04:36,925 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:04:36,975 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:04:36,975 WARN logic.ResponseHandler [Thread-0] {22={id=18, name='thread', coordinates={x=1.0, y=23.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='23', selfStudyHours=11}, author=admin}, 1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}}
+2021-06-17 12:05:51,356 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-17 12:05:51,361 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:05:51,361 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:05:51,361 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:05:51,475 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:05:51,475 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:05:52,917 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:05:52,917 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:05:52,917 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:05:52,917 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:05:53,004 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:05:53,004 WARN logic.ResponseHandler [Thread-0] [Use login or register before null]
+2021-06-17 12:05:57,046 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:05:57,046 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:05:57,047 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:05:57,047 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:05:57,112 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:05:57,112 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:08:34,763 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-17 12:08:34,782 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:08:34,783 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:08:34,784 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:02,191 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:09:02,191 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:02,191 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:09:02,191 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:02,355 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:02,355 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:09:02,356 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:02,356 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:09:03,724 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:09:03,724 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:03,724 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:09:03,724 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:04,818 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:09:04,819 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:04,819 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:09:04,819 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:04,865 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:04,865 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:09:13,956 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-17 12:09:13,956 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:13,957 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:09:13,957 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:14,012 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:14,012 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:09:14,861 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:09:14,861 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:14,861 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:09:14,861 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:14,905 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:14,905 WARN logic.ResponseHandler [Thread-0] [Inserted.]
+2021-06-17 12:09:43,722 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-17 12:09:43,723 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:43,723 WARN interfaces.UI [main] Got command arg.
+2021-06-17 12:09:43,723 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:43,775 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:43,775 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:09:44,248 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:09:44,248 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:44,248 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:09:44,249 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:44,304 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:44,305 WARN logic.ResponseHandler [Thread-0] [Inserted.]
+2021-06-17 12:09:49,454 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:09:49,454 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:49,454 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:09:49,454 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:49,494 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:49,494 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:09:50,562 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:09:50,562 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:09:50,562 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:09:50,562 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:09:50,616 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:09:50,616 WARN logic.ResponseHandler [Thread-0] {22={id=18, name='thread', coordinates={x=1.0, y=23.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='23', selfStudyHours=11}, author=admin}, 1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 25={id=2, name='1', coordinates={x=1.0, y=1.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=1, difficulty=EASY, discipline={name='1', selfStudyHours=1}, author=test}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}, 27={id=2, name='1', coordinates={x=1.0, y=1.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=1, difficulty=EASY, discipline={name='program', selfStudyHours=1}, author=test}}
+2021-06-17 12:10:15,776 INFO interfaces.UI [main] Got a valid command: remove_any_by_discipline
+2021-06-17 12:10:15,777 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:10:19,694 WARN interfaces.UI [main] Got discipline name.
+2021-06-17 12:10:20,705 WARN interfaces.UI [main] Got discipline hours.
+2021-06-17 12:10:20,706 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:10:20,812 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:10:20,813 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:10:22,088 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:10:22,088 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:10:22,088 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:10:22,088 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:10:22,138 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:10:22,138 WARN logic.ResponseHandler [Thread-0] REMOVED
+2021-06-17 12:10:25,060 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:10:25,061 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:10:25,088 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:10:25,088 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:10:25,132 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:10:25,132 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:10:26,246 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:10:26,246 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:10:26,247 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:10:26,247 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:10:26,293 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:10:26,293 WARN logic.ResponseHandler [Thread-0] {22={id=18, name='thread', coordinates={x=1.0, y=23.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='23', selfStudyHours=11}, author=admin}, 1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 25={id=2, name='1', coordinates={x=1.0, y=1.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=1, difficulty=EASY, discipline={name='1', selfStudyHours=1}, author=test}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}}
+2021-06-17 12:10:43,408 INFO interfaces.UI [main] Got a valid command: show
+2021-06-17 12:10:43,408 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:10:43,408 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:10:43,408 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:10:43,457 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:10:43,457 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:10:44,528 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:10:44,528 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:10:44,528 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:10:44,528 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:10:44,576 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:10:44,576 WARN logic.ResponseHandler [Thread-0] {22={id=18, name='thread', coordinates={x=1.0, y=23.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='23', selfStudyHours=11}, author=admin}, 1={id=7, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=2, difficulty=EASY, discipline={name='java', selfStudyHours=10}, author=default}, 2={id=15, name='proga', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=10, difficulty=IMPOSSIBLE, discipline={name='java', selfStudyHours=10}, author=default}, 3={id=17, name='lab 6', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=12, difficulty=EASY, discipline={name='proga', selfStudyHours=11}, author=default}, 25={id=2, name='1', coordinates={x=1.0, y=1.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=17, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=THURSDAY, leapYear=false, dayOfYear=168, era=CE}, minimalPoint=1, difficulty=EASY, discipline={name='1', selfStudyHours=1}, author=test}, 4={id=9, name='lab 7 ', coordinates={x=1.0, y=2.0}, creationDate={year=2021, month=JUNE, monthValue=6, dayOfMonth=16, chronology={id=ISO, calendarType=iso8601}, dayOfWeek=WEDNESDAY, leapYear=false, dayOfYear=167, era=CE}, minimalPoint=3, difficulty=EASY, discipline={name='proga', selfStudyHours=24}, author=default}}
+2021-06-17 12:11:29,129 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:11:29,129 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:11:29,129 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:11:29,129 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:11:29,194 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:11:29,194 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:11:29,705 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:11:29,705 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:11:29,705 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:11:29,706 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:11:29,826 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:11:29,826 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:11:30,058 WARN interfaces.UI [main] Got an invalid command.
+2021-06-17 12:11:30,058 WARN interfaces.UI [main] Getting input data.
+2021-06-17 12:11:30,058 WARN interfaces.UI [main] No input data was provided.
+2021-06-17 12:11:30,058 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-17 12:11:30,099 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-17 12:11:30,099 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-17 12:11:33,906 INFO interfaces.UI [main] Got a valid command: exit

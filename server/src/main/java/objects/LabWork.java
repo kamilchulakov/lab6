@@ -16,6 +16,14 @@ public class LabWork implements Comparable<LabWork>{
     private Discipline discipline; //Поле может быть null
     private String author;
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     public LabWork(String name2, Coordinates coordinates2, Long minimalPoint2,
                    Difficulty difficulty2, Discipline discipline2) {
         name = name2;
@@ -38,6 +46,7 @@ public class LabWork implements Comparable<LabWork>{
         if (name2 != null) id = (int) (name2.length() + minimalPoint);
         else id = Math.toIntExact(minimalPoint);
         creationDate = LocalDate.parse(time);
+        setAuthor(author);
     }
 
     public int getId() {

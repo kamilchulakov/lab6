@@ -14,16 +14,16 @@ import java.util.HashMap;
 public class DatabaseService {
     private static DatabaseService ds;
     private final static String INSERT_LABWORK_SQL = "INSERT INTO labworks" +
-            "  (id, labname, coordinate_x, coordinate_y, minimal_point, difficulty, discipline, self_study_hours, creation_date, labwork_id) VALUES " +
-            " (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+            "  (id, labname, coordinate_x, coordinate_y, minimal_point, difficulty, discipline, self_study_hours, creation_date, labwork_id, author) VALUES " +
+            " (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?);";
     private final static String CLEAR_SQL = "TRUNCATE TABLE labworks";
     private final static String REMOVE_BY_ID_SQL = "DELETE FROM labworks WHERE (id = ?))";
     private final static String ADD_USER_SQL = "INSERT INTO users (\"user\", password) VALUES (?, ?);";
     private final static String UPDATE_SQL = "UPDATE labworks set WHERE labwork_id = ? " +
             "labname = ? , coordinate_x = ? , coordinate_y = ? , minimal_point = ? , difficulty = ? , discipline = ? " +
-            ", self_study_hours = ? , creation_date = ?, labwork_id = ? ;";
-    private final static String REMOVE_LOWER_SQL = "DELETE FROM labworks WHERE labwork_id < ?";
-    private final static String REMOVE_BY_DISCIPLINE_SQL = "DELETE FROM labworks WHERE discipline = ? and self_study_hours = ?";
+            ", self_study_hours = ? , creation_date = ?, author = ?;";
+    private final static String REMOVE_LOWER_SQL = "DELETE FROM labworks WHERE labwork_id < ? and author = ?";
+    private final static String REMOVE_BY_DISCIPLINE_SQL = "DELETE FROM labworks WHERE discipline = ? and self_study_hours = ? and author = ?";
     private final static String GET_SQL = "SELECT * FROM labworks";
     private final static String GET_USERS = "SELECT * FROM users";
 
@@ -61,12 +61,14 @@ public class DatabaseService {
         preparedStatement.setString(7, labWork.getDiscipline().getName());
         preparedStatement.setLong(8, labWork.getDiscipline().getSelfStudyHours());
         preparedStatement.setString(9, labWork.getCreationDate().toString());
+        preparedStatement.setString(10, labWork.getAuthor());
         preparedStatement.executeUpdate();
     }
-    public void remove(String key) throws SQLException {
+    public void remove(String key, String auth) throws SQLException {
         Connection connection = DatabaseConnection.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(REMOVE_BY_ID_SQL);
         preparedStatement.setInt(1, Integer.parseInt(key));
+        preparedStatement.setString(2, auth);
         preparedStatement.execute();
     }
     public void clear() throws SQLException {
@@ -80,11 +82,12 @@ public class DatabaseService {
         preparedStatement.setLong(1, labWork.getId());
         preparedStatement.execute();
     }
-    public void removeByDiscipline(Discipline discipline) throws SQLException {
+    public void removeByDiscipline(Discipline discipline, String user) throws SQLException {
         Connection connection = DatabaseConnection.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(REMOVE_BY_DISCIPLINE_SQL);
         preparedStatement.setString(1, discipline.getName());
         preparedStatement.setLong(2, discipline.getSelfStudyHours());
+        preparedStatement.setString(3, user);
         preparedStatement.execute();
 
     }
@@ -100,6 +103,8 @@ public class DatabaseService {
         preparedStatement.setString(7, labWork.getDiscipline().getName());
         preparedStatement.setLong(8, labWork.getDiscipline().getSelfStudyHours());
         preparedStatement.setString(9, labWork.getCreationDate().toString());
+        preparedStatement.setInt(10, labWork.getId());
+        preparedStatement.setString(11, labWork.getAuthor());
         preparedStatement.execute();
     }
 

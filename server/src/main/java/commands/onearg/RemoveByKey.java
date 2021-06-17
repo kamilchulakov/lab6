@@ -21,7 +21,7 @@ public class RemoveByKey extends AbstractOneArgCommand {
     public OutputData exec(Editor editor, InputData inputData) {
         if (!editor.getCollection().containsKey(inputData.getCommandArg()))
             return new OutputData("Failure", "Key was not found!");
-        editor.removeElementByKey(inputData.getCommandArg());
+        editor.removeElementByKey(inputData.getCommandArg(), inputData.getAuth());
         return new OutputData("Success", "Successfully removed the element.");
     }
 }

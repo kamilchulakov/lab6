@@ -46,9 +46,9 @@ public class Editor {
         return collection.toString();
     }
 
-    public void removeElementByKey(String key) {
+    public void removeElementByKey(String key, String auth) {
         try {
-            databaseService.remove(key);
+            databaseService.remove(key, auth);
         } catch (SQLException exception) {
             exception.printStackTrace();
         }
@@ -84,9 +84,9 @@ public class Editor {
         return result.toString();
     }
 
-    public String removeByDiscipline(Discipline discipline) {
+    public String removeByDiscipline(Discipline discipline, String user) {
         try {
-            databaseService.removeByDiscipline(discipline);
+            databaseService.removeByDiscipline(discipline, user);
             return "REMOVED";
         } catch (SQLException exception) {
             exception.printStackTrace();

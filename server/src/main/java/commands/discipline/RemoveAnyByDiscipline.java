@@ -24,7 +24,7 @@ public class RemoveAnyByDiscipline extends AbstractDisciplineCommand {
             String name = inputData.getDisciplineName();
             Long hours = inputData.getSelfStudyHours();
             Discipline discipline = new Discipline(name, hours);
-            result = new OutputData("Success", editor.removeByDiscipline(discipline));
+            result = new OutputData("Success", editor.removeByDiscipline(discipline, inputData.getAuth()));
             if (result.getResultMessage().trim().equals("No matches")) result = new OutputData("Failure", result.getResultMessage());
         } catch (NumberFormatException numberFormatException) {
             result = new OutputData("Failure", "Invalid number. Try again.");
