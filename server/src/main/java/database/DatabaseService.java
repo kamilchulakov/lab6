@@ -5,6 +5,9 @@ import objects.Difficulty;
 import objects.Discipline;
 import objects.LabWork;
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.sql.*;
 import java.util.HashMap;
 
@@ -15,13 +18,14 @@ public class DatabaseService {
             " (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
     private final static String CLEAR_SQL = "TRUNCATE TABLE labworks";
     private final static String REMOVE_BY_ID_SQL = "DELETE FROM labworks WHERE (id = ?))";
-    private final static String ADD_USER_SQL = "INSERT INTO users (user, password) VALUES (?, ?);";
+    private final static String ADD_USER_SQL = "INSERT INTO users (\"user\", password) VALUES (?, ?);";
     private final static String UPDATE_SQL = "UPDATE labworks set WHERE labwork_id = ? " +
             "labname = ? , coordinate_x = ? , coordinate_y = ? , minimal_point = ? , difficulty = ? , discipline = ? " +
             ", self_study_hours = ? , creation_date = ?, labwork_id = ? ;";
     private final static String REMOVE_LOWER_SQL = "DELETE FROM labworks WHERE labwork_id < ?";
     private final static String REMOVE_BY_DISCIPLINE_SQL = "DELETE FROM labworks WHERE discipline = ? and self_study_hours = ?";
     private final static String GET_SQL = "SELECT * FROM labworks";
+    private final static String GET_USERS = "SELECT * FROM users";
 
     public DatabaseService() {
         ds = this;
@@ -102,5 +106,56 @@ public class DatabaseService {
 
     public synchronized static DatabaseService getInstance() {
         return ds;
+    }
+
+    public void addUser(String pass, String user) throws SQLException{
+        Connection connection = DatabaseConnection.getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(ADD_USER_SQL);
+        preparedStatement.setString(1, user);
+        preparedStatement.setString(2, hash(pass));
+        preparedStatement.execute();
+    }
+
+    private String hash(String input) {
+        try {
+            // getInstance() method is called with algorithm SHA-224
+            MessageDigest md = MessageDigest.getInstance("SHA-224");
+
+            // digest() method is called
+            // to calculate message digest of the input string
+            // returned as array of byte
+            byte[] messageDigest = md.digest(input.getBytes());
+
+            // Convert byte array into signum representation
+            BigInteger no = new BigInteger(1, messageDigest);
+
+            // Convert message digest into hex value
+            String hashtext = no.toString(16);
+
+            // Add preceding 0s to make it 32 bit
+            while (hashtext.length() < 32) {
+                hashtext = "0" + hashtext;
+            }
+
+            // return the HashText
+            return hashtext;
+        }
+
+        // For specifying wrong message digest algorithms
+        catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public boolean checkUser(String user, String pass) throws SQLException {
+        Connection connection = DatabaseConnection.getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(GET_USERS);
+        preparedStatement.execute();
+        ResultSet resultSet = preparedStatement.getResultSet();
+        while (resultSet.next()) {
+            if (user.equals(resultSet.getString(1))
+                    && hash(pass).equals(resultSet.getString(2))) return true;
+        }
+        return false;
     }
 }

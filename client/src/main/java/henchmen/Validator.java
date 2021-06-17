@@ -66,7 +66,7 @@ public class Validator {
     }
 
     private boolean ifContainsInElementCommands(String command) {
-        return command.equals("update") || command.equals("remove_lower") || command.equals("insert") || command.equals("replace_if_lower");
+        return command.equals("update") || command.equals("remove_lower") || command.equals("insert");
     }
 
     private boolean ifContainsInDisciplineCommands(String command) {
@@ -75,7 +75,8 @@ public class Validator {
 
     private boolean ifContainsInOneArgCommands(String command) {
         return command.equals("update") || command.equals("execute_script") || command.equals("remove_by_key")
-                || command.equals("insert") || command.equals("replace_if_lower");
+                || command.equals("login") || command.equals("register")
+                || command.equals("insert");
     }
 
     private boolean ifContainsInNoInputCommands(String command) {

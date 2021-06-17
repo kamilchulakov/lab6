@@ -22,6 +22,9 @@ import java.util.Scanner;
  * AbstractUI is the base of each UI realisation.
  */
 public abstract class AbstractUI implements UI{
+
+    private String auth;
+
     /**
      * Logger is used to make logs.
      */
@@ -131,6 +134,8 @@ public abstract class AbstractUI implements UI{
             setDiscHoursToInputDataLoop(inputData);
         }
         if (inputData.equals(new InputData(inputDataFlag))) logger.warn("No input data was provided.");
+        if (auth != null) inputData.setAuth(auth);
+        //System.out.println(auth);
         return inputData;
     }
 
@@ -281,6 +286,10 @@ public abstract class AbstractUI implements UI{
             String string = scanner.nextLine();
             if (isValidCommand(string)) throw new ExecuteCommandException(string);
             setDiscHoursToInputDataExec(inputData, string);
+        }
+        if (auth != null) {
+            System.out.println(auth);
+            inputData.setAuth(auth);
         }
     }
 
@@ -479,7 +488,13 @@ public abstract class AbstractUI implements UI{
      * @param inputData is InputData object.
      */
     private void setArgToInputDataLoop(String input, InputData inputData) {
-        if (input.split(" ").length == 1) {
+        if (input.split(" ").length == 3
+                && (inputData.getCommandName().equals("login")
+                || inputData.getCommandName().equals("register"))) {
+            logger.info("FOUND login or register");
+            inputData.setCommandArg(input.split(" ")[1] + " " + input.split(" ")[2]);
+        }
+        else if (input.split(" ").length == 1) {
             logger.warn("No arg for command was found.");
             inputData.setCommandArg(null);
         } else {
@@ -647,6 +662,9 @@ public abstract class AbstractUI implements UI{
 
     @Override
     public void display(OutputData outputData) {
+        if (outputData.getStatusMessage().equals("Login")) {
+            auth = outputData.getResultMessage();
+        }
         display(outputData.getStatusMessage(), outputData.getResultMessage());
     }
 }

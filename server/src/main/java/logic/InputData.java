@@ -21,6 +21,15 @@ public class InputData implements Serializable {
     private String difficulty; //Поле не может быть null
     private String disciplineName; //Поле не может быть null Строка не может быть пустой
     private Long selfStudyHours; //Поле может быть null
+    private String auth;
+
+    public String getAuth() {
+        return auth;
+    }
+
+    public void setAuth(String auth) {
+        this.auth = auth;
+    }
 
     public InputData() {
         flagOfCLI = true;

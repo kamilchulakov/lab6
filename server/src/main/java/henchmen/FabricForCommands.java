@@ -5,6 +5,8 @@ import commands.discipline.RemoveAnyByDiscipline;
 import commands.element.RemoveLower;
 import commands.noinput.*;
 import commands.onearg.ExecuteScript;
+import commands.onearg.Login;
+import commands.onearg.Register;
 import commands.onearg.RemoveByKey;
 import commands.oneargelement.InsertKey;
 import commands.oneargelement.Update;
@@ -45,6 +47,8 @@ public class FabricForCommands {
         list.add(new Update());
         list.add(new Save());
         list.add(new Connect());
+        list.add(new Login());
+        list.add(new Register());
     }
 
     private void addCommandToTypedLists() {

@@ -113,4 +113,13 @@ public class Editor {
     public void save() {
 
     }
+
+    public String addUser(String user, String pass) throws SQLException {
+        databaseService.addUser(pass, user);
+        return "All good: user add";
+    }
+
+    public boolean userExists(String user, String pass) throws SQLException {
+        return databaseService.checkUser(user, pass);
+    }
 }
