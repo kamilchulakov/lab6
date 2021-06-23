@@ -7,6 +7,7 @@ import logic.OutputData;
 import objects.FabricLabWorks;
 import objects.LabWork;
 
+import java.sql.SQLException;
 import java.util.NoSuchElementException;
 
 public class Update extends AbstractOneArgElement {
@@ -28,6 +29,8 @@ public class Update extends AbstractOneArgElement {
             editor.update(Integer.parseInt(inputData.getCommandArg()), labwork);
         } catch (NoSuchElementException e) {
             return new OutputData("Error", "Invalid id: no such element");
+        } catch (SQLException e) {
+            return new OutputData("Error", "Not an author!");
         } catch (Exception e) {
             e.printStackTrace();
             return new OutputData("Error", "Invalid InputData.");

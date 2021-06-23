@@ -19,13 +19,15 @@ public class Login extends AbstractOneArgCommand{
 
     @Override
     public OutputData exec(Editor editor, InputData inputData) {
-        String user = inputData.getCommandArg().split(" ")[0];
-        String pass = inputData.getCommandArg().split(" ")[1];
         try {
+            String user = inputData.getCommandArg().split(" ")[0];
+            String pass = inputData.getCommandArg().split(" ")[1];
             if (editor.userExists(user, pass)) {
                 return new OutputData("Login",
                         user);
             }
+        } catch (ArrayIndexOutOfBoundsException e) {
+            return new OutputData("Error", "No password provided...");
         } catch (SQLException exception) {
             return new OutputData("Failure", "SQL Exception");
         }

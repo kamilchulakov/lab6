@@ -25,8 +25,7 @@ public class InsertKey extends AbstractOneArgElement {
             LabWork labwork = fabricLabWorks.makeLabworkFromInputData(inputData);
             editor.insert(inputData.getCommandArg(), labwork);
         } catch (Exception e) {
-            e.printStackTrace();
-            return new OutputData("Failure", "Some problems with input data.");
+            return new OutputData("Failure", "Key already in use");
         }
         return new OutputData("Success", "Inserted.");
     }

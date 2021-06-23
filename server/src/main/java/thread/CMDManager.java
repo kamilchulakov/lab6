@@ -37,7 +37,7 @@ public class CMDManager implements Runnable{
     }
 
     private String getHistory(int number) {
-        return commandHistory.getPureHistory(number);
+        return clientData.getCommandHistory();
     }
     public OutputData execute(Editor editor, String justCommand, InputData inputData) {
         return getOutputData(justCommand, inputData, editor);

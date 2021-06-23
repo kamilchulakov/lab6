@@ -74,7 +74,7 @@ public class Validator {
     }
 
     private boolean ifContainsInOneArgCommands(String command) {
-        return command.equals("update") || command.equals("execute_script") || command.equals("remove_by_key")
+        return command.equals("update") || command.equals("execute_script") || command.equals("remove_key")
                 || command.equals("login") || command.equals("register")
                 || command.equals("insert");
     }

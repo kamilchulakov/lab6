@@ -94,20 +94,13 @@ public class Editor {
         return "Tried to remove.";
     }
 
-    public void update(int id, LabWork labWork) {
-        try {
-            databaseService.update(id, labWork);
-        } catch (SQLException exception) {
-            exception.printStackTrace();
-        }
+    public void update(int id, LabWork labWork) throws SQLException {
+        databaseService.update(id, labWork);
     }
 
-    public void insert(String key, LabWork labwork) {
-        try {
-            databaseService.insert(key, labwork);
-        } catch (SQLException exception) {
-            exception.printStackTrace();
-        }
+    public void insert(String key, LabWork labwork) throws SQLException {
+        if (!collection.containsKey(key)) throw new NoSuchElementException();
+        databaseService.insert(key, labwork);
     }
     
     public void save() {
