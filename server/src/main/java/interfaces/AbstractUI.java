@@ -1,5 +1,6 @@
 package interfaces;
 
+import logic.DefaultCommandManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import henchmen.Validator;
@@ -20,7 +21,7 @@ public abstract class AbstractUI implements UI, Runnable{
     /**
      * CMDManager is used to make OutputData.
      */
-    CMDManager cmdManager;
+    DefaultCommandManager cmdManager;
     /**
      * Validator is used in all methods which check something.
      */
@@ -40,7 +41,7 @@ public abstract class AbstractUI implements UI, Runnable{
      * Class constructor which isn't modified in children.
      */
     public AbstractUI() {
-        cmdManager = new CMDManager();
+        cmdManager = new DefaultCommandManager();
         cachedFilenames = new ArrayList<>();
         validator = new Validator();
         logger = LoggerFactory.getLogger(UI.class);
@@ -67,10 +68,6 @@ public abstract class AbstractUI implements UI, Runnable{
                 //logger.warn("This is result status: " + result.getStatusMessage());
                 //logger.warn("This is result:\n" + result.getResultMessage());
                 display(result.getStatusMessage(), result.getResultMessage());
-                if (pureCommand.equals("save")) {
-                    result = cmdManager.save();
-                    display(result.getStatusMessage(), result.getResultMessage());
-                }
             }
 
         }

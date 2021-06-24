@@ -1,28 +1,35 @@
-package thread;
+package logic;
 
-import commands.noinput.Save;
-import logic.Editor;
-import logic.InputData;
-import logic.OutputData;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import commands.Command;
 import henchmen.CommandHistory;
 import henchmen.FabricForCommands;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import thread.CMDManager;
+import thread.ClientData;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
 
-public class CMDManager implements Runnable{
+public class DefaultCommandManager {
     private CommandHistory commandHistory = new CommandHistory();
     private final Logger logger
             = LoggerFactory.getLogger(CMDManager.class);
     private final ArrayList<Command> commands = new ArrayList<>();
     private Editor editor;
     private final ClientData clientData;
+    public DefaultCommandManager() {
+        FabricForCommands fabricForCommands = new FabricForCommands();
+        commands.addAll(fabricForCommands.getAllCommandsArrayList());
+        clientData = null;
+        editor = new Editor();
+    }
+    public DefaultCommandManager(String path) {
+        this();
+        editor = new Editor();
+    }
 
-    public CMDManager(ClientData clientData) throws IOException {
+    public DefaultCommandManager(ClientData clientData) throws IOException {
         FabricForCommands fabricForCommands = new FabricForCommands();
         commands.addAll(fabricForCommands.getAllCommandsArrayList());
         editor = new Editor();
@@ -32,7 +39,12 @@ public class CMDManager implements Runnable{
     private String getHistory(int number) {
         return clientData.getCommandHistory();
     }
-
+    public OutputData execute(Editor editor, String justCommand, InputData inputData) {
+        return getOutputData(justCommand, inputData, editor);
+    }
+    public OutputData execute(String justCommand, InputData inputData) {
+        return getOutputData(justCommand, inputData, editor);
+    }
     public OutputData execute(InputData inputData) {
         return getOutputData(inputData.getCommandName(), inputData, editor);
     }
@@ -44,10 +56,8 @@ public class CMDManager implements Runnable{
             commandHistory.add(justCommand + " " + inputData.getCommandArg());
         else commandHistory.add(justCommand);
         if (!justCommand.equals("login") && inputData.getAuth() == null)
-            if (!justCommand.equals("connect") && !justCommand.equals("register"))
-                return new OutputData("Please login", "Use login or register before " + inputData.getCommandName());
-
-        logger.warn(String.format("Executing command: %s for %s", justCommand, clientData.getClientAddress()));
+            if (!justCommand.equals("connect") && !justCommand.equals("register")) return new OutputData("Please login", "Use login or register before " + inputData.getCommandName());
+        logger.warn(String.format("Executing command: %s with InputData: %s", justCommand, inputData));
         if (justCommand.equals("history")) {
             logger.warn("Recognized history.");
             return new OutputData("Success", getHistory(7));
@@ -56,7 +66,7 @@ public class CMDManager implements Runnable{
         synchronized (editor) {
             try {
                 result = command.exec(editor, inputData);
-                logger.warn("Executed command: " + justCommand + " for " + clientData.getClientAddress());
+                logger.warn("Executed command: " + justCommand);
             } catch (NullPointerException e) {
                 logger.error("Command was not found.");
                 //if (command.getName().equals("login")) e.printStackTrace();
@@ -65,7 +75,7 @@ public class CMDManager implements Runnable{
         }
         long endTime = System.currentTimeMillis();
 
-        logger.info(justCommand + ": That took " + (endTime - startTime) + " milliseconds");
+        System.out.println(justCommand + ": That took " + (endTime - startTime) + " milliseconds");
         return result;
     }
 
@@ -81,28 +91,5 @@ public class CMDManager implements Runnable{
 
     public Editor getCollection() {
         return editor;
-    }
-
-    public OutputData save() {
-        return new Save().exec(editor, new InputData());
-    }
-
-    @Override
-    public void run() {
-        try {
-            InputData inputData = clientData.getInputData();
-            ClientData saved = new ClientData();
-            // он нужен, чтобы всё работало :)
-            saved.setClientAddress(clientData.getClientAddress());
-            saved.setConnected(clientData.isConnected());
-            saved.setCommandHistory(clientData.getCommandHistoryArray());
-            saved.setDatagramChannel(clientData.getDatagramChannel());
-
-            saved.setOutputData(execute(inputData));
-            AllThreadsDataQueues.toWriteQueue.add(saved);
-        } catch (IOException ioException) {
-            ioException.printStackTrace();
-        }
-
     }
 }

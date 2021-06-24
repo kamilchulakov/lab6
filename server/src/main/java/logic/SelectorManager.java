@@ -1,5 +1,7 @@
 package logic;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import thread.AllThreadsDataQueues;
 import thread.CMDManager;
 import thread.ReadHandler;
@@ -16,6 +18,7 @@ import java.util.concurrent.ForkJoinPool;
 
 public class SelectorManager{
     private static final Selector selector = ServerRunner.getSelector();
+    private static final Logger logger = LoggerFactory.getLogger(SelectorManager.class);
 
     public static void run() {
         ExecutorService readPool = Executors.newCachedThreadPool();
@@ -23,10 +26,10 @@ public class SelectorManager{
         ExecutorService writePool = Executors.newFixedThreadPool(10);
         while(ServerRunner.isRunning()){
             try {
-                if (selector.select(3000) == 0) {
-                    continue;
-                }
-                selector.select();
+//                if (selector.select(3000) == 0) {
+//                    continue;
+//                }
+                selector.select(50);
                 Set<SelectionKey> keys = selector.selectedKeys();
 
                 for (Iterator<SelectionKey> i = keys.iterator(); i.hasNext();) {
@@ -39,9 +42,11 @@ public class SelectorManager{
                     }
                 }
                 while (!AllThreadsDataQueues.toExecuteQueue.isEmpty()) {
+                    logger.info(AllThreadsDataQueues.toExecuteQueue.toString());
                     executePool.execute(new CMDManager(AllThreadsDataQueues.toExecuteQueue.poll()));
                 }
                 while (!AllThreadsDataQueues.toWriteQueue.isEmpty()) {
+                    logger.info(AllThreadsDataQueues.toWriteQueue.toString());
                     writePool.execute(new WriteHandler(AllThreadsDataQueues.toWriteQueue.poll()));
                 }
             } catch (IOException e) {

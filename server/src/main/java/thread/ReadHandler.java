@@ -16,6 +16,7 @@ public class ReadHandler {
         DatagramChannel channel = (DatagramChannel) key.channel();
         channel.configureBlocking(false);
         ClientData client = (ClientData) key.attachment();
+        //System.out.println(client.getClientAddress());
         Buffer buffer = client.getBuffer();
         buffer.clear();
         SocketAddress socketAddress = channel.receive(client.getBuffer());
@@ -24,6 +25,7 @@ public class ReadHandler {
         }
         client.setCommandHistory(commandHistoryHashMap.get(socketAddress));
         client.setClientAddress(socketAddress);
+        //System.out.println(client.getClientAddress());
         if (client.getClientAddress() != null) {
             System.out.println(((InetSocketAddress) client.getClientAddress()).getAddress() + ":" + ((InetSocketAddress) client.getClientAddress()).getPort() + " received packet");
         }

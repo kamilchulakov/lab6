@@ -38,7 +38,6 @@ public class ServerRunner {
                     datagramChannel.bind(new InetSocketAddress(PORT));
                     socket = datagramChannel.socket();
                     selector = Selector.open();
-                    answerHandler = new CMDManager();
                     new Thread(new CLI()).start();
                     datagramChannel.register(selector, SelectionKey.OP_READ, new ClientData());
                     System.out.println("Listening " + PORT + " port");

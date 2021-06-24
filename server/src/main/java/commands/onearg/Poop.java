@@ -1,5 +1,6 @@
 package commands.onearg;
 
+import logic.DefaultCommandManager;
 import org.slf4j.LoggerFactory;
 import henchmen.Validator;
 import input_exceptions.CancelException;
@@ -20,14 +21,14 @@ import java.util.Scanner;
 public class Poop {
     Validator validator = new Validator();
     ArrayList<String> cachedFilenames;
-    CMDManager cmdManager;
+    DefaultCommandManager cmdManager;
     Logger logger = LoggerFactory.getLogger(Poop.class);
     Editor editor;
     String author;
     ArrayList<String> cachedResults;
 
     public void run(Editor editor, InputData inputData) {
-        cmdManager = new CMDManager();
+        cmdManager = new DefaultCommandManager();
         cachedFilenames = new ArrayList<>();
         cachedResults = new ArrayList<>();
         author = inputData.getAuth();
