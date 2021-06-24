@@ -34,7 +34,7 @@ public class WriteHandler implements Runnable{
                 byte[] replyBytes = outputStream.toByteArray();
                 ByteBuffer buff = ByteBuffer.wrap(replyBytes);
                 channel.send(buff, clientData.getClientAddress());
-                System.out.println("Sending answer to " + clientData.getClientAddress());
+                logger.info("Sending answer to " + clientData.getClientAddress());
                 logger.info("Sent answer " + replyBytes.length + " bytes");
             } catch (IOException e) {
                 e.printStackTrace();

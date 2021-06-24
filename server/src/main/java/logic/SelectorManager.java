@@ -42,11 +42,9 @@ public class SelectorManager{
                     }
                 }
                 while (!AllThreadsDataQueues.toExecuteQueue.isEmpty()) {
-                    logger.info(AllThreadsDataQueues.toExecuteQueue.toString());
                     executePool.execute(new CMDManager(AllThreadsDataQueues.toExecuteQueue.poll()));
                 }
                 while (!AllThreadsDataQueues.toWriteQueue.isEmpty()) {
-                    logger.info(AllThreadsDataQueues.toWriteQueue.toString());
                     writePool.execute(new WriteHandler(AllThreadsDataQueues.toWriteQueue.poll()));
                 }
             } catch (IOException e) {
