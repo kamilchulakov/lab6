@@ -23,7 +23,7 @@ public class Help extends AbstractNoInputCommand {
     public OutputData exec(Editor editor, InputData inputData) {
         FabricForCommands fabric = new FabricForCommands();
         try {
-            Thread.sleep(15000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

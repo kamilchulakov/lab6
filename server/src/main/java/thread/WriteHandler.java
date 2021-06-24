@@ -18,26 +18,8 @@ public class WriteHandler implements Runnable{
     private ClientData clientData;
 
     public WriteHandler(ClientData clientData) {
+        //System.out.println(clientData.getClientAddress() + " " + clientData.getOutputData().getResultMessage());
         this.clientData = clientData;
-    }
-
-    public static void handleWrite(SelectionKey key) throws IOException {
-        DatagramChannel channel = (DatagramChannel) key.channel();
-        ClientData client = (ClientData) key.attachment();
-        client.getBuffer().flip();
-        InputData inputData = client.getInputData();
-        OutputData answer = ServerRunner.getAnswerHandler().execute(inputData);
-        if (inputData.getCommandName().equals("history")) answer = new OutputData("Success", client.getCommandHistory());
-//        if(answer != null) {
-//            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-//            ObjectOutputStream os = new ObjectOutputStream(outputStream);
-//            os.writeObject(answer);
-//            byte[] replyBytes = outputStream.toByteArray();
-//            ByteBuffer buff = ByteBuffer.wrap(replyBytes);
-//            channel.send(buff, client.getClientAddress());
-//            logger.info("Sent answer " + replyBytes.length + " bytes");
-//        }
-//        key.interestOps(SelectionKey.OP_READ);
     }
 
     @Override
@@ -52,6 +34,7 @@ public class WriteHandler implements Runnable{
                 byte[] replyBytes = outputStream.toByteArray();
                 ByteBuffer buff = ByteBuffer.wrap(replyBytes);
                 channel.send(buff, clientData.getClientAddress());
+                System.out.println("Sending answer to " + clientData.getClientAddress());
                 logger.info("Sent answer " + replyBytes.length + " bytes");
             } catch (IOException e) {
                 e.printStackTrace();

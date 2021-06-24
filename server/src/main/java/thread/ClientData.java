@@ -98,4 +98,20 @@ public class ClientData {
     public void setConnected(boolean connected) {
         isConnected = connected;
     }
+
+    @Override
+    public String toString() {
+        if (inputData != null && outputData != null) {
+            return "ClientData{" +
+                    "clientAddress=" + clientAddress +
+                    ", command=" + inputData.getCommandName() +
+                    ", result=" + outputData.getResultMessage().substring(0, 4) +
+                    "...}";
+        } else return "clientAddress=" + clientAddress + " has no input/output data";
+
+    }
+
+    public CommandHistory getCommandHistoryArray() {
+        return commandHistory;
+    }
 }

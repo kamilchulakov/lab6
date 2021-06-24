@@ -1,6 +1,7 @@
 package interfaces;
 
 import henchmen.Validator;
+import logic.DefaultCommandManager;
 import thread.CMDManager;
 
 import java.io.IOException;
@@ -22,7 +23,7 @@ public class CLI extends AbstractUI{
      * @param filename is a name of a json file.
      */
     public CLI(String filename) {
-        cmdManager = new CMDManager();
+        cmdManager = new DefaultCommandManager();
         cachedFilenames = new ArrayList<>();
         validator = new Validator();
         createUI();

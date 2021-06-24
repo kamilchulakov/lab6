@@ -40,12 +40,12 @@ public class ResponseHandler extends Thread{
                         requestHandler.setConnected(true);
                         System.out.println("Connection with server has been established!");
                         logger.info("Connection with server has been established!");
-                        if(requestHandler.getLastCommand()!= null) {
-                            //System.out.println("Client resent command!");
-                            requestHandler.send(requestHandler.getLastCommand());
-                        }
+//                        if(requestHandler.getLastCommand()!= null) {
+//                            //System.out.println("Client resent command!");
+//                            requestHandler.send(requestHandler.getLastCommand());
+//                        }
                     } else {
-                        requestHandler.setLastCommand(null);
+//                        requestHandler.setLastCommand(null);
                         ui.display(answer);
                     }
                 } catch (PortUnreachableException e) {
