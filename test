@@ -1,4 +1,4 @@
-insert 27
+insert 35
 1
 1
 1
@@ -6,3 +6,21 @@ insert 27
 EASY
 program
 1
+show
+login jo jo
+insert 99
+name
+70
+100
+100
+IMPOSSIBLE
+disc
+11
+show
+average_of_minimal_point
+info
+print_field_descending_difficulty
+show
+clear
+show
+history

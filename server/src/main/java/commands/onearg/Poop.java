@@ -25,13 +25,17 @@ public class Poop {
     Logger logger = LoggerFactory.getLogger(Poop.class);
     Editor editor;
     String author;
+    String pass;
     ArrayList<String> cachedResults;
+    ArrayList<String> history;
 
     public void run(Editor editor, InputData inputData) {
         cmdManager = new DefaultCommandManager();
         cachedFilenames = new ArrayList<>();
         cachedResults = new ArrayList<>();
         author = inputData.getAuth();
+        pass = inputData.getPass();
+        history = new ArrayList<>();
         this.editor = editor;
         executeScript(inputData.getCommandArg());
     }
@@ -105,8 +109,13 @@ public class Poop {
                     askForInputCheckForCommand(flags, inputData, input, scanner);
                     if (inputData.equals(new InputData())) logger.info("No input data was provided.");
                     inputData.setAuth(author);
-                    OutputData result = cmdManager.execute(editor, pureCommand, inputData);
-                    cachedResults.add(result.getResultMessage());
+                    inputData.setPass(pass);
+                    OutputData result;
+                    cmdManager = new DefaultCommandManager();
+                    if (pureCommand.equals("history")) result = new OutputData("Undefined", history.toString());
+                    else result = cmdManager.execute(editor, pureCommand, inputData);
+                    cachedResults.add(result.getResultMessage() + "\n");
+                    history.add(pureCommand);
                     logger.info("This is result status: " + result.getStatusMessage());
                     logger.info("This is result:\n" + result.getResultMessage());
                 } catch (ExecuteCommandException e) {

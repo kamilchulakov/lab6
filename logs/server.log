@@ -41,3 +41,1561 @@
 2021-06-29 00:55:06,001 INFO thread.CMDManager [ForkJoinPool-1-worker-1] show: That took 88 milliseconds
 2021-06-29 00:55:06,014 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:51721
 2021-06-29 00:55:06,014 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 1210 bytes
+2021-06-29 01:04:59,603 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:04:59,686 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:04:59,739 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Recognized execute_script.
+2021-06-29 01:04:59,746 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:04:59,746 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got command arg.
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got labwork name.
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got coordinate X.
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got coordinate Y.
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got minimal point.
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got difficulty.
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got discipline name.
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got discipline hours.
+2021-06-29 01:04:59,747 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='27', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:04:59,747 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: insert
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Failure
+2021-06-29 01:04:59,747 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+Key already in use
+2021-06-29 01:04:59,747 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: execute_script for /127.0.0.1:51721
+2021-06-29 01:04:59,747 INFO thread.CMDManager [ForkJoinPool-1-worker-2] execute_script: That took 144 milliseconds
+2021-06-29 01:04:59,752 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:51721
+2021-06-29 01:04:59,752 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
+2021-06-29 01:09:15,382 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:09:15,435 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:09:15,518 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Recognized execute_script.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got command arg.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got labwork name.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got coordinate X.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got coordinate Y.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got minimal point.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got difficulty.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got discipline name.
+2021-06-29 01:09:15,519 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got discipline hours.
+2021-06-29 01:09:15,520 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='30', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:09:15,520 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: insert
+2021-06-29 01:09:15,520 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Failure
+2021-06-29 01:09:15,520 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+Key already in use
+2021-06-29 01:09:15,523 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: execute_script for /127.0.0.1:51721
+2021-06-29 01:09:15,523 INFO thread.CMDManager [ForkJoinPool-1-worker-3] execute_script: That took 141 milliseconds
+2021-06-29 01:09:15,532 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:51721
+2021-06-29 01:09:15,533 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
+2021-06-29 01:09:37,181 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:09:37,244 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:09:37,418 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Recognized execute_script.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got command arg.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got labwork name.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got coordinate X.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got coordinate Y.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got minimal point.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got difficulty.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got discipline name.
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got discipline hours.
+2021-06-29 01:09:37,419 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='30', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:09:37,419 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: insert
+2021-06-29 01:09:37,419 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Failure
+2021-06-29 01:09:37,420 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+Key already in use
+2021-06-29 01:09:37,420 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: execute_script for /127.0.0.1:51721
+2021-06-29 01:09:37,420 INFO thread.CMDManager [ForkJoinPool-1-worker-4] execute_script: That took 240 milliseconds
+2021-06-29 01:09:37,431 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:51721
+2021-06-29 01:09:37,431 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
+2021-06-29 01:09:41,705 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: show for /127.0.0.1:51721
+2021-06-29 01:09:41,789 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: show for /127.0.0.1:51721
+2021-06-29 01:09:41,790 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: show for /127.0.0.1:51721
+2021-06-29 01:09:41,790 INFO thread.CMDManager [ForkJoinPool-1-worker-4] show: That took 85 milliseconds
+2021-06-29 01:09:41,805 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:51721
+2021-06-29 01:09:41,805 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 1210 bytes
+2021-06-29 01:10:12,063 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-29 01:10:12,269 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-29 01:10:22,352 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:10:22,460 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:10:22,531 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Recognized execute_script.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:10:22,533 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:10:22,534 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:10:22,667 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:10:22,667 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,667 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:10:22,667 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,667 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:10:22,668 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,675 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:10:22,676 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,676 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:10:22,676 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,676 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:10:22,676 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,676 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Error
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+No password provided...
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:10:22,677 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:10:22,678 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:10:22,678 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:10:22,678 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:10:22,851 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:10:22,851 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,851 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:10:22,851 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,852 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:10:22,852 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,854 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:10:22,854 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,854 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:10:22,854 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,854 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:10:22,854 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,859 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: average_of_minimal_point
+2021-06-29 01:10:22,859 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,859 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+16
+2021-06-29 01:10:22,860 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,860 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:10:22,860 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,860 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: info
+2021-06-29 01:10:22,860 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,860 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:10:22 MSK 2021
+Size: 9
+2021-06-29 01:10:22,860 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,860 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:10:22,861 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,862 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:10:22,863 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,863 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:10:22,863 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,863 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:10:22,863 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,926 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: clear
+2021-06-29 01:10:22,926 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,926 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Successfully cleared your collection.
+2021-06-29 01:10:22,926 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,926 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:10:22,926 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,928 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:10:22,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:10:22,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:10:22,929 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:10:22,929 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:10:22,929 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: history with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:10:22,929 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Recognized history.
+2021-06-29 01:10:22,929 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-29 01:10:22,929 INFO thread.CMDManager [ForkJoinPool-1-worker-1] execute_script: That took 578 milliseconds
+2021-06-29 01:10:22,945 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:51721
+2021-06-29 01:10:22,945 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 139 bytes
+2021-06-29 01:11:06,366 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: show for /127.0.0.1:51721
+2021-06-29 01:11:06,443 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show for /127.0.0.1:51721
+2021-06-29 01:11:06,445 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: show for /127.0.0.1:51721
+2021-06-29 01:11:06,445 INFO thread.CMDManager [ForkJoinPool-1-worker-2] show: That took 79 milliseconds
+2021-06-29 01:11:06,466 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:51721
+2021-06-29 01:11:06,466 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 1210 bytes
+2021-06-29 01:11:20,202 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:11:20,281 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:11:20,355 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Recognized execute_script.
+2021-06-29 01:11:20,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got command arg.
+2021-06-29 01:11:20,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got labwork name.
+2021-06-29 01:11:20,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got coordinate X.
+2021-06-29 01:11:20,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got coordinate Y.
+2021-06-29 01:11:20,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got minimal point.
+2021-06-29 01:11:20,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got difficulty.
+2021-06-29 01:11:20,359 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got discipline name.
+2021-06-29 01:11:20,359 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got discipline hours.
+2021-06-29 01:11:20,360 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:11:20,508 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: insert
+2021-06-29 01:11:20,508 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,508 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+Inserted.
+2021-06-29 01:11:20,508 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,509 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] No input data was provided.
+2021-06-29 01:11:20,509 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,510 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: show
+2021-06-29 01:11:20,510 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,510 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:20,510 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,510 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got command arg.
+2021-06-29 01:11:20,510 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,510 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: login
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Error
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+No password provided...
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got command arg.
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got labwork name.
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got coordinate X.
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got coordinate Y.
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got minimal point.
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got difficulty.
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got discipline name.
+2021-06-29 01:11:20,511 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Got discipline hours.
+2021-06-29 01:11:20,511 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:11:20,626 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: insert
+2021-06-29 01:11:20,626 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,626 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+Inserted.
+2021-06-29 01:11:20,626 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,626 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] No input data was provided.
+2021-06-29 01:11:20,627 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,627 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: show
+2021-06-29 01:11:20,627 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,627 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:20,627 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] No input data was provided.
+2021-06-29 01:11:20,628 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,628 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: average_of_minimal_point
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+16
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] No input data was provided.
+2021-06-29 01:11:20,628 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,628 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: info
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:11:20 MSK 2021
+Size: 9
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,628 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] No input data was provided.
+2021-06-29 01:11:20,628 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,629 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: show
+2021-06-29 01:11:20,629 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,629 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:20,629 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,630 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] No input data was provided.
+2021-06-29 01:11:20,630 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,682 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: clear
+2021-06-29 01:11:20,682 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,682 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+Successfully cleared your collection.
+2021-06-29 01:11:20,682 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,682 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] No input data was provided.
+2021-06-29 01:11:20,682 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,683 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: show
+2021-06-29 01:11:20,683 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result status: Success
+2021-06-29 01:11:20,683 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:20,683 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] Getting input data.
+2021-06-29 01:11:20,683 INFO commands.onearg.Poop [ForkJoinPool-1-worker-2] No input data was provided.
+2021-06-29 01:11:20,683 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: history with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:20,683 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Recognized history.
+2021-06-29 01:11:20,683 ERROR thread.CMDManager [ForkJoinPool-1-worker-2] Command was not found.
+2021-06-29 01:11:20,683 INFO thread.CMDManager [ForkJoinPool-1-worker-2] execute_script: That took 481 milliseconds
+2021-06-29 01:11:20,704 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:51721
+2021-06-29 01:11:20,704 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 139 bytes
+2021-06-29 01:11:53,337 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:11:53,390 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:11:53,441 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Recognized execute_script.
+2021-06-29 01:11:53,441 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,441 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got command arg.
+2021-06-29 01:11:53,442 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got labwork name.
+2021-06-29 01:11:53,442 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got coordinate X.
+2021-06-29 01:11:53,442 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got coordinate Y.
+2021-06-29 01:11:53,442 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got minimal point.
+2021-06-29 01:11:53,442 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got difficulty.
+2021-06-29 01:11:53,442 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got discipline name.
+2021-06-29 01:11:53,442 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got discipline hours.
+2021-06-29 01:11:53,442 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:11:53,582 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: insert
+2021-06-29 01:11:53,582 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,582 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+Inserted.
+2021-06-29 01:11:53,582 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,582 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] No input data was provided.
+2021-06-29 01:11:53,583 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,583 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: show
+2021-06-29 01:11:53,583 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,583 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:53,583 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got command arg.
+2021-06-29 01:11:53,584 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,584 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: login
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Error
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+No password provided...
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got command arg.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got labwork name.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got coordinate X.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got coordinate Y.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got minimal point.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got difficulty.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got discipline name.
+2021-06-29 01:11:53,584 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Got discipline hours.
+2021-06-29 01:11:53,584 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:11:53,801 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: insert
+2021-06-29 01:11:53,801 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,801 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+Inserted.
+2021-06-29 01:11:53,801 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,801 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] No input data was provided.
+2021-06-29 01:11:53,801 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,802 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: show
+2021-06-29 01:11:53,802 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,802 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:53,802 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,802 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] No input data was provided.
+2021-06-29 01:11:53,802 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,802 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: average_of_minimal_point
+2021-06-29 01:11:53,802 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,802 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+16
+2021-06-29 01:11:53,802 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,802 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] No input data was provided.
+2021-06-29 01:11:53,802 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,803 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: info
+2021-06-29 01:11:53,803 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,803 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:11:53 MSK 2021
+Size: 9
+2021-06-29 01:11:53,803 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,803 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] No input data was provided.
+2021-06-29 01:11:53,803 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,803 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: show
+2021-06-29 01:11:53,803 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,803 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:53,803 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,804 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] No input data was provided.
+2021-06-29 01:11:53,804 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,903 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: clear
+2021-06-29 01:11:53,903 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,903 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+Successfully cleared your collection.
+2021-06-29 01:11:53,904 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,904 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] No input data was provided.
+2021-06-29 01:11:53,904 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,904 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: show
+2021-06-29 01:11:53,905 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result status: Success
+2021-06-29 01:11:53,905 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:53,905 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] Getting input data.
+2021-06-29 01:11:53,905 INFO commands.onearg.Poop [ForkJoinPool-1-worker-3] No input data was provided.
+2021-06-29 01:11:53,905 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: history with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:11:53,905 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Recognized history.
+2021-06-29 01:11:53,905 ERROR thread.CMDManager [ForkJoinPool-1-worker-3] Command was not found.
+2021-06-29 01:11:53,905 INFO thread.CMDManager [ForkJoinPool-1-worker-3] execute_script: That took 569 milliseconds
+2021-06-29 01:11:53,938 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:51721
+2021-06-29 01:11:53,938 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 139 bytes
+2021-06-29 01:11:56,400 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command: show for /127.0.0.1:51721
+2021-06-29 01:11:56,451 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: show for /127.0.0.1:51721
+2021-06-29 01:11:56,451 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: show for /127.0.0.1:51721
+2021-06-29 01:11:56,451 INFO thread.CMDManager [ForkJoinPool-1-worker-3] show: That took 51 milliseconds
+2021-06-29 01:11:56,500 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:51721
+2021-06-29 01:11:56,500 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 1210 bytes
+2021-06-29 01:12:09,659 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command: history for /127.0.0.1:51721
+2021-06-29 01:12:09,703 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: history for /127.0.0.1:51721
+2021-06-29 01:12:09,703 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Recognized history.
+2021-06-29 01:12:09,709 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:51721
+2021-06-29 01:12:09,709 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 171 bytes
+2021-06-29 01:12:38,680 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:12:38,753 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Recognized execute_script.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got command arg.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got labwork name.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got coordinate X.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got coordinate Y.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got minimal point.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got difficulty.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got discipline name.
+2021-06-29 01:12:38,842 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got discipline hours.
+2021-06-29 01:12:38,843 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:12:38,975 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: insert
+2021-06-29 01:12:38,975 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:38,975 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+Inserted.
+2021-06-29 01:12:38,975 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:38,975 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] No input data was provided.
+2021-06-29 01:12:38,975 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:38,976 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: show
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got command arg.
+2021-06-29 01:12:38,976 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:38,976 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: login
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Error
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+No password provided...
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got command arg.
+2021-06-29 01:12:38,976 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got labwork name.
+2021-06-29 01:12:38,977 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got coordinate X.
+2021-06-29 01:12:38,977 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got coordinate Y.
+2021-06-29 01:12:38,977 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got minimal point.
+2021-06-29 01:12:38,977 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got difficulty.
+2021-06-29 01:12:38,977 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got discipline name.
+2021-06-29 01:12:38,977 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Got discipline hours.
+2021-06-29 01:12:38,977 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:12:39,120 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: insert
+2021-06-29 01:12:39,120 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:39,120 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+Inserted.
+2021-06-29 01:12:39,120 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:39,121 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] No input data was provided.
+2021-06-29 01:12:39,121 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:39,121 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: show
+2021-06-29 01:12:39,121 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:39,121 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:12:39,121 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:39,121 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] No input data was provided.
+2021-06-29 01:12:39,121 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:39,122 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: average_of_minimal_point
+2021-06-29 01:12:39,122 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:39,122 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+16
+2021-06-29 01:12:39,122 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:39,122 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] No input data was provided.
+2021-06-29 01:12:39,122 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:39,122 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: info
+2021-06-29 01:12:39,122 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:39,122 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:12:38 MSK 2021
+Size: 9
+2021-06-29 01:12:39,122 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:39,122 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] No input data was provided.
+2021-06-29 01:12:39,122 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:39,123 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: show
+2021-06-29 01:12:39,123 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:39,123 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:12:39,123 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:39,123 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] No input data was provided.
+2021-06-29 01:12:39,123 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:39,178 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: clear
+2021-06-29 01:12:39,178 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:39,178 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+Successfully cleared your collection.
+2021-06-29 01:12:39,179 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:39,179 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] No input data was provided.
+2021-06-29 01:12:39,179 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:39,179 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: show
+2021-06-29 01:12:39,179 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result status: Success
+2021-06-29 01:12:39,179 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:12:39,179 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] Getting input data.
+2021-06-29 01:12:39,180 INFO commands.onearg.Poop [ForkJoinPool-1-worker-4] No input data was provided.
+2021-06-29 01:12:39,180 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: history with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:12:39,180 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Recognized history.
+2021-06-29 01:12:39,180 ERROR thread.CMDManager [ForkJoinPool-1-worker-4] Command was not found.
+2021-06-29 01:12:39,180 INFO thread.CMDManager [ForkJoinPool-1-worker-4] execute_script: That took 500 milliseconds
+2021-06-29 01:12:39,182 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:51721
+2021-06-29 01:12:39,182 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 139 bytes
+2021-06-29 01:14:42,825 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:14:42,879 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:14:42,927 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Recognized execute_script.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got command arg.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got labwork name.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got coordinate X.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got coordinate Y.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got minimal point.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got difficulty.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got discipline name.
+2021-06-29 01:14:42,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got discipline hours.
+2021-06-29 01:14:42,928 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:14:43,083 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: insert
+2021-06-29 01:14:43,083 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,083 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+Inserted.
+2021-06-29 01:14:43,083 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,084 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] No input data was provided.
+2021-06-29 01:14:43,084 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,084 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: show
+2021-06-29 01:14:43,084 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,084 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:14:43,084 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,084 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got command arg.
+2021-06-29 01:14:43,084 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,085 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: login
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Error
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+No password provided...
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got command arg.
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got labwork name.
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got coordinate X.
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got coordinate Y.
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got minimal point.
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got difficulty.
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got discipline name.
+2021-06-29 01:14:43,085 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Got discipline hours.
+2021-06-29 01:14:43,085 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:14:43,205 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: insert
+2021-06-29 01:14:43,205 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,205 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+Inserted.
+2021-06-29 01:14:43,205 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,205 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] No input data was provided.
+2021-06-29 01:14:43,205 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,206 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: show
+2021-06-29 01:14:43,206 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,206 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:14:43,206 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,206 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] No input data was provided.
+2021-06-29 01:14:43,206 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,206 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: average_of_minimal_point
+2021-06-29 01:14:43,206 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,206 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+16
+2021-06-29 01:14:43,206 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,206 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] No input data was provided.
+2021-06-29 01:14:43,206 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,207 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: info
+2021-06-29 01:14:43,207 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,207 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:14:42 MSK 2021
+Size: 9
+2021-06-29 01:14:43,207 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,207 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] No input data was provided.
+2021-06-29 01:14:43,207 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,207 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: show
+2021-06-29 01:14:43,207 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,207 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:14:43,207 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,208 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] No input data was provided.
+2021-06-29 01:14:43,208 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,285 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: clear
+2021-06-29 01:14:43,285 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,285 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+Successfully cleared your collection.
+2021-06-29 01:14:43,285 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,286 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] No input data was provided.
+2021-06-29 01:14:43,286 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,286 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: show
+2021-06-29 01:14:43,286 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result status: Success
+2021-06-29 01:14:43,286 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:14:43,286 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] Getting input data.
+2021-06-29 01:14:43,287 INFO commands.onearg.Poop [ForkJoinPool-1-worker-5] No input data was provided.
+2021-06-29 01:14:43,287 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: history with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:14:43,287 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Recognized history.
+2021-06-29 01:14:43,287 ERROR thread.CMDManager [ForkJoinPool-1-worker-5] Command was not found.
+2021-06-29 01:14:43,287 INFO thread.CMDManager [ForkJoinPool-1-worker-5] execute_script: That took 462 milliseconds
+2021-06-29 01:14:43,326 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:51721
+2021-06-29 01:14:43,326 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 139 bytes
+2021-06-29 01:19:46,505 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-29 01:19:46,683 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-29 01:19:52,051 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:19:52,202 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:19:52,248 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Recognized execute_script.
+2021-06-29 01:19:52,250 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,250 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:19:52,250 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:19:52,250 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:19:52,250 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:19:52,250 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:19:52,250 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:19:52,250 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:19:52,251 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:19:52,251 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:19:52,378 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:19:52,378 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,378 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:19:52,379 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,379 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,379 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,383 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:19:52,384 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,384 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:19:52,384 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,384 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:19:52,384 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,384 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login
+2021-06-29 01:19:52,384 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Error
+2021-06-29 01:19:52,384 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+No password provided...
+2021-06-29 01:19:52,384 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,384 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:19:52,385 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:19:52,385 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:19:52,385 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:19:52,385 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:19:52,385 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:19:52,385 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:19:52,385 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:19:52,385 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:19:52,522 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:19:52,522 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,522 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:19:52,522 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,522 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,522 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,524 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:19:52,524 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,524 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:19:52,524 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,524 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,524 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,526 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: average_of_minimal_point
+2021-06-29 01:19:52,527 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,527 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+16
+2021-06-29 01:19:52,527 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,527 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,527 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,527 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: info
+2021-06-29 01:19:52,527 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,527 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:19:52 MSK 2021
+Size: 9
+2021-06-29 01:19:52,527 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,528 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,528 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: print_field_descending_difficulty with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,558 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: print_field_descending_difficulty
+2021-06-29 01:19:52,558 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,558 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY EASY 
+2021-06-29 01:19:52,558 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,558 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,559 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,560 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:19:52,560 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,560 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:19:52,560 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,560 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,560 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,632 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: clear
+2021-06-29 01:19:52,632 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,632 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Successfully cleared your collection.
+2021-06-29 01:19:52,632 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,632 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,632 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,633 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:19:52,633 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:19:52,633 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:19:52,634 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:19:52,634 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:19:52,634 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: history with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:19:52,634 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Recognized history.
+2021-06-29 01:19:52,634 ERROR thread.CMDManager [ForkJoinPool-1-worker-1] Command was not found.
+2021-06-29 01:19:52,634 INFO thread.CMDManager [ForkJoinPool-1-worker-1] execute_script: That took 584 milliseconds
+2021-06-29 01:19:52,646 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:51721
+2021-06-29 01:19:52,647 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 139 bytes
+2021-06-29 01:21:09,533 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-29 01:21:09,717 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-29 01:21:16,733 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:21:16,789 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:21:16,879 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Recognized execute_script.
+2021-06-29 01:21:16,881 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:16,881 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:21:16,881 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:21:16,881 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:21:16,881 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:21:16,881 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:21:16,881 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:21:16,882 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:21:16,882 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:21:16,882 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:21:17,042 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:21:17,043 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,043 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:21:17,043 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,043 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,043 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,048 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:21:17,048 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:21:17,049 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,049 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Error
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+No password provided...
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:21:17,049 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:21:17,050 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:21:17,050 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:21:17,050 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:21:17,050 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:21:17,050 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:21:17,050 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:21:17,193 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:21:17,193 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,193 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:21:17,193 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,193 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,193 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,195 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:21:17,196 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,196 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:21:17,196 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,196 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,196 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,199 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: average_of_minimal_point
+2021-06-29 01:21:17,199 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,199 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+16
+2021-06-29 01:21:17,199 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,199 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,199 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,199 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: info
+2021-06-29 01:21:17,200 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,200 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:21:16 MSK 2021
+Size: 9
+2021-06-29 01:21:17,200 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,200 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,200 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: print_field_descending_difficulty with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,202 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: print_field_descending_difficulty
+2021-06-29 01:21:17,202 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,202 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY EASY 
+2021-06-29 01:21:17,202 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,203 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,203 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,204 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:21:17,205 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,205 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:21:17,205 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,205 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,205 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,271 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: clear
+2021-06-29 01:21:17,271 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,271 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Successfully cleared your collection.
+2021-06-29 01:21:17,272 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,272 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,272 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:21:17,273 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:21:17,274 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:21:17,274 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:21:17,274 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:21:17,274 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:21:17,274 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Undefined
+2021-06-29 01:21:17,274 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+[]
+2021-06-29 01:21:17,275 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: execute_script for /127.0.0.1:51721
+2021-06-29 01:21:17,275 INFO thread.CMDManager [ForkJoinPool-1-worker-1] execute_script: That took 543 milliseconds
+2021-06-29 01:21:17,278 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:51721
+2021-06-29 01:21:17,278 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 5750 bytes
+2021-06-29 01:21:58,348 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-29 01:21:58,501 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-29 01:22:03,079 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: login for /127.0.0.1:51721
+2021-06-29 01:22:03,079 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login for /127.0.0.1:51721
+2021-06-29 01:22:03,149 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login for /127.0.0.1:51721
+2021-06-29 01:22:03,149 INFO thread.CMDManager [ForkJoinPool-1-worker-1] login: That took 71 milliseconds
+2021-06-29 01:22:03,173 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:51721
+2021-06-29 01:22:03,173 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 115 bytes
+2021-06-29 01:22:06,861 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: clear for /127.0.0.1:51721
+2021-06-29 01:22:06,935 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: clear for /127.0.0.1:51721
+2021-06-29 01:22:06,991 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: clear for /127.0.0.1:51721
+2021-06-29 01:22:06,991 INFO thread.CMDManager [ForkJoinPool-1-worker-1] clear: That took 130 milliseconds
+2021-06-29 01:22:07,011 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:51721
+2021-06-29 01:22:07,011 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 145 bytes
+2021-06-29 01:22:10,878 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: login for /127.0.0.1:51721
+2021-06-29 01:22:10,878 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login for /127.0.0.1:51721
+2021-06-29 01:22:10,949 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login for /127.0.0.1:51721
+2021-06-29 01:22:10,950 INFO thread.CMDManager [ForkJoinPool-1-worker-1] login: That took 72 milliseconds
+2021-06-29 01:22:10,978 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:51721
+2021-06-29 01:22:10,978 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 111 bytes
+2021-06-29 01:22:12,087 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: clear for /127.0.0.1:51721
+2021-06-29 01:22:12,144 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: clear for /127.0.0.1:51721
+2021-06-29 01:22:12,203 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: clear for /127.0.0.1:51721
+2021-06-29 01:22:12,203 INFO thread.CMDManager [ForkJoinPool-1-worker-1] clear: That took 116 milliseconds
+2021-06-29 01:22:12,238 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:51721
+2021-06-29 01:22:12,238 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 145 bytes
+2021-06-29 01:22:19,492 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:22:19,538 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:22:19,588 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Recognized execute_script.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:22:19,590 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:22:19,591 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:22:19,752 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:22:19,752 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,752 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:22:19,752 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,752 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,753 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,757 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:22:19,757 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,757 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:22:19,758 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,758 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:22:19,761 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,761 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login
+2021-06-29 01:22:19,761 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Error
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+No password provided...
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:22:19,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:22:19,762 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:22:19,868 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:22:19,868 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,868 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:22:19,868 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,868 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,868 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,869 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:22:19,870 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,870 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:22:19,870 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,870 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,870 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,873 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: average_of_minimal_point
+2021-06-29 01:22:19,873 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,873 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+17
+2021-06-29 01:22:19,873 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,874 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,874 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,874 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: info
+2021-06-29 01:22:19,874 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,874 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:22:19 MSK 2021
+Size: 8
+2021-06-29 01:22:19,874 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,874 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,874 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: print_field_descending_difficulty with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,876 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: print_field_descending_difficulty
+2021-06-29 01:22:19,877 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,877 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY 
+2021-06-29 01:22:19,877 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,877 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,877 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,878 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:22:19,878 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,878 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:22:19,878 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,878 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,879 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,953 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: clear
+2021-06-29 01:22:19,953 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,953 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Successfully cleared your collection.
+2021-06-29 01:22:19,953 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,953 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,953 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:22:19,954 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:22:19,954 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:22:19,954 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:22:19,955 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:22:19,955 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:22:19,955 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Undefined
+2021-06-29 01:22:19,955 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+[]
+2021-06-29 01:22:19,955 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: execute_script for /127.0.0.1:51721
+2021-06-29 01:22:19,955 INFO thread.CMDManager [ForkJoinPool-1-worker-1] execute_script: That took 463 milliseconds
+2021-06-29 01:22:19,993 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:51721
+2021-06-29 01:22:19,993 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 5213 bytes
+2021-06-29 01:23:20,280 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: show for /127.0.0.1:51721
+2021-06-29 01:23:20,352 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show for /127.0.0.1:51721
+2021-06-29 01:23:20,352 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: show for /127.0.0.1:51721
+2021-06-29 01:23:20,352 INFO thread.CMDManager [ForkJoinPool-1-worker-2] show: That took 72 milliseconds
+2021-06-29 01:23:20,380 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:51721
+2021-06-29 01:23:20,380 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 1074 bytes
+2021-06-29 01:23:35,777 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: info for /127.0.0.1:51721
+2021-06-29 01:23:35,866 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: info for /127.0.0.1:51721
+2021-06-29 01:23:35,866 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: info for /127.0.0.1:51721
+2021-06-29 01:23:35,866 INFO thread.CMDManager [ForkJoinPool-1-worker-2] info: That took 89 milliseconds
+2021-06-29 01:23:35,877 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:51721
+2021-06-29 01:23:35,878 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 191 bytes
+2021-06-29 01:24:10,933 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-29 01:24:11,083 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-29 01:24:27,454 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:24:27,527 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:24:27,618 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Recognized execute_script.
+2021-06-29 01:24:27,619 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,620 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:24:27,620 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:24:27,620 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:24:27,620 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:24:27,620 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:24:27,620 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:24:27,620 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:24:27,620 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:24:27,620 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:24:27,756 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:24:27,756 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:27,756 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:24:27,756 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,756 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:27,756 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:27,761 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:24:27,761 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:27,761 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:24:27,761 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:24:27,762 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:27,762 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Error
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+No password provided...
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:24:27,762 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:24:27,763 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:24:27,763 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:24:27,763 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:24:27,918 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:24:27,918 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:27,918 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:24:27,918 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,919 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:27,919 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:27,921 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:24:27,921 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:27,921 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:24:27,921 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,921 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:27,921 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:27,925 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: average_of_minimal_point
+2021-06-29 01:24:27,925 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:27,925 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+17
+2021-06-29 01:24:27,925 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,925 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:27,925 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:27,925 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: info
+2021-06-29 01:24:27,925 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:27,925 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:24:27 MSK 2021
+Size: 8
+2021-06-29 01:24:27,925 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,926 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:27,926 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: print_field_descending_difficulty with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:27,928 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: print_field_descending_difficulty
+2021-06-29 01:24:27,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:27,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY 
+2021-06-29 01:24:27,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,928 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:27,928 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:27,930 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:24:27,930 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:27,930 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:24:27,931 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:27,931 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:27,931 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:28,064 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: clear
+2021-06-29 01:24:28,065 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:28,065 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Successfully cleared your collection.
+2021-06-29 01:24:28,065 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:28,065 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:28,065 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:24:28,066 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:24:28,067 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:24:28,067 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:24:28,067 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:24:28,067 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:24:28,067 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Undefined
+2021-06-29 01:24:28,067 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+[insert, show, login, insert, show, average_of_minimal_point, info, print_field_descending_difficulty, show, clear, show]
+2021-06-29 01:24:28,067 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: execute_script for /127.0.0.1:51721
+2021-06-29 01:24:28,068 INFO thread.CMDManager [ForkJoinPool-1-worker-1] execute_script: That took 615 milliseconds
+2021-06-29 01:24:28,100 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:51721
+2021-06-29 01:24:28,100 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 5332 bytes
+2021-06-29 01:24:49,966 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: show for /127.0.0.1:51721
+2021-06-29 01:24:50,055 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show for /127.0.0.1:51721
+2021-06-29 01:24:50,056 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: show for /127.0.0.1:51721
+2021-06-29 01:24:50,056 INFO thread.CMDManager [ForkJoinPool-1-worker-2] show: That took 90 milliseconds
+2021-06-29 01:24:50,066 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:51721
+2021-06-29 01:24:50,066 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 1074 bytes
+2021-06-29 01:25:44,806 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-29 01:25:44,990 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-29 01:25:54,267 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: execute_script for /127.0.0.1:51721
+2021-06-29 01:25:54,318 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: execute_script for /127.0.0.1:51721
+2021-06-29 01:25:54,371 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Recognized execute_script.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:25:54,373 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:25:54,416 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='35', labName='1', coordinateX=1.0, coordinateY=1.0, minimalPoint=1, difficulty='EASY', disciplineName='program', selfStudyHours=1}
+2021-06-29 01:25:54,561 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:25:54,561 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:54,561 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:25:54,562 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:54,562 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:54,619 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:54,625 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:25:54,625 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:54,625 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:25:54,625 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:54,625 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:25:54,678 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='jo', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:54,678 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login
+2021-06-29 01:25:54,678 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Error
+2021-06-29 01:25:54,678 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+No password provided...
+2021-06-29 01:25:54,678 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:54,678 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got command arg.
+2021-06-29 01:25:54,678 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got labwork name.
+2021-06-29 01:25:54,678 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate X.
+2021-06-29 01:25:54,679 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got coordinate Y.
+2021-06-29 01:25:54,679 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got minimal point.
+2021-06-29 01:25:54,679 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got difficulty.
+2021-06-29 01:25:54,679 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline name.
+2021-06-29 01:25:54,679 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Got discipline hours.
+2021-06-29 01:25:54,729 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: insert with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='99', labName='name', coordinateX=70.0, coordinateY=100.0, minimalPoint=100, difficulty='IMPOSSIBLE', disciplineName='disc', selfStudyHours=11}
+2021-06-29 01:25:54,929 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: insert
+2021-06-29 01:25:54,929 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:54,929 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Inserted.
+2021-06-29 01:25:54,929 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:54,930 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:55,021 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:55,022 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:25:55,022 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:55,022 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:25:55,026 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:55,026 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:55,116 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: average_of_minimal_point with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:55,119 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: average_of_minimal_point
+2021-06-29 01:25:55,120 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:55,120 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+17
+2021-06-29 01:25:55,120 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:55,120 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:55,201 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: info with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:55,201 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: info
+2021-06-29 01:25:55,201 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:55,201 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:25:55 MSK 2021
+Size: 8
+2021-06-29 01:25:55,201 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:55,201 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:55,287 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: print_field_descending_difficulty with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:55,290 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: print_field_descending_difficulty
+2021-06-29 01:25:55,290 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:55,290 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY 
+2021-06-29 01:25:55,290 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:55,291 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:55,354 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:55,355 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:25:55,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:55,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:25:55,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:55,356 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:55,973 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: clear with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:56,028 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: clear
+2021-06-29 01:25:56,028 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:56,028 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+Successfully cleared your collection.
+2021-06-29 01:25:56,028 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:56,028 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:56,070 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show with InputData: InputData{flagOfCLI=false, commandName='null', commandArg='null', labName='null', coordinateX=0.0, coordinateY=0.0, minimalPoint=null, difficulty='null', disciplineName='null', selfStudyHours=null}
+2021-06-29 01:25:56,072 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show
+2021-06-29 01:25:56,072 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Success
+2021-06-29 01:25:56,072 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+  key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:25:56,072 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] Getting input data.
+2021-06-29 01:25:56,072 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] No input data was provided.
+2021-06-29 01:25:56,126 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result status: Undefined
+2021-06-29 01:25:56,126 INFO commands.onearg.Poop [ForkJoinPool-1-worker-1] This is result:
+[insert, show, login, insert, show, average_of_minimal_point, info, print_field_descending_difficulty, show, clear, show]
+2021-06-29 01:25:56,126 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: execute_script for /127.0.0.1:51721
+2021-06-29 01:25:56,126 INFO thread.CMDManager [ForkJoinPool-1-worker-1] execute_script: That took 1860 milliseconds
+2021-06-29 01:25:56,165 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:51721
+2021-06-29 01:25:56,165 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 5054 bytes
+2021-06-29 01:26:51,985 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: help for /127.0.0.1:51721
+2021-06-29 01:26:52,035 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:51721
+2021-06-29 01:26:52,035 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 146 bytes
+2021-06-29 01:26:59,957 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: login for /127.0.0.1:51721
+2021-06-29 01:26:59,957 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: login for /127.0.0.1:51721
+2021-06-29 01:27:00,005 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: login for /127.0.0.1:51721
+2021-06-29 01:27:00,006 INFO thread.CMDManager [ForkJoinPool-1-worker-2] login: That took 49 milliseconds
+2021-06-29 01:27:00,007 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:51721
+2021-06-29 01:27:00,008 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 111 bytes
+2021-06-29 01:27:04,124 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: help for /127.0.0.1:51721
+2021-06-29 01:27:04,175 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: help for /127.0.0.1:51721
+2021-06-29 01:27:09,176 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: help for /127.0.0.1:51721
+2021-06-29 01:27:09,176 INFO thread.CMDManager [ForkJoinPool-1-worker-2] help: That took 5052 milliseconds
+2021-06-29 01:27:09,186 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:51721
+2021-06-29 01:27:09,186 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 1214 bytes
+2021-06-29 01:30:45,183 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-29 01:30:45,394 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-29 01:30:55,683 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: show for /127.0.0.1:51721
+2021-06-29 01:30:55,741 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: show for /127.0.0.1:51721
+2021-06-29 01:30:55,745 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: show for /127.0.0.1:51721
+2021-06-29 01:30:55,746 INFO thread.CMDManager [ForkJoinPool-1-worker-1] show: That took 64 milliseconds
+2021-06-29 01:30:55,776 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:51721
+2021-06-29 01:30:55,776 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 1074 bytes

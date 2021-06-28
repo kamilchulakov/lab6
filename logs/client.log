@@ -68,3 +68,524 @@
    27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
    30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
 
+2021-06-29 01:04:59,420 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:04:59,422 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:04:59,424 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:04:59,424 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:04:59,752 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:04:59,752 WARN logic.ResponseHandler [Thread-0] [Key already in use]
+2021-06-29 01:09:15,289 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:09:15,317 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:09:15,317 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:09:15,326 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:09:15,533 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:09:15,533 WARN logic.ResponseHandler [Thread-0] [Key already in use]
+2021-06-29 01:09:37,113 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:09:37,114 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:09:37,114 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:09:37,114 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:09:37,431 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:09:37,431 WARN logic.ResponseHandler [Thread-0] [Key already in use]
+2021-06-29 01:09:41,618 INFO interfaces.UI [main] Got a valid command: show
+2021-06-29 01:09:41,618 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:09:41,619 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:09:41,619 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:09:41,805 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:09:41,805 WARN logic.ResponseHandler [Thread-0]   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:10:22,263 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:10:22,263 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:10:22,263 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:10:22,263 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:10:22,945 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:10:22,946 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-29 01:11:06,312 INFO interfaces.UI [main] Got a valid command: show
+2021-06-29 01:11:06,312 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:11:06,312 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:11:06,312 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:11:06,466 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:11:06,466 WARN logic.ResponseHandler [Thread-0]   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:11:20,126 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:11:20,127 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:11:20,127 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:11:20,127 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:11:20,704 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:11:20,704 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-29 01:11:53,262 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:11:53,262 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:11:53,262 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:11:53,262 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:11:53,938 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:11:53,938 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-29 01:11:56,265 INFO interfaces.UI [main] Got a valid command: show
+2021-06-29 01:11:56,265 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:11:56,265 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:11:56,265 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:11:56,500 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:11:56,501 WARN logic.ResponseHandler [Thread-0]   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+
+2021-06-29 01:12:09,578 INFO interfaces.UI [main] Got a valid command: history
+2021-06-29 01:12:09,578 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:12:09,578 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:12:09,578 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:12:09,709 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:12:09,709 WARN logic.ResponseHandler [Thread-0] execute_script
+show
+execute_script
+execute_script
+show
+history
+
+2021-06-29 01:12:38,611 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:12:38,611 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:12:38,611 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:12:38,611 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:12:39,182 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:12:39,182 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-29 01:14:42,752 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:14:42,753 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:14:42,753 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:14:42,753 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:14:43,326 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:14:43,326 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-29 01:19:51,940 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:19:51,940 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:19:51,941 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:19:51,941 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:19:52,647 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:19:52,647 WARN logic.ResponseHandler [Thread-0] Command was not found. Try again.
+2021-06-29 01:21:16,639 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:21:16,639 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:21:16,639 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:21:16,639 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:21:17,278 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:21:17,278 WARN logic.ResponseHandler [Thread-0] [Inserted.,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+, No password provided..., Inserted.,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+, 16, Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:21:16 MSK 2021
+Size: 9, IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY EASY ,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+, Successfully cleared your collection.,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+   99      104     name     test    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1     test       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+   30       12       10       jo     {x=10.0, y=10.0}              2021-06-28           10          EASY {name='10', selfStudyHours=10}
+, []]
+2021-06-29 01:22:03,003 INFO interfaces.UI [main] Got a valid command: login test test
+2021-06-29 01:22:03,003 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:22:03,003 INFO interfaces.UI [main] FOUND login or register
+2021-06-29 01:22:03,003 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:22:03,003 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:22:03,173 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:22:03,173 WARN logic.ResponseHandler [Thread-0] test test
+2021-06-29 01:22:06,807 INFO interfaces.UI [main] Got a valid command: clear
+2021-06-29 01:22:06,808 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:22:06,808 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:22:06,808 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:22:07,011 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:22:07,011 WARN logic.ResponseHandler [Thread-0] Successfully cleared your collection.
+2021-06-29 01:22:10,812 INFO interfaces.UI [main] Got a valid command: login jo jo
+2021-06-29 01:22:10,813 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:22:10,813 INFO interfaces.UI [main] FOUND login or register
+2021-06-29 01:22:10,813 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:22:10,813 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:22:10,978 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:22:10,978 WARN logic.ResponseHandler [Thread-0] jo jo
+2021-06-29 01:22:12,014 INFO interfaces.UI [main] Got a valid command: clear
+2021-06-29 01:22:12,014 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:22:12,014 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:22:12,014 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:22:12,238 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:22:12,238 WARN logic.ResponseHandler [Thread-0] Successfully cleared your collection.
+2021-06-29 01:22:19,422 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:22:19,422 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:22:19,422 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:22:19,422 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:22:19,993 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:22:19,994 WARN logic.ResponseHandler [Thread-0] [Inserted.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, No password provided...
+, Inserted.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, 17
+, Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:22:19 MSK 2021
+Size: 8
+, IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY 
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, Successfully cleared your collection.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, []
+]
+2021-06-29 01:23:20,190 INFO interfaces.UI [main] Got a valid command: show
+2021-06-29 01:23:20,190 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:23:20,190 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:23:20,190 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:23:20,380 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:23:20,380 WARN logic.ResponseHandler [Thread-0]   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:23:35,707 INFO interfaces.UI [main] Got a valid command: info
+2021-06-29 01:23:35,707 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:23:35,708 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:23:35,708 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:23:35,877 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:23:35,878 WARN logic.ResponseHandler [Thread-0] Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:23:35 MSK 2021
+Size: 6
+2021-06-29 01:24:27,373 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:24:27,373 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:24:27,373 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:24:27,373 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:24:28,100 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:24:28,100 WARN logic.ResponseHandler [Thread-0] [Inserted.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, No password provided...
+, Inserted.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, 17
+, Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:24:27 MSK 2021
+Size: 8
+, IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY 
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, Successfully cleared your collection.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, [insert, show, login, insert, show, average_of_minimal_point, info, print_field_descending_difficulty, show, clear, show]
+]
+2021-06-29 01:24:49,897 INFO interfaces.UI [main] Got a valid command: show
+2021-06-29 01:24:49,898 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:24:49,898 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:24:49,898 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:24:50,066 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:24:50,066 WARN logic.ResponseHandler [Thread-0]   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+2021-06-29 01:25:54,171 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:25:54,171 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:25:54,171 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:25:54,171 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:25:56,165 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:25:56,166 WARN logic.ResponseHandler [Thread-0] [Inserted.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, No password provided...
+, Inserted.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, 17
+, Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:25:55 MSK 2021
+Size: 8
+, IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY 
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, Successfully cleared your collection.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, [insert, show, login, insert, show, average_of_minimal_point, info, print_field_descending_difficulty, show, clear, show]
+]
+2021-06-29 01:26:49,831 INFO interfaces.UI [main] Got a valid command: logout
+2021-06-29 01:26:49,831 INFO interfaces.UI [main] logout
+2021-06-29 01:26:51,933 INFO interfaces.UI [main] Got a valid command: help
+2021-06-29 01:26:51,934 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:26:51,934 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:26:51,934 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:26:52,035 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:26:52,035 WARN logic.ResponseHandler [Thread-0] Use login or register before help
+2021-06-29 01:26:59,842 INFO interfaces.UI [main] Got a valid command: login jo jo
+2021-06-29 01:26:59,842 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:26:59,842 INFO interfaces.UI [main] FOUND login or register
+2021-06-29 01:26:59,842 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:26:59,842 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:27:00,008 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:27:00,008 WARN logic.ResponseHandler [Thread-0] jo jo
+2021-06-29 01:27:04,047 INFO interfaces.UI [main] Got a valid command: help
+2021-06-29 01:27:04,047 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:27:04,047 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:27:04,047 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:27:09,186 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:27:09,186 WARN logic.ResponseHandler [Thread-0] help - a command which gives an information about
+every single command which is supported in this app.
+history - a command to show history of commands usage!
+exit - a command to exit everything.
+show - a command which shows the collection items
+info - a command to get info about the collection:
+ type, time, etc
+remove_key <key> - a command which removes an element by key.
+clear - a command to clear the collection.
+remove_lower <element> - a command which removes the elements
+which are lower than <key> one.
+execute_script <filename> - a command which executes a script.
+average_of_minimal_point - a command which show an average
+ minimal point field value of collection items.
+print_field_descending_difficulty - a command which prints descending difficulty.
+remove_any_by_discipline <discipline> - a command to remove by disc.
+insert <key> - a command which asks to give element info and inserts it by key.
+update <id> - a command which updates element values by id.
+save - a command which saves the collection into collection.json
+
+login <user> <pass>
+register <user> <pass> - can register new user
+
+2021-06-29 01:29:34,625 INFO interfaces.UI [main] Got a valid command: help
+2021-06-29 01:29:34,625 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:29:34,625 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:29:34,625 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:29:39,849 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:29:39,849 WARN logic.ResponseHandler [Thread-0] help - a command which gives an information about
+every single command which is supported in this app.
+history - a command to show history of commands usage!
+exit - a command to exit everything.
+show - a command which shows the collection items
+info - a command to get info about the collection:
+ type, time, etc
+remove_key <key> - a command which removes an element by key.
+clear - a command to clear the collection.
+remove_lower <element> - a command which removes the elements
+which are lower than <key> one.
+execute_script <filename> - a command which executes a script.
+average_of_minimal_point - a command which show an average
+ minimal point field value of collection items.
+print_field_descending_difficulty - a command which prints descending difficulty.
+remove_any_by_discipline <discipline> - a command to remove by disc.
+insert <key> - a command which asks to give element info and inserts it by key.
+update <id> - a command which updates element values by id.
+save - a command which saves the collection into collection.json
+
+login <user> <pass>
+register <user> <pass> - can register new user
+
+2021-06-29 01:29:50,643 INFO interfaces.UI [main] Got a valid command: execute_script test
+2021-06-29 01:29:50,643 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:29:50,643 WARN interfaces.UI [main] Got command arg.
+2021-06-29 01:29:50,643 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:29:52,279 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:29:52,279 WARN logic.ResponseHandler [Thread-0] [Inserted.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, No password provided...
+, Inserted.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, 17
+, Collection info:
+Type: java.util.HashMap
+Date: Tue Jun 29 01:29:51 MSK 2021
+Size: 8
+, IMPOSSIBLE IMPOSSIBLE EASY EASY EASY EASY EASY EASY 
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   99      104     name       jo    {x=70.0, y=100.0}              2021-06-29          100    IMPOSSIBLE {name='disc', selfStudyHours=11}
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+   35        2        1       jo       {x=1.0, y=1.0}              2021-06-29            1          EASY {name='program', selfStudyHours=1}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, Successfully cleared your collection.
+,   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
+, [insert, show, login, insert, show, average_of_minimal_point, info, print_field_descending_difficulty, show, clear, show]
+]
+2021-06-29 01:30:55,615 INFO interfaces.UI [main] Got a valid command: show
+2021-06-29 01:30:55,616 WARN interfaces.UI [main] Getting input data.
+2021-06-29 01:30:55,616 WARN interfaces.UI [main] No input data was provided.
+2021-06-29 01:30:55,616 INFO logic.RequestHandler [main] Sending input to server...
+2021-06-29 01:30:55,776 INFO logic.ResponseHandler [Thread-0] OutputData has been received.
+2021-06-29 01:30:55,777 WARN logic.ResponseHandler [Thread-0]   key       id     name   author               coords           creation_date    min_point    difficulty                     discipline
+   22       18   thread    admin      {x=1.0, y=23.0}              2021-06-17           12          EASY {name='23', selfStudyHours=11}
+    1        7    proga  default       {x=1.0, y=2.0}              2021-06-16            2          EASY {name='java', selfStudyHours=10}
+    2       15    proga  default       {x=1.0, y=2.0}              2021-06-16           10    IMPOSSIBLE {name='java', selfStudyHours=10}
+    3       17    lab 6  default       {x=1.0, y=2.0}              2021-06-16           12          EASY {name='proga', selfStudyHours=11}
+    4        9   lab 7   default       {x=1.0, y=2.0}              2021-06-16            3          EASY {name='proga', selfStudyHours=24}
+   27        2        1    admin       {x=1.0, y=1.0}              2021-06-17            1          EASY {name='program', selfStudyHours=1}
+
