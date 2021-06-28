@@ -2,7 +2,7 @@ name: Move JARS
 
 on:
   push:
-    branches: [ master, helios ]
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 
