@@ -46,7 +46,19 @@ public class Editor {
         return collection.toString();
     }
     public String getNiceLookingString() {
-        return collection.toString();
+        if (collection.isEmpty()) {
+            return "collection is clear, so theres no objects to show their fuel type ¯\\_(ツ)_/¯";
+        } else {
+            String template = "%5s %8s %8s %8s %20s %23s %12s %13s %30s\n";
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.append((String.format(template,
+                    "key", "id", "name", "author", "coords", "creation_date", "min_point", "difficulty", "discipline")));
+            collection.keySet().stream().forEach(key ->stringBuilder.append(String.format(template,key, collection.get(key).getId(),
+                    collection.get(key).getName(), collection.get(key).getAuthor(), collection.get(key).getCoordinates(),
+                    collection.get(key).getCreationDate().toString(), collection.get(key).getMinimalPoint(), collection.get(key).getDifficulty(),
+                    collection.get(key).getDiscipline())));
+            return stringBuilder.toString();
+        }
     }
 
     public void removeElementByKey(String key, String auth) {
@@ -102,8 +114,10 @@ public class Editor {
     }
 
     public void insert(String key, LabWork labwork) throws SQLException {
-        if (!collection.containsKey(key)) throw new NoSuchElementException();
+        if (collection.containsKey(key)) throw new NoSuchElementException();
         databaseService.insert(key, labwork);
+        readCollectionFromDatabase();
+        System.out.println(collection);
     }
     
     public void save() {
@@ -117,5 +131,9 @@ public class Editor {
 
     public boolean userExists(String user, String pass) throws SQLException {
         return databaseService.checkUser(user, pass);
+    }
+
+    public void clear(String auth) throws SQLException {
+        databaseService.user_clear(auth);
     }
 }

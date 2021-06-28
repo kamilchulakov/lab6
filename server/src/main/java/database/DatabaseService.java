@@ -16,7 +16,8 @@ public class DatabaseService {
     private final static String INSERT_LABWORK_SQL = "INSERT INTO labworks" +
             "  (id, labname, coordinate_x, coordinate_y, minimal_point, difficulty, discipline, self_study_hours, creation_date, labwork_id, author) VALUES " +
             " (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?);";
-    private final static String CLEAR_SQL = "TRUNCATE TABLE labworks";
+    private final static String CLEAR_SQL = "DELETE FROM labworks WHERE author = ?";
+    private final static String CLEAR_SQL_ALL = "TRUNCATE TABLE labworks";
     private final static String REMOVE_BY_ID_SQL = "DELETE FROM labworks WHERE (id = ?))";
     private final static String ADD_USER_SQL = "INSERT INTO users (\"user\", password) VALUES (?, ?);";
     private final static String UPDATE_SQL = "UPDATE labworks set WHERE labwork_id = ? " +
@@ -73,9 +74,17 @@ public class DatabaseService {
     }
     public void clear() throws SQLException {
         Connection connection = DatabaseConnection.getConnection();
-        PreparedStatement preparedStatement = connection.prepareStatement(CLEAR_SQL);
+        PreparedStatement preparedStatement = connection.prepareStatement(CLEAR_SQL_ALL);
         preparedStatement.execute();
     }
+
+    public void user_clear(String user) throws SQLException {
+        Connection connection = DatabaseConnection.getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(CLEAR_SQL);
+        preparedStatement.setString(1, user);
+        preparedStatement.execute();
+    }
+
     public void removeAllLower(LabWork labWork) throws SQLException {
         Connection connection = DatabaseConnection.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(REMOVE_LOWER_SQL);

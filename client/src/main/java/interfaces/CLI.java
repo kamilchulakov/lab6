@@ -51,7 +51,7 @@ public class CLI extends AbstractUI{
 
     @Override
     public void display(String status, String message) {
-        System.out.printf("-------------------\nStatus: %s\nMessage: %s\n------------------\n", status, message.trim());
+        System.out.printf("-------------------\nStatus: %s\nMessage:\n%s\n------------------\n", status, message.trim());
     }
 
     /**

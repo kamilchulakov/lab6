@@ -7,6 +7,9 @@ import logic.OutputData;
 import objects.FabricLabWorks;
 import objects.LabWork;
 
+import java.sql.SQLException;
+import java.util.NoSuchElementException;
+
 public class InsertKey extends AbstractOneArgElement {
     @Override
     public String getName() {
@@ -21,10 +24,13 @@ public class InsertKey extends AbstractOneArgElement {
     @Override
     public OutputData exec(Editor editor, InputData inputData) {
         try {
+            System.out.println(inputData.getCommandArg());
             FabricLabWorks fabricLabWorks = new FabricLabWorks();
             LabWork labwork = fabricLabWorks.makeLabworkFromInputData(inputData);
             editor.insert(inputData.getCommandArg(), labwork);
-        } catch (Exception e) {
+        } catch (SQLException e) {
+            return new OutputData("Failure", "Database problems...");
+        } catch (NoSuchElementException e) {
             return new OutputData("Failure", "Key already in use");
         }
         return new OutputData("Success", "Inserted.");

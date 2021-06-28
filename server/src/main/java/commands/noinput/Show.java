@@ -18,6 +18,6 @@ public class Show extends AbstractNoInputCommand {
 
     @Override
     public OutputData exec(Editor editor, InputData inputData) {
-        return new OutputData("Success", editor.getStringCollection());
+        return new OutputData("Success", editor.getNiceLookingString());
     }
 }
