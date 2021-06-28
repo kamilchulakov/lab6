@@ -24,7 +24,6 @@ public class InsertKey extends AbstractOneArgElement {
     @Override
     public OutputData exec(Editor editor, InputData inputData) {
         try {
-            System.out.println(inputData.getCommandArg());
             FabricLabWorks fabricLabWorks = new FabricLabWorks();
             LabWork labwork = fabricLabWorks.makeLabworkFromInputData(inputData);
             editor.insert(inputData.getCommandArg(), labwork);

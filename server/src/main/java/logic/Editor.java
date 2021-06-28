@@ -117,7 +117,6 @@ public class Editor {
         if (collection.containsKey(key)) throw new NoSuchElementException();
         databaseService.insert(key, labwork);
         readCollectionFromDatabase();
-        System.out.println(collection);
     }
     
     public void save() {
