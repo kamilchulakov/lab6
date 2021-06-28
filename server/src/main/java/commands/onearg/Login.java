@@ -1,5 +1,6 @@
 package commands.onearg;
 
+import database.DatabaseService;
 import logic.Editor;
 import logic.InputData;
 import logic.OutputData;
@@ -24,7 +25,7 @@ public class Login extends AbstractOneArgCommand{
             String pass = inputData.getCommandArg().split(" ")[1];
             if (editor.userExists(user, pass)) {
                 return new OutputData("Login",
-                        user);
+                        user + " " + pass);
             }
         } catch (ArrayIndexOutOfBoundsException e) {
             return new OutputData("Error", "No password provided...");

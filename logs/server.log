@@ -1,388 +1,304 @@
-2021-06-24 13:59:46,929 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 13:59:47,073 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:41457
-2021-06-24 13:59:47,074 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:41457
-2021-06-24 13:59:47,074 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 2 milliseconds
-2021-06-24 13:59:47,109 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 13:59:47,114 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 150 bytes
-2021-06-24 13:59:56,008 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 13:59:56,104 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 13:59:56,105 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 146 bytes
-2021-06-24 14:00:00,312 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 14:00:00,399 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login for /127.0.0.1:41457
-2021-06-24 14:00:00,446 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login for /127.0.0.1:41457
-2021-06-24 14:00:00,446 INFO thread.CMDManager [ForkJoinPool-1-worker-1] login: That took 47 milliseconds
-2021-06-24 14:00:00,449 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 14:00:00,449 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 110 bytes
-2021-06-24 14:00:03,249 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:03,297 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:40971
-2021-06-24 14:00:03,297 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:40971
-2021-06-24 14:00:03,297 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 1 milliseconds
-2021-06-24 14:00:03,346 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:03,347 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 150 bytes
-2021-06-24 14:00:06,220 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 14:00:06,523 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: help for /127.0.0.1:41457
-2021-06-24 14:00:08,050 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,182 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,183 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:00:08,550 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,833 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,876 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,876 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,877 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,877 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:00:08,877 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:00:08,924 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,982 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,982 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:08,983 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:00:09,042 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,043 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,043 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:00:09,094 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,094 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,095 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:00:09,139 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,139 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,140 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:00:09,186 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,186 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,187 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:00:09,226 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,227 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,227 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:00:09,267 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,268 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,268 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:00:09,331 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,332 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,332 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:00:09,399 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,399 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,400 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:00:09,465 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,465 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,465 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:00:09,513 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,514 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,514 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:00:09,565 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,565 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,565 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:00:09,616 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,617 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,617 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:00:09,666 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,666 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,667 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,667 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:00:09,667 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:00:09,730 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,782 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,783 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:00:09,783 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,850 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,851 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:00:09,851 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,900 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,901 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,901 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:00:09,940 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:09,941 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:00:09,946 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,574 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,574 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,575 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:00:10,575 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:00:10,575 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,628 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,684 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,685 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,685 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:00:10,736 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,737 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,737 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:00:10,786 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,786 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,786 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:00:10,863 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,864 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,864 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:00:10,928 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,929 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:00:10,929 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,991 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,991 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:10,991 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:00:11,039 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,040 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,040 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:00:11,097 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,097 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,098 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:00:11,141 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,141 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,141 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:00:11,181 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,182 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,182 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:00:11,237 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,238 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,238 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,238 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:00:11,238 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:00:11,286 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,325 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,326 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:00:11,326 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,366 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,366 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,366 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:00:11,434 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,435 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,435 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:00:11,490 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,491 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,491 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:00:11,524 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: help for /127.0.0.1:40971
-2021-06-24 14:00:11,524 INFO thread.CMDManager [ForkJoinPool-1-worker-1] help: That took 5001 milliseconds
-2021-06-24 14:00:11,559 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data, clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 14:00:11,559 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:41457 has no input/output data]
-2021-06-24 14:00:11,560 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,560 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:00:11,560 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,560 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 1210 bytes
-2021-06-24 14:00:11,560 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:00:11,618 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,662 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,663 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,663 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:00:11,725 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,725 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,725 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:00:11,777 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,777 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,777 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:00:11,822 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,823 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,823 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:00:11,862 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,862 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,863 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:00:11,921 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,922 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,922 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:00:11,966 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,967 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:11,967 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:00:12,012 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,013 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:00:12,013 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,057 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,058 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,058 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:00:12,058 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,058 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:00:12,097 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,137 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,138 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,138 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:00:12,138 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:00:12,138 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,181 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,238 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,239 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:00:12,239 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,287 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,294 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:00:12,294 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,356 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,357 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:00:12,357 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,399 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,400 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,400 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:00:12,400 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:00:12,400 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,459 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,525 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,525 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,525 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:00:12,576 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,576 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,576 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:00:12,641 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,641 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,641 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:00:12,681 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,682 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,682 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:00:12,736 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,736 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,737 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:00:12,777 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,777 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,777 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:00:12,827 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,828 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:00:12,828 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,868 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,869 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,869 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:00:12,934 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,934 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,934 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:00:12,934 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:00:12,935 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:12,999 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:13,134 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:13,134 INFO logic.SelectorManager [main] [clientAddress=/127.0.0.1:40971 has no input/output data]
-2021-06-24 14:00:13,135 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:00:13,135 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:01:50,133 INFO logic.ServerRunner [main] ServerRunner just started initialization.
-2021-06-24 14:01:50,303 INFO logic.ServerRunner [main] Everything went fine.
-2021-06-24 14:01:51,286 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:47618
-2021-06-24 14:01:51,288 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:47618
-2021-06-24 14:01:51,288 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 4 milliseconds
-2021-06-24 14:01:51,322 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:47618
-2021-06-24 14:01:51,322 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 150 bytes
-2021-06-24 14:01:58,052 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: help for /127.0.0.1:47618
-2021-06-24 14:01:59,316 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:40971
-2021-06-24 14:01:59,316 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:01:59,520 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:40971
-2021-06-24 14:01:59,520 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:01:59,774 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:40971
-2021-06-24 14:01:59,774 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:01:59,956 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:40971
-2021-06-24 14:01:59,956 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:02:00,141 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:00,141 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:02:00,648 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:00,648 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:02:00,698 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:00,699 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:02:00,756 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:00,756 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:02:00,803 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:00,804 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:02:00,856 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:00,856 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:02:00,932 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:00,932 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:02:00,985 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:00,986 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:02:01,047 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,047 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:02:01,106 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,107 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:02:01,151 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,151 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:02:01,187 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,188 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:02:01,244 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,245 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:02:01,310 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,310 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:02:01,365 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,366 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:02:01,414 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,414 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:02:01,463 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,463 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:02:01,526 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,526 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:02:01,566 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,566 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:02:01,606 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,606 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:02:01,662 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,663 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:02:01,712 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,712 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:02:01,761 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,762 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:02:01,806 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,807 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:02:01,868 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:01,868 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:02:02,013 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,014 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:02:02,069 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,069 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:02:02,107 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,108 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:02:02,196 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,197 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:02:02,254 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,254 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:02:02,306 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,307 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:02:02,350 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,350 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:02:02,415 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,415 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:02:02,486 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,487 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:02:02,543 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,543 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:02:02,593 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,593 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:02:02,628 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,628 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:02:02,674 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,674 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:02:02,708 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,708 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:02:02,751 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,752 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:02:02,805 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,805 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:02:02,846 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,846 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:02:02,890 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,890 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:02:02,935 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,935 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:02:02,990 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:02,991 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:02:03,043 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,043 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:02:03,053 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: help for /127.0.0.1:40971
-2021-06-24 14:02:03,053 INFO thread.CMDManager [ForkJoinPool-1-worker-1] help: That took 5001 milliseconds
-2021-06-24 14:02:03,087 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,087 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:47618
-2021-06-24 14:02:03,087 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:02:03,087 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 1210 bytes
-2021-06-24 14:02:03,132 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,132 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:02:03,230 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,230 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:02:03,283 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,283 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:02:03,327 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,328 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:02:03,400 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,401 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:02:03,451 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,451 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:02:03,486 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,486 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
-2021-06-24 14:02:03,530 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,531 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
-2021-06-24 14:02:03,578 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,578 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 142 bytes
-2021-06-24 14:02:03,627 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,627 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 142 bytes
-2021-06-24 14:02:03,665 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,665 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 142 bytes
-2021-06-24 14:02:03,727 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,727 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 142 bytes
-2021-06-24 14:02:03,773 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,773 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
-2021-06-24 14:02:03,872 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,873 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 142 bytes
-2021-06-24 14:02:03,922 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,922 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
-2021-06-24 14:02:03,991 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:03,991 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 142 bytes
-2021-06-24 14:02:04,042 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:40971
-2021-06-24 14:02:04,042 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
+2021-06-28 20:51:12,336 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 20:51:12,487 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 20:51:26,220 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:37849
+2021-06-28 20:51:26,220 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:37849
+2021-06-28 20:51:26,220 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 1 milliseconds
+2021-06-28 20:51:26,263 INFO thread.WriteHandler [pool-3-thread-1] Sending answer to /127.0.0.1:37849
+2021-06-28 20:51:26,263 INFO thread.WriteHandler [pool-3-thread-1] Sent answer 150 bytes
+2021-06-28 20:51:36,821 WARN interfaces.UI [Thread-1] Got a valid command: exit
+2021-06-28 20:51:48,948 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: connect for /127.0.0.1:59505
+2021-06-28 20:51:48,948 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: connect for /127.0.0.1:59505
+2021-06-28 20:51:48,948 INFO thread.CMDManager [ForkJoinPool-1-worker-2] connect: That took 0 milliseconds
+2021-06-28 20:51:48,998 INFO thread.WriteHandler [pool-3-thread-2] Sending answer to /127.0.0.1:59505
+2021-06-28 20:51:48,998 INFO thread.WriteHandler [pool-3-thread-2] Sent answer 150 bytes
+2021-06-28 20:51:53,057 INFO thread.WriteHandler [pool-3-thread-3] Sending answer to /127.0.0.1:59505
+2021-06-28 20:51:53,057 INFO thread.WriteHandler [pool-3-thread-3] Sent answer 146 bytes
+2021-06-28 21:02:24,885 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 21:02:25,103 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 21:03:55,776 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 21:03:56,134 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 21:15:27,893 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 21:15:28,039 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 21:15:29,059 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:54516
+2021-06-28 21:15:29,060 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:54516
+2021-06-28 21:15:29,060 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 2 milliseconds
+2021-06-28 21:15:29,103 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:54516
+2021-06-28 21:15:29,103 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 150 bytes
+2021-06-28 21:15:35,594 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login for /127.0.0.1:54516
+2021-06-28 21:15:35,700 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login for /127.0.0.1:54516
+2021-06-28 21:15:35,700 INFO thread.CMDManager [ForkJoinPool-1-worker-1] login: That took 106 milliseconds
+2021-06-28 21:15:35,745 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:54516
+2021-06-28 21:15:35,745 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 110 bytes
+2021-06-28 21:17:40,303 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 21:17:40,408 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 21:17:41,652 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:37952
+2021-06-28 21:17:41,652 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:37952
+2021-06-28 21:17:41,652 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 1 milliseconds
+2021-06-28 21:17:41,697 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:37952
+2021-06-28 21:17:41,697 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 150 bytes
+2021-06-28 21:17:49,220 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login for /127.0.0.1:37952
+2021-06-28 21:17:49,270 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login for /127.0.0.1:37952
+2021-06-28 21:17:49,270 INFO thread.CMDManager [ForkJoinPool-1-worker-1] login: That took 51 milliseconds
+2021-06-28 21:17:49,320 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:37952
+2021-06-28 21:17:49,320 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 167 bytes
+2021-06-28 21:22:45,746 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 21:22:45,893 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 21:22:53,361 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: connect for /127.0.0.1:60106
+2021-06-28 21:24:16,915 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 21:24:17,033 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 21:24:29,849 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: connect for /127.0.0.1:41972
+2021-06-28 21:24:29,849 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:41972
+2021-06-28 21:24:29,850 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:41972
+2021-06-28 21:24:29,850 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 2 milliseconds
+2021-06-28 21:24:29,891 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:41972
+2021-06-28 21:24:29,891 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 150 bytes
+2021-06-28 21:24:38,692 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: login for /127.0.0.1:41972
+2021-06-28 21:24:38,692 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login for /127.0.0.1:41972
+2021-06-28 21:24:38,733 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login for /127.0.0.1:41972
+2021-06-28 21:24:38,733 INFO thread.CMDManager [ForkJoinPool-1-worker-1] login: That took 41 milliseconds
+2021-06-28 21:24:38,742 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:41972
+2021-06-28 21:24:38,742 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 167 bytes
+2021-06-28 21:25:34,949 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: connect for /127.0.0.1:38746
+2021-06-28 21:25:34,949 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: connect for /127.0.0.1:38746
+2021-06-28 21:25:34,949 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: connect for /127.0.0.1:38746
+2021-06-28 21:25:34,949 INFO thread.CMDManager [ForkJoinPool-1-worker-2] connect: That took 0 milliseconds
+2021-06-28 21:25:34,999 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:38746
+2021-06-28 21:25:34,999 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 150 bytes
+2021-06-28 21:25:43,811 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: login for /127.0.0.1:38746
+2021-06-28 21:25:43,811 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: login for /127.0.0.1:38746
+2021-06-28 21:25:43,849 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: login for /127.0.0.1:38746
+2021-06-28 21:25:43,849 INFO thread.CMDManager [ForkJoinPool-1-worker-2] login: That took 38 milliseconds
+2021-06-28 21:25:43,861 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:38746
+2021-06-28 21:25:43,861 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 167 bytes
+2021-06-28 21:25:46,602 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command:  for /127.0.0.1:38746
+2021-06-28 21:25:46,652 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:38746
+2021-06-28 21:25:46,652 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 124 bytes
+2021-06-28 21:33:05,875 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 21:33:05,986 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 21:33:08,289 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: connect for /127.0.0.1:43907
+2021-06-28 21:33:08,289 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:43907
+2021-06-28 21:33:08,290 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:43907
+2021-06-28 21:33:08,290 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 2 milliseconds
+2021-06-28 21:33:08,332 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:43907
+2021-06-28 21:33:08,332 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 150 bytes
+2021-06-28 21:33:13,763 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: login for /127.0.0.1:43907
+2021-06-28 21:33:13,764 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login for /127.0.0.1:43907
+2021-06-28 21:33:13,808 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login for /127.0.0.1:43907
+2021-06-28 21:33:13,809 INFO thread.CMDManager [ForkJoinPool-1-worker-1] login: That took 46 milliseconds
+2021-06-28 21:33:13,814 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:43907
+2021-06-28 21:33:13,814 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 167 bytes
+2021-06-28 21:33:16,514 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command:  for /127.0.0.1:43907
+2021-06-28 21:33:16,615 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:43907
+2021-06-28 21:33:16,615 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 124 bytes
+2021-06-28 21:33:57,004 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: connect for /127.0.0.1:35019
+2021-06-28 21:33:57,004 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: connect for /127.0.0.1:35019
+2021-06-28 21:33:57,004 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: connect for /127.0.0.1:35019
+2021-06-28 21:33:57,005 INFO thread.CMDManager [ForkJoinPool-1-worker-2] connect: That took 0 milliseconds
+2021-06-28 21:33:57,055 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:35019
+2021-06-28 21:33:57,055 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 150 bytes
+2021-06-28 21:34:52,558 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command: connect for /127.0.0.1:47428
+2021-06-28 21:34:52,558 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: connect for /127.0.0.1:47428
+2021-06-28 21:34:52,558 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: connect for /127.0.0.1:47428
+2021-06-28 21:34:52,558 INFO thread.CMDManager [ForkJoinPool-1-worker-3] connect: That took 0 milliseconds
+2021-06-28 21:34:52,608 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:47428
+2021-06-28 21:34:52,609 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 150 bytes
+2021-06-28 21:34:57,092 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command:  for /127.0.0.1:47428
+2021-06-28 21:34:57,142 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:47428
+2021-06-28 21:34:57,142 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 142 bytes
+2021-06-28 21:35:25,975 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: connect for /127.0.0.1:40769
+2021-06-28 21:35:25,976 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: connect for /127.0.0.1:40769
+2021-06-28 21:35:25,976 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: connect for /127.0.0.1:40769
+2021-06-28 21:35:25,976 INFO thread.CMDManager [ForkJoinPool-1-worker-4] connect: That took 1 milliseconds
+2021-06-28 21:35:26,026 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:40769
+2021-06-28 21:35:26,026 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 150 bytes
+2021-06-28 21:35:29,016 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command:  for /127.0.0.1:40769
+2021-06-28 21:35:29,066 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:40769
+2021-06-28 21:35:29,066 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 142 bytes
+2021-06-28 21:36:25,363 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Validating command: connect for /127.0.0.1:50025
+2021-06-28 21:36:25,363 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: connect for /127.0.0.1:50025
+2021-06-28 21:36:25,363 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: connect for /127.0.0.1:50025
+2021-06-28 21:36:25,363 INFO thread.CMDManager [ForkJoinPool-1-worker-5] connect: That took 0 milliseconds
+2021-06-28 21:36:25,413 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:50025
+2021-06-28 21:36:25,413 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 150 bytes
+2021-06-28 21:36:28,003 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Validating command:  for /127.0.0.1:50025
+2021-06-28 21:36:28,053 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:50025
+2021-06-28 21:36:28,053 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 142 bytes
+2021-06-28 21:36:32,718 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Validating command:  for /127.0.0.1:50025
+2021-06-28 21:36:32,768 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:50025
+2021-06-28 21:36:32,768 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 142 bytes
+2021-06-28 21:36:35,435 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Validating command: help for /127.0.0.1:50025
+2021-06-28 21:36:35,485 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:50025
+2021-06-28 21:36:35,485 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 146 bytes
+2021-06-28 21:37:42,711 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Validating command: connect for /127.0.0.1:53869
+2021-06-28 21:37:42,711 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Executing command: connect for /127.0.0.1:53869
+2021-06-28 21:37:42,711 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Executed command: connect for /127.0.0.1:53869
+2021-06-28 21:37:42,711 INFO thread.CMDManager [ForkJoinPool-1-worker-6] connect: That took 0 milliseconds
+2021-06-28 21:37:42,761 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:53869
+2021-06-28 21:37:42,761 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 150 bytes
+2021-06-28 21:38:15,363 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Validating command: connect for /127.0.0.1:33309
+2021-06-28 21:38:15,364 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executing command: connect for /127.0.0.1:33309
+2021-06-28 21:38:15,364 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executed command: connect for /127.0.0.1:33309
+2021-06-28 21:38:15,364 INFO thread.CMDManager [ForkJoinPool-1-worker-7] connect: That took 1 milliseconds
+2021-06-28 21:38:15,413 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:33309
+2021-06-28 21:38:15,414 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 150 bytes
+2021-06-28 21:38:42,205 WARN thread.CMDManager [ForkJoinPool-1-worker-0] Validating command: connect for /127.0.0.1:58732
+2021-06-28 21:38:42,206 WARN thread.CMDManager [ForkJoinPool-1-worker-0] Executing command: connect for /127.0.0.1:58732
+2021-06-28 21:38:42,206 WARN thread.CMDManager [ForkJoinPool-1-worker-0] Executed command: connect for /127.0.0.1:58732
+2021-06-28 21:38:42,206 INFO thread.CMDManager [ForkJoinPool-1-worker-0] connect: That took 1 milliseconds
+2021-06-28 21:38:42,255 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:58732
+2021-06-28 21:38:42,255 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 150 bytes
+2021-06-28 21:39:40,675 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: connect for /127.0.0.1:51982
+2021-06-28 21:39:40,675 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: connect for /127.0.0.1:51982
+2021-06-28 21:39:40,675 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: connect for /127.0.0.1:51982
+2021-06-28 21:39:40,675 INFO thread.CMDManager [ForkJoinPool-1-worker-1] connect: That took 0 milliseconds
+2021-06-28 21:39:40,725 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:51982
+2021-06-28 21:39:40,725 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 150 bytes
+2021-06-28 21:40:11,052 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: connect for /127.0.0.1:34403
+2021-06-28 21:40:11,052 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: connect for /127.0.0.1:34403
+2021-06-28 21:40:11,052 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: connect for /127.0.0.1:34403
+2021-06-28 21:40:11,052 INFO thread.CMDManager [ForkJoinPool-1-worker-2] connect: That took 0 milliseconds
+2021-06-28 21:40:11,102 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:34403
+2021-06-28 21:40:11,102 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 150 bytes
+2021-06-28 21:41:13,757 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command: login for /127.0.0.1:34403
+2021-06-28 21:41:13,757 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: login for /127.0.0.1:34403
+2021-06-28 21:41:13,758 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: login for /127.0.0.1:34403
+2021-06-28 21:41:13,758 INFO thread.CMDManager [ForkJoinPool-1-worker-3] login: That took 1 milliseconds
+2021-06-28 21:41:13,807 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:34403
+2021-06-28 21:41:13,807 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 129 bytes
+2021-06-28 21:41:38,005 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: connect for /127.0.0.1:52169
+2021-06-28 21:41:38,005 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: connect for /127.0.0.1:52169
+2021-06-28 21:41:38,005 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: connect for /127.0.0.1:52169
+2021-06-28 21:41:38,005 INFO thread.CMDManager [ForkJoinPool-1-worker-4] connect: That took 0 milliseconds
+2021-06-28 21:41:38,055 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:52169
+2021-06-28 21:41:38,055 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 150 bytes
+2021-06-28 21:41:43,223 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: login for /127.0.0.1:52169
+2021-06-28 21:41:43,223 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: login for /127.0.0.1:52169
+2021-06-28 21:41:43,226 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: login for /127.0.0.1:52169
+2021-06-28 21:41:43,226 INFO thread.CMDManager [ForkJoinPool-1-worker-4] login: That took 4 milliseconds
+2021-06-28 21:41:43,273 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:52169
+2021-06-28 21:41:43,273 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 129 bytes
+2021-06-28 21:41:47,127 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: login for /127.0.0.1:52169
+2021-06-28 21:41:47,127 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: login for /127.0.0.1:52169
+2021-06-28 21:41:47,183 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: login for /127.0.0.1:52169
+2021-06-28 21:41:47,183 INFO thread.CMDManager [ForkJoinPool-1-worker-4] login: That took 56 milliseconds
+2021-06-28 21:41:47,227 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:52169
+2021-06-28 21:41:47,227 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 167 bytes
+2021-06-28 21:41:56,689 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: help for /127.0.0.1:52169
+2021-06-28 21:41:56,739 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:52169
+2021-06-28 21:41:56,739 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 146 bytes
+2021-06-28 21:42:12,913 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Validating command: register for /127.0.0.1:52169
+2021-06-28 21:42:12,914 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executing command: register for /127.0.0.1:52169
+2021-06-28 21:42:12,997 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Executed command: register for /127.0.0.1:52169
+2021-06-28 21:42:12,997 INFO thread.CMDManager [ForkJoinPool-1-worker-5] register: That took 84 milliseconds
+2021-06-28 21:42:13,013 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:52169
+2021-06-28 21:42:13,014 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 126 bytes
+2021-06-28 21:42:55,549 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Validating command: show for /127.0.0.1:52169
+2021-06-28 21:42:55,600 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:52169
+2021-06-28 21:42:55,600 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 146 bytes
+2021-06-28 21:42:59,958 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Validating command: login for /127.0.0.1:52169
+2021-06-28 21:42:59,959 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Executing command: login for /127.0.0.1:52169
+2021-06-28 21:42:59,999 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Executed command: login for /127.0.0.1:52169
+2021-06-28 21:42:59,999 INFO thread.CMDManager [ForkJoinPool-1-worker-6] login: That took 41 milliseconds
+2021-06-28 21:43:00,009 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:52169
+2021-06-28 21:43:00,009 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 167 bytes
+2021-06-28 21:43:01,058 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Validating command: show for /127.0.0.1:52169
+2021-06-28 21:43:01,108 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:52169
+2021-06-28 21:43:01,108 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 124 bytes
+2021-06-28 21:45:09,313 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Validating command: connect for /127.0.0.1:44106
+2021-06-28 21:45:09,313 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executing command: connect for /127.0.0.1:44106
+2021-06-28 21:45:09,313 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executed command: connect for /127.0.0.1:44106
+2021-06-28 21:45:09,313 INFO thread.CMDManager [ForkJoinPool-1-worker-7] connect: That took 0 milliseconds
+2021-06-28 21:45:09,363 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:44106
+2021-06-28 21:45:09,363 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 150 bytes
+2021-06-28 21:45:22,693 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Validating command: login for /127.0.0.1:44106
+2021-06-28 21:45:22,693 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executing command: login for /127.0.0.1:44106
+2021-06-28 21:45:22,733 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executed command: login for /127.0.0.1:44106
+2021-06-28 21:45:22,733 INFO thread.CMDManager [ForkJoinPool-1-worker-7] login: That took 41 milliseconds
+2021-06-28 21:45:22,743 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:44106
+2021-06-28 21:45:22,743 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 167 bytes
+2021-06-28 21:45:32,531 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Validating command: help for /127.0.0.1:44106
+2021-06-28 21:45:32,581 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:44106
+2021-06-28 21:45:32,582 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 124 bytes
+2021-06-28 21:46:12,046 INFO logic.ServerRunner [main] ServerRunner just started initialization.
+2021-06-28 21:46:12,186 INFO logic.ServerRunner [main] Everything went fine.
+2021-06-28 21:46:30,278 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: login for /127.0.0.1:44106
+2021-06-28 21:46:30,278 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: login for /127.0.0.1:44106
+2021-06-28 21:46:30,332 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: login for /127.0.0.1:44106
+2021-06-28 21:46:30,332 INFO thread.CMDManager [ForkJoinPool-1-worker-1] login: That took 55 milliseconds
+2021-06-28 21:46:30,372 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:44106
+2021-06-28 21:46:30,373 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 115 bytes
+2021-06-28 21:46:40,610 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Validating command: help for /127.0.0.1:44106
+2021-06-28 21:46:40,652 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executing command: help for /127.0.0.1:44106
+2021-06-28 21:46:45,653 WARN thread.CMDManager [ForkJoinPool-1-worker-1] Executed command: help for /127.0.0.1:44106
+2021-06-28 21:46:45,653 INFO thread.CMDManager [ForkJoinPool-1-worker-1] help: That took 5043 milliseconds
+2021-06-28 21:46:45,671 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:44106
+2021-06-28 21:46:45,671 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 1210 bytes
+2021-06-28 21:47:37,373 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: show for /127.0.0.1:44106
+2021-06-28 21:47:37,420 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: show for /127.0.0.1:44106
+2021-06-28 21:47:37,450 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: show for /127.0.0.1:44106
+2021-06-28 21:47:37,450 INFO thread.CMDManager [ForkJoinPool-1-worker-2] show: That took 77 milliseconds
+2021-06-28 21:47:37,474 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:44106
+2021-06-28 21:47:37,474 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 2318 bytes
+2021-06-28 21:47:49,740 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Validating command: connect for /127.0.0.1:48099
+2021-06-28 21:47:49,740 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executing command: connect for /127.0.0.1:48099
+2021-06-28 21:47:49,741 WARN thread.CMDManager [ForkJoinPool-1-worker-2] Executed command: connect for /127.0.0.1:48099
+2021-06-28 21:47:49,741 INFO thread.CMDManager [ForkJoinPool-1-worker-2] connect: That took 1 milliseconds
+2021-06-28 21:47:49,790 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:48099
+2021-06-28 21:47:49,791 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 150 bytes
+2021-06-28 21:48:09,930 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command: login for /127.0.0.1:48099
+2021-06-28 21:48:09,930 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executing command: login for /127.0.0.1:48099
+2021-06-28 21:48:09,970 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Executed command: login for /127.0.0.1:48099
+2021-06-28 21:48:09,970 INFO thread.CMDManager [ForkJoinPool-1-worker-3] login: That took 40 milliseconds
+2021-06-28 21:48:09,980 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:48099
+2021-06-28 21:48:09,980 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 115 bytes
+2021-06-28 21:48:23,341 WARN thread.CMDManager [ForkJoinPool-1-worker-3] Validating command: show for /127.0.0.1:48099
+2021-06-28 21:48:23,391 INFO thread.WriteHandler [pool-2-thread-6] Sending answer to /127.0.0.1:48099
+2021-06-28 21:48:23,391 INFO thread.WriteHandler [pool-2-thread-6] Sent answer 146 bytes
+2021-06-28 21:53:11,307 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: connect for /127.0.0.1:41169
+2021-06-28 21:53:11,307 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: connect for /127.0.0.1:41169
+2021-06-28 21:53:11,307 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: connect for /127.0.0.1:41169
+2021-06-28 21:53:11,307 INFO thread.CMDManager [ForkJoinPool-1-worker-4] connect: That took 0 milliseconds
+2021-06-28 21:53:11,357 INFO thread.WriteHandler [pool-2-thread-7] Sending answer to /127.0.0.1:41169
+2021-06-28 21:53:11,357 INFO thread.WriteHandler [pool-2-thread-7] Sent answer 150 bytes
+2021-06-28 21:53:15,578 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Validating command: login for /127.0.0.1:41169
+2021-06-28 21:53:15,578 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executing command: login for /127.0.0.1:41169
+2021-06-28 21:53:15,625 WARN thread.CMDManager [ForkJoinPool-1-worker-4] Executed command: login for /127.0.0.1:41169
+2021-06-28 21:53:15,625 INFO thread.CMDManager [ForkJoinPool-1-worker-4] login: That took 47 milliseconds
+2021-06-28 21:53:15,628 INFO thread.WriteHandler [pool-2-thread-8] Sending answer to /127.0.0.1:41169
+2021-06-28 21:53:15,628 INFO thread.WriteHandler [pool-2-thread-8] Sent answer 115 bytes
+2021-06-28 21:53:45,610 WARN thread.CMDManager [ForkJoinPool-1-worker-5] Validating command: insert for /127.0.0.1:41169
+2021-06-28 21:53:45,659 INFO thread.WriteHandler [pool-2-thread-9] Sending answer to /127.0.0.1:41169
+2021-06-28 21:53:45,662 INFO thread.WriteHandler [pool-2-thread-9] Sent answer 148 bytes
+2021-06-28 21:54:27,442 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Validating command: connect for /127.0.0.1:35839
+2021-06-28 21:54:27,442 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Executing command: connect for /127.0.0.1:35839
+2021-06-28 21:54:27,442 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Executed command: connect for /127.0.0.1:35839
+2021-06-28 21:54:27,442 INFO thread.CMDManager [ForkJoinPool-1-worker-6] connect: That took 0 milliseconds
+2021-06-28 21:54:27,492 INFO thread.WriteHandler [pool-2-thread-10] Sending answer to /127.0.0.1:35839
+2021-06-28 21:54:27,492 INFO thread.WriteHandler [pool-2-thread-10] Sent answer 150 bytes
+2021-06-28 21:54:32,709 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Validating command: login for /127.0.0.1:35839
+2021-06-28 21:54:32,709 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Executing command: login for /127.0.0.1:35839
+2021-06-28 21:54:32,755 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Executed command: login for /127.0.0.1:35839
+2021-06-28 21:54:32,755 INFO thread.CMDManager [ForkJoinPool-1-worker-6] login: That took 46 milliseconds
+2021-06-28 21:54:32,759 INFO thread.WriteHandler [pool-2-thread-1] Sending answer to /127.0.0.1:35839
+2021-06-28 21:54:32,759 INFO thread.WriteHandler [pool-2-thread-1] Sent answer 115 bytes
+2021-06-28 21:54:35,181 WARN thread.CMDManager [ForkJoinPool-1-worker-6] Validating command: show for /127.0.0.1:35839
+2021-06-28 21:54:35,231 INFO thread.WriteHandler [pool-2-thread-2] Sending answer to /127.0.0.1:35839
+2021-06-28 21:54:35,231 INFO thread.WriteHandler [pool-2-thread-2] Sent answer 146 bytes
+2021-06-28 21:57:42,098 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Validating command: connect for /127.0.0.1:54252
+2021-06-28 21:57:42,099 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executing command: connect for /127.0.0.1:54252
+2021-06-28 21:57:42,099 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executed command: connect for /127.0.0.1:54252
+2021-06-28 21:57:42,099 INFO thread.CMDManager [ForkJoinPool-1-worker-7] connect: That took 1 milliseconds
+2021-06-28 21:57:42,148 INFO thread.WriteHandler [pool-2-thread-3] Sending answer to /127.0.0.1:54252
+2021-06-28 21:57:42,148 INFO thread.WriteHandler [pool-2-thread-3] Sent answer 150 bytes
+2021-06-28 21:57:48,097 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Validating command: login for /127.0.0.1:54252
+2021-06-28 21:57:48,097 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executing command: login for /127.0.0.1:54252
+2021-06-28 21:57:48,141 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executed command: login for /127.0.0.1:54252
+2021-06-28 21:57:48,142 INFO thread.CMDManager [ForkJoinPool-1-worker-7] login: That took 46 milliseconds
+2021-06-28 21:57:48,147 INFO thread.WriteHandler [pool-2-thread-4] Sending answer to /127.0.0.1:54252
+2021-06-28 21:57:48,147 INFO thread.WriteHandler [pool-2-thread-4] Sent answer 115 bytes
+2021-06-28 21:57:49,690 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Validating command: show for /127.0.0.1:54252
+2021-06-28 21:57:49,741 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executing command: show for /127.0.0.1:54252
+2021-06-28 21:57:49,741 WARN thread.CMDManager [ForkJoinPool-1-worker-7] Executed command: show for /127.0.0.1:54252
+2021-06-28 21:57:49,741 INFO thread.CMDManager [ForkJoinPool-1-worker-7] show: That took 52 milliseconds
+2021-06-28 21:57:49,790 INFO thread.WriteHandler [pool-2-thread-5] Sending answer to /127.0.0.1:54252
+2021-06-28 21:57:49,790 INFO thread.WriteHandler [pool-2-thread-5] Sent answer 2318 bytes

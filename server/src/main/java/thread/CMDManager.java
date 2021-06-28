@@ -1,6 +1,7 @@
 package thread;
 
 import commands.noinput.Save;
+import database.DatabaseService;
 import logic.Editor;
 import logic.InputData;
 import logic.OutputData;
@@ -12,6 +13,7 @@ import henchmen.FabricForCommands;
 
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.*;
 
 public class CMDManager implements Runnable{
@@ -40,13 +42,18 @@ public class CMDManager implements Runnable{
     private OutputData getOutputData(String justCommand, InputData inputData, Editor editor) {
         long startTime = System.currentTimeMillis();
         Command command = getCommandByString(justCommand);
+        logger.warn(String.format("Validating command: %s for %s", justCommand, clientData.getClientAddress()));
         if (inputData.getCommandArg() != null)
             commandHistory.add(justCommand + " " + inputData.getCommandArg());
         else commandHistory.add(justCommand);
-        if (!justCommand.equals("login") && inputData.getAuth() == null)
+        if (!justCommand.equals("login") && inputData.getAuth() == null && inputData.getPass() == null)
             if (!justCommand.equals("connect") && !justCommand.equals("register"))
                 return new OutputData("Please login", "Use login or register before " + inputData.getCommandName());
-
+        try {
+            if (!justCommand.equals("login") && !justCommand.equals("connect") && !justCommand.equals("register") && !editor.userExists(inputData.getAuth(), inputData.getPass())) return new OutputData("Error", "Invalid login/pass");
+        } catch (SQLException exception) {
+            return new OutputData("Error", "SQL Exception");
+        }
         logger.warn(String.format("Executing command: %s for %s", justCommand, clientData.getClientAddress()));
         if (justCommand.equals("history")) {
             logger.warn("Recognized history.");
@@ -97,12 +104,18 @@ public class CMDManager implements Runnable{
             saved.setConnected(clientData.isConnected());
             saved.setCommandHistory(clientData.getCommandHistoryArray());
             saved.setDatagramChannel(clientData.getDatagramChannel());
-
-            saved.setOutputData(execute(inputData));
+//            if (isLogin(inputData)) {
+                saved.setOutputData(execute(inputData));
+//            } else saved.setOutputData(getCommandByString("login").exec(editor, inputData));
             AllThreadsDataQueues.toWriteQueue.add(saved);
         } catch (IOException ioException) {
             ioException.printStackTrace();
         }
-
     }
+
+//    public boolean isLogin(InputData inputData) {
+//        if (inputData.getCommandName().equals("connect") || inputData.getCommandName().equals("login") && !justCommand.equals("register"))
+//        OutputData outputData = getCommandByString("login").exec(editor, inputData);
+//        return outputData.getStatusMessage().equals("Login");
+//    }
 }

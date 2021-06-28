@@ -83,6 +83,6 @@ public class Validator {
         return command.equals("help") || command.equals("connect") || command.equals("show") ||
                 command.equals("history") || command.equals("info") || command.equals("exit") ||
                 command.equals("print_field_descending_difficulty") ||
-                command.equals("average_of_minimal_point");
+                command.equals("average_of_minimal_point") || command.equals("logout");
     }
 }

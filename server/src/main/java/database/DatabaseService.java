@@ -121,7 +121,7 @@ public class DatabaseService {
         preparedStatement.execute();
     }
 
-    private String hash(String input) {
+    public String hash(String input) {
         try {
             // getInstance() method is called with algorithm SHA-224
             MessageDigest md = MessageDigest.getInstance("SHA-224");

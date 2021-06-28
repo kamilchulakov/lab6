@@ -24,6 +24,7 @@ import java.util.Scanner;
 public abstract class AbstractUI implements UI{
 
     private String auth;
+    private String pass;
 
     /**
      * Logger is used to make logs.
@@ -71,9 +72,24 @@ public abstract class AbstractUI implements UI{
                 logger.debug(String.format("Got a command: %s",input));
                 String pureCommand = input.split(" ")[0];
                 if (pureCommand.equals("exit")) System.exit(0);
-                InputData inputData = getInputData(input, pureCommand);
-                logger.debug(String.format("Got an InputData: %s",inputData));
-                requestHandler.execute(inputData);
+                else if (pureCommand.equals("logout")) {
+                    if (auth == null || pass == null) display("Error", "Nothing to logout BRUH...");
+                    else {
+                        pass = null;
+                        auth = null;
+                        logger.info("logout");
+                        display("Success", "Logout");
+                    }
+                } else {
+                    if (isValidCommand(pureCommand)) {
+                        InputData inputData = getInputData(input, pureCommand);
+                        logger.debug(String.format("Got an InputData: %s", inputData));
+                        requestHandler.execute(inputData);
+                    } else {
+                        logger.debug("Skip");
+                        display("Error", "Invalid command");
+                    }
+                }
             }
             else {
                 requestHandler.connect();
@@ -107,6 +123,8 @@ public abstract class AbstractUI implements UI{
     private InputData getInputData(String input, String pureCommand) throws CancelException {
         logger.warn("Getting input data.");
         InputData inputData = new InputData();
+        inputData.setPass(pass);
+        inputData.setAuth(auth);
         inputData.setCommandName(pureCommand);
         boolean[] flags = validator.getInputDataFlagsForCommand(pureCommand);
         if (needsArg(flags)) {
@@ -134,7 +152,6 @@ public abstract class AbstractUI implements UI{
             setDiscHoursToInputDataLoop(inputData);
         }
         if (inputData.equals(new InputData(inputDataFlag))) logger.warn("No input data was provided.");
-        if (auth != null) inputData.setAuth(auth);
         //System.out.println(auth);
         return inputData;
     }
@@ -663,8 +680,12 @@ public abstract class AbstractUI implements UI{
     @Override
     public void display(OutputData outputData) {
         if (outputData.getStatusMessage().equals("Login")) {
-            auth = outputData.getResultMessage();
+            auth = outputData.getResultMessage().split(" ")[0];
+            pass = outputData.getResultMessage().split(" ")[1];
+            display("Success Login", "Hi, " + auth);
         }
-        display(outputData.getStatusMessage(), outputData.getResultMessage());
+        else {
+            display(outputData.getStatusMessage(), outputData.getResultMessage());
+        }
     }
 }

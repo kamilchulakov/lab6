@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Editor {
-    HashMap<String, LabWork> collection;
+    static HashMap<String, LabWork> collection;
     DatabaseService databaseService;
 
     public Editor() {
@@ -43,6 +43,9 @@ public class Editor {
     }
 
     public String getStringCollection() {
+        return collection.toString();
+    }
+    public String getNiceLookingString() {
         return collection.toString();
     }
 
