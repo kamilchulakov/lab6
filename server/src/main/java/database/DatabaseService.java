@@ -18,11 +18,11 @@ public class DatabaseService {
             " (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?);";
     private final static String CLEAR_SQL = "DELETE FROM labworks WHERE author = ?";
     private final static String CLEAR_SQL_ALL = "TRUNCATE TABLE labworks";
-    private final static String REMOVE_BY_ID_SQL = "DELETE FROM labworks WHERE (id = ?))";
+    private final static String REMOVE_BY_KEY_SQL = "DELETE FROM labworks WHERE id = ? and author = ?;";
     private final static String ADD_USER_SQL = "INSERT INTO users (\"user\", password) VALUES (?, ?);";
-    private final static String UPDATE_SQL = "UPDATE labworks set WHERE labwork_id = ? " +
-            "labname = ? , coordinate_x = ? , coordinate_y = ? , minimal_point = ? , difficulty = ? , discipline = ? " +
-            ", self_study_hours = ? , creation_date = ?, author = ?;";
+    private final static String UPDATE_SQL = "UPDATE labworks SET labname = ?, coordinate_x = ?, coordinate_y = ?," +
+            " minimal_point = ?, difficulty = ?, discipline = ?, self_study_hours = ?" +
+            ", creation_date = ? WHERE labwork_id = ? and author = ?;";
     private final static String REMOVE_LOWER_SQL = "DELETE FROM labworks WHERE labwork_id < ? and author = ?";
     private final static String REMOVE_BY_DISCIPLINE_SQL = "DELETE FROM labworks WHERE discipline = ? and self_study_hours = ? and author = ?";
     private final static String GET_SQL = "SELECT * FROM labworks";
@@ -53,21 +53,21 @@ public class DatabaseService {
     public void update(int id, LabWork labWork) throws SQLException {
         Connection connection = DatabaseConnection.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_SQL);
-        preparedStatement.setInt(1, id);
-        preparedStatement.setString(2, labWork.getName());
-        preparedStatement.setDouble(3, labWork.getCoordinates().getX());
-        preparedStatement.setDouble(4, labWork.getCoordinates().getY());
-        preparedStatement.setLong(5, labWork.getMinimalPoint());
-        preparedStatement.setString(6, labWork.getDifficulty().toString());
-        preparedStatement.setString(7, labWork.getDiscipline().getName());
-        preparedStatement.setLong(8, labWork.getDiscipline().getSelfStudyHours());
-        preparedStatement.setString(9, labWork.getCreationDate().toString());
+        preparedStatement.setInt(9, id);
+        preparedStatement.setString(1, labWork.getName());
+        preparedStatement.setDouble(2, labWork.getCoordinates().getX());
+        preparedStatement.setDouble(3, labWork.getCoordinates().getY());
+        preparedStatement.setLong(4, labWork.getMinimalPoint());
+        preparedStatement.setString(5, labWork.getDifficulty().toString());
+        preparedStatement.setString(6, labWork.getDiscipline().getName());
+        preparedStatement.setLong(7, labWork.getDiscipline().getSelfStudyHours());
+        preparedStatement.setString(8, labWork.getCreationDate().toString());
         preparedStatement.setString(10, labWork.getAuthor());
-        preparedStatement.executeUpdate();
+        preparedStatement.execute();
     }
     public void remove(String key, String auth) throws SQLException {
         Connection connection = DatabaseConnection.getConnection();
-        PreparedStatement preparedStatement = connection.prepareStatement(REMOVE_BY_ID_SQL);
+        PreparedStatement preparedStatement = connection.prepareStatement(REMOVE_BY_KEY_SQL);
         preparedStatement.setInt(1, Integer.parseInt(key));
         preparedStatement.setString(2, auth);
         preparedStatement.execute();
@@ -89,6 +89,7 @@ public class DatabaseService {
         Connection connection = DatabaseConnection.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(REMOVE_LOWER_SQL);
         preparedStatement.setLong(1, labWork.getId());
+        preparedStatement.setString(2, labWork.getAuthor());
         preparedStatement.execute();
     }
     public void removeByDiscipline(Discipline discipline, String user) throws SQLException {

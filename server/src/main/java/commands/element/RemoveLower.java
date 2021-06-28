@@ -15,7 +15,7 @@ public class RemoveLower extends AbstractElementCommand {
 
     @Override
     public String getDescription() {
-        return "remove_lower <key> - a command which removes the elements\nwhich are lower than <key> one.";
+        return "remove_lower <element> - a command which removes the elements\nwhich are lower than <key> one.";
     }
 
     @Override
