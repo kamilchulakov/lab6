@@ -24,7 +24,6 @@ jobs:
     - name: Move jars
       run: cp */target/*.jar .
     - run: git add README.md
-    - run: git add server.jar
-    - run: git add client.jar
+    - run: git add *.jar
     - run: git commit -m 'Moved jars'
     - run: git push -u origin master
