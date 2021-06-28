@@ -22,7 +22,7 @@ jobs:
     - name: Make shit commit
       run: echo "This was created AUTOMATICALLY." >> README.md
     - name: Move jars
-      run: cp out/*/*/*.jar .
+      run: cp */target/*.jar .
     - run: git add README.md
     - run: git add server.jar
     - run: git add client.jar
