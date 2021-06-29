@@ -83,10 +83,10 @@ public abstract class AbstractUI implements UI{
                 } else {
                     if (isValidCommand(pureCommand)) {
                         InputData inputData = getInputData(input, pureCommand);
-                        logger.debug(String.format("Got an InputData: %s", inputData));
+                        logger.info(String.format("Got an InputData: %s", inputData));
                         requestHandler.execute(inputData);
                     } else {
-                        logger.debug("Skip");
+                        logger.info("Skip");
                         display("Error", "Invalid command");
                     }
                 }

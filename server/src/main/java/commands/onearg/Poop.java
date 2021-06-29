@@ -110,12 +110,19 @@ public class Poop {
                     if (inputData.equals(new InputData())) logger.info("No input data was provided.");
                     inputData.setAuth(author);
                     inputData.setPass(pass);
+                    if (input.contains("login")) {
+                        inputData.setCommandArg(input.split("login ")[1]);
+                    }
                     OutputData result;
                     cmdManager = new DefaultCommandManager();
                     if (pureCommand.equals("history")) result = new OutputData("Undefined", history.toString());
                     else result = cmdManager.execute(editor, pureCommand, inputData);
                     cachedResults.add(result.getResultMessage() + "\n");
                     history.add(pureCommand);
+                    if (result.getStatusMessage().equals("Login")) {
+                        author = result.getResultMessage().split(" ")[0];
+                        pass = result.getResultMessage().split(" ")[1];
+                    }
                     logger.info("This is result status: " + result.getStatusMessage());
                     logger.info("This is result:\n" + result.getResultMessage());
                 } catch (ExecuteCommandException e) {

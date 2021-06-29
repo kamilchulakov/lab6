@@ -50,7 +50,9 @@ public class CMDManager implements Runnable{
             if (!justCommand.equals("connect") && !justCommand.equals("register"))
                 return new OutputData("Please login", "Use login or register before " + inputData.getCommandName());
         try {
-            if (!justCommand.equals("login") && !justCommand.equals("connect") && !justCommand.equals("register") && !editor.userExists(inputData.getAuth(), inputData.getPass())) return new OutputData("Error", "Invalid login/pass");
+            if (!justCommand.equals("login") && !justCommand.equals("connect") && !justCommand.equals("register") &&
+                    !editor.userExists(inputData.getAuth(), inputData.getPass()))
+                return new OutputData("Error", "Invalid login/pass");
         } catch (SQLException exception) {
             return new OutputData("Error", "SQL Exception");
         }
@@ -60,7 +62,6 @@ public class CMDManager implements Runnable{
             return new OutputData("Success", getHistory(7));
         }
         OutputData result;
-        synchronized (editor) {
             try {
                 result = command.exec(editor, inputData);
                 logger.warn("Executed command: " + justCommand + " for " + clientData.getClientAddress());
@@ -69,7 +70,6 @@ public class CMDManager implements Runnable{
                 //if (command.getName().equals("login")) e.printStackTrace();
                 result = new OutputData("Error", "Command was not found. Try again.");
             }
-        }
         long endTime = System.currentTimeMillis();
 
         logger.info(justCommand + ": That took " + (endTime - startTime) + " milliseconds");
