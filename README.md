@@ -1,7 +1,7 @@
 # Это шестая лаба по проге КРУТА
 Status: works on helios
 
-
+CLI base CLient-Server App with PostgreSQL
 
 This was created AUTOMATICALLY.
 This was created AUTOMATICALLY.
